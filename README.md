@@ -25,9 +25,9 @@ The response will always include the keys:
 
 If there is a match, the API response will always include the following keys:
 
-+ `ip_data_source` - string - the data source that claims that this IP is a datacenter (Example: `whois_database`)
-+ `datacenter` - string - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `Amazon AWS`)
-+ `cidr` - string - the CIDR range that this IP address belongs to (Example: `13.34.52.96/27`)
++ `ip_data_source` - string - the data source that claims that this IP is a datacenter (Example: `"whois_database"`)
++ `datacenter` - string - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
++ `cidr` - string - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
 
 In some cases, the API response returns the following keys:
 
