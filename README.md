@@ -3,6 +3,7 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 ## Core API Features
 
++ **Ready for Production:** You can savely use this API in your production code.
 + **Many datacenters supported:** [159 different hosting providers and counting](https://api.incolumitas.com/info) - From *Huawei Cloud Service* to *ServerMania Inc.*
 + **Always updated:** The API database is automatically updated every week. IP data is gathered from many sources: 
   + Self published IP ranges from large cloud providers
@@ -15,7 +16,22 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 ### GET Endpoint - [api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
 
-This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`.
+This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. 
+
+The response will always include the keys:
+
++ `is_datacenter` - boolean - whether the IP address belongs to a datacenter
++ `elapsed_ms` - float - how much time the lookup caused in internal processing
+
+If there is a match, the API response will always include the following keys:
+
++ `ip_data_source` - string - the data source that claims that this IP is a datacenter
++ `datacenter` - string - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info).
+
+In some cases, the API response returns the following keys:
+
++ `cidr` - string - the CIDR range that this IP address belongs to
++ `range` - int - the IP address range that this IP address belongs to
 
 For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/datacenter?ip=13.34.52.117](https://api.incolumitas.com/datacenter?ip=13.34.52.117). The API response for this request looks like this:
 
