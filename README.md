@@ -11,35 +11,44 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 + **Pretty fast:** The API is very performant. On average, an IP lookup takes `0.042ms` (server side time consumed)
 + **Bulk IP Lookups:** You can lookup up to 100 IP addresses per API call
 
-## API Endpoints
+## Datacenter IP Address API Endpoints
 
-Example:
+### Endpoint - GET - [api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
 
-[https://api.incolumitas.com/datacenter?ip=13.34.52.117](https://api.incolumitas.com/datacenter?ip=13.34.52.117)
+This GET endpoint allows to lookup a single IPv4 or IPv6 IP address. Example: [https://api.incolumitas.com/datacenter?ip=13.34.52.117](https://api.incolumitas.com/datacenter?ip=13.34.52.117)
+
+You can of course also lookup IPv6 addresses: [https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000)
 
 ## Code Examples
 
-
 ### Curl
+
+Simple IPv6 lookup:
 
 ```bash
 curl 'https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000'
-
-{
-  "ip": "2600:1F18:7FFF:F800:0000:ffff:0000:0000",
-  "is_datacenter": true,
-  "ip_data_source": "self_published_ip_ranges",
-  "cidr": "2600:1f18:7fff:f800::/56",
-  "region": "us-east-1",
-  "datacenter": "Amazon AWS",
-  "service": "ROUTE53_HEALTHCHECKS",
-  "network_border_group": "us-east-1",
-  "elapsed_ms": 0.13
-}
 ```
 
+Bulk IP lookup:
+
+```bash
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"ips": ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"]}' \
+  https://api.incolumitas.com/datacenter
+```
 
 ### JavaScript
+
+Simple lookup in JavaScript:
+
+```JavaScript
+fetch('https://api.incolumitas.com/datacenter?ip=23.236.48.55')
+  .then(res => res.json())
+  .then(res => console.log(res));
+```
+
+You can also do a bulk lookup with JavaScript with a POST request:
 
 ```JavaScript
 const ips = ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"];
