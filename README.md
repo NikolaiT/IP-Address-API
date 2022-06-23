@@ -51,7 +51,7 @@ You can of course also lookup IPv6 addresses: [https://api.incolumitas.com/datac
 
 ### POST Endpoint - [api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
 
-You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request. 
+You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request. **Please note:** The API will return only matches for those IP addresses that belong to a datacenter. This approach saves networking bandwith.
 
 For example, in order to lookup the IP addresses
 
@@ -69,7 +69,7 @@ curl --header "Content-Type: application/json" \
   https://api.incolumitas.com/datacenter
 ```
 
-which will return this response:
+which will return this response (Note that the IP `162.88.0.0` was not a match):
 
 ```json
 {
