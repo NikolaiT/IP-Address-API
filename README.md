@@ -17,14 +17,15 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 ## Datacenter IP Address API Endpoints
 
-### GET Endpoint - [https://api.incolumitas.com/datacenter?ip=1.2.3.4](https://api.incolumitas.com/datacenter?ip=1.2.3.4)
+### GET Endpoint - [https://api.incolumitas.com/datacenter?ip=142.250.186.110](https://api.incolumitas.com/datacenter?ip=142.250.186.110)
 
-This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. 
+This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`.
 
-The response will always include the keys:
+The JSON response will always include the keys:
 
-+ `is_datacenter` - boolean - whether the IP address belongs to a datacenter
-+ `elapsed_ms` - float - how much time in ms the lookup caused in internal processing (Example: `1.71`)
++ `ip` - `string` - the IP address that was looked up
++ `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
++ `elapsed_ms` - `float` - how much internal processing time was spent in ms (Example: `1.71`)
 
 If there is a match, the API response will always include the following keys:
 
