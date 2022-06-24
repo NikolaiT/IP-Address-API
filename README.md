@@ -5,9 +5,9 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 There are many scenarios in which you want to know whether an IP address orginates from a datacenter / hosting IP Address range. This API tries to answer this question as good as possible, by using 
 
 + public whois data published from datacenters itself (For example, [Google publishes their cloud IP ranges](https://www.gstatic.com/ipranges/goog.json) and [Amazon AWS as well](https://ip-ranges.amazonaws.com/ip-ranges.json))
-+ by whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
++ by searching through huge whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
 
-Learn more:
+Learn more about how the API works:
 
 + Please read the blog article to understand [how the Datacenter IP Address API works](https://incolumitas.com/2022/03/09/find-out-if-an-IP-address-belongs-to-a-hosting-provider/#isso-thread)
 + You can visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information
