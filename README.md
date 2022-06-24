@@ -17,7 +17,7 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 ## Datacenter IP Address API Endpoints
 
-### GET Endpoint - [api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
+### GET Endpoint - [https://api.incolumitas.com/datacenter?ip=1.2.3.4](https://api.incolumitas.com/datacenter?ip=1.2.3.4)
 
 This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. 
 
