@@ -22,7 +22,7 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`.
 
-The JSON response will always include the keys:
+The JSON response will always include the keys (Even if the looked-up IP address was not a match):
 
 + `ip` - `string` - the IP address that was looked up
 + `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
