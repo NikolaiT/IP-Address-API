@@ -1,14 +1,17 @@
 # Datacenter-IP-API
 Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hosting provider such as AWS, Azure or Digitalocean.
 
++ Please read the blog article to understand [how the Hosting API works](https://incolumitas.com/2022/03/09/find-out-if-an-IP-address-belongs-to-a-hosting-provider/#isso-thread)
++ You can visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information
+
 ## Core API Features
 
-+ **Ready for Production:** You can savely use this API in your production code.
++ **Ready for Production:** This API can be used in production and is stable.
 + **Many datacenters supported:** [159 different hosting providers and counting](https://api.incolumitas.com/info) - From *Huawei Cloud Service* to *ServerMania Inc.*
-+ **Always updated:** The API database is automatically updated every week. IP data is gathered from many sources: 
++ **Regularely updated:** The API database is automatically updated every week. IP data is gathered from many sources: 
   + Self published IP ranges from large cloud providers
   + Public whois data
-  + Many other sources
+  + And other sources
 + **Pretty fast:** The API is very performant. On average, an IP lookup takes `0.042ms` (server side time consumed)
 + **Bulk IP Lookups:** You can lookup up to 100 IP addresses per API call
 
