@@ -6,7 +6,7 @@ Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hos
 
 ## Core API Features
 
-+ **Ready for Production:** This API can be used in production and is stable.
++ **Ready for Production:** This API can be used in production and is stable
 + **Many datacenters supported:** [159 different hosting providers and counting](https://api.incolumitas.com/info) - From *Huawei Cloud Service* to *ServerMania Inc.*
 + **Regularely updated:** The API database is automatically updated every week. IP data is gathered from many sources: 
   + Self published IP ranges from large cloud providers
@@ -29,13 +29,13 @@ The JSON response will always include the keys:
 
 If there is a match, the API response will always include the following keys:
 
-+ `ip_data_source` - string - the data source that claims that this IP is a datacenter (Example: `"whois_database"`)
-+ `datacenter` - string - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
-+ `cidr` - string - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
++ `ip_data_source` - `string` - the data source that claims that this IP belongs to a datacenter (Example: `"whois_database"`)
++ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
++ `cidr` - `string` - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
 
 In some cases, the API response returns the following keys:
 
-+ `range` - int - the IP address range that this IP address belongs to
++ `range` - `int` - the IP address range that this IP address belongs to as integer range (instead of CIDR)
 
 For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/datacenter?ip=13.34.52.117](https://api.incolumitas.com/datacenter?ip=13.34.52.117). The API response for this request looks like this:
 
@@ -53,7 +53,11 @@ For example, if you set the parameter `ip=13.34.52.117`, the API request looks l
 }
 ```
 
-You can of course also lookup IPv6 addresses: [https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000). The response for this API request:
+You can of course also lookup IPv6 addresses:
+
+[https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000). 
+
+The response for this API request will be:
 
 ```json
 {
@@ -69,7 +73,7 @@ You can of course also lookup IPv6 addresses: [https://api.incolumitas.com/datac
 }
 ```
 
-### POST Endpoint - [api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
+### POST Endpoint - [https://api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
 
 You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request. **Please note:** The API will return only matches for those IP addresses that belong to a datacenter. This approach saves networking bandwith.
 
