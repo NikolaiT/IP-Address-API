@@ -150,13 +150,13 @@ which will return this response:
 {
   "162.158.0.0": {
     "ip": "162.158.0.0",
+    "rir": "arin",
     "is_datacenter": true,
     "is_tor": false,
     "is_proxy": false,
     "is_abuser": false,
     "datacenter": "Cloudflare",
     "cidr": "162.158.0.0 - 162.159.255.255",
-    "rir": "arin",
     "company": {
       "name": "Cloudflare, Inc.",
       "domain": "cloudflare.com",
@@ -175,10 +175,11 @@ which will return this response:
     "location": {
       "country": "us"
     },
-    "elapsed_ms": 0.33
+    "elapsed_ms": 0.78
   },
   "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef": {
     "ip": "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef",
+    "rir": "APNIC",
     "is_datacenter": true,
     "is_tor": false,
     "is_proxy": false,
@@ -188,22 +189,25 @@ which will return this response:
     "datacenter": "Amazon AWS",
     "service": "AMAZON",
     "network_border_group": "ap-east-1",
-    "rir": "APNIC",
+    "company": {
+      "name": "Amazon.com, Inc.",
+      "network": "2406:da00::/24"
+    },
     "asn": null,
     "location": {
       "country": "not found"
     },
-    "elapsed_ms": 0.37
+    "elapsed_ms": 0.9
   },
   "162.88.0.0": {
     "ip": "162.88.0.0",
+    "rir": "arin",
     "is_datacenter": true,
     "is_tor": false,
     "is_proxy": false,
     "is_abuser": false,
     "datacenter": "Oracle Cloud",
     "cidr": "162.88.0.0 - 162.88.255.255",
-    "rir": "arin",
     "company": {
       "name": "Oracle Corporation",
       "domain": "oracle.com",
@@ -213,10 +217,11 @@ which will return this response:
     "location": {
       "country": "us"
     },
-    "elapsed_ms": 0.28
+    "elapsed_ms": 0.82
   },
   "20.41.193.225": {
     "ip": "20.41.193.225",
+    "rir": "arin",
     "is_datacenter": true,
     "is_tor": false,
     "is_proxy": false,
@@ -228,7 +233,6 @@ which will return this response:
     "regionId": 22,
     "platform": "Azure",
     "systemService": "AzurePortal",
-    "rir": "arin",
     "company": {
       "name": "Microsoft Corporation",
       "domain": "microsoft.com",
@@ -247,9 +251,9 @@ which will return this response:
     "location": {
       "country": "us"
     },
-    "elapsed_ms": 0.09
+    "elapsed_ms": 0.17
   },
-  "total_elapsed_ms": 1.17
+  "total_elapsed_ms": 2.84
 }
 ```
 
