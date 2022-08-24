@@ -1,12 +1,14 @@
 # IP Address API
 
-The IP Address API gives you meta information for each IP address such as company and ASN details. Furthermore, it allows you to find out security information for each IP address, for example whether an IP address belongs to a hosting provider, is a proxy or belongs to an abuser.
+The IP Address API gives you meta information for each IP address such as company and ASN details. Furthermore, it allows you to find out security information for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if a IP address is a proxy (`is_proxy`) or belongs to an abuser (`is_abuser`).
 
-This API tries uses the following sources:
+This API tries uses the following sources/algorithms:
 
 + huge whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
 + public BGP information
 + public blocklists such as [firehol/blocklist-ipset](https://github.com/firehol/blocklist-ipsets)
++ my own datacenter/hosting detection algorithm
++ threat data from public honeypots
 
 Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information!
 
@@ -14,16 +16,13 @@ Learn more about how the API works: Visit the [API page](https://incolumitas.com
 
 + **Ready for Production:** This API can be used in production and is stable
 + **Many datacenters supported:** [Thousands of different hosting providers and counting](https://incolumitas.com/pages/Hosting-Providers-List/) - From *Huawei Cloud Service* to *ServerMania Inc.*
-+ **Regularely updated:** The API database is automatically updated every day. IP data is gathered from many sources: 
-  + Self published IP ranges from large cloud providers
-  + Public whois data
-  + And other sources
++ **Regularely updated:** The API database is automatically updated every day.
 + **Pretty fast:** The API is very performant. On average, an IP lookup takes `0.042ms` (server side time consumed)
 + **Bulk IP Lookups:** You can lookup up to 100 IP addresses per API call
 
-## Datacenter IP Address API Endpoints
+## API Endpoints
 
-### GET Endpoint - [https://api.incolumitas.com/datacenter?ip=142.250.186.110](https://api.incolumitas.com/datacenter?ip=142.250.186.110)
+### GET Endpoint - [https://api.incolumitas.com/?ip=142.250.186.110](https://api.incolumitas.com/?ip=142.250.186.110)
 
 This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`.
 
