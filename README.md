@@ -4,11 +4,12 @@ The IP Address API gives you meta information for each IP address such as compan
 
 This API tries uses the following sources/algorithms:
 
-+ huge whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
-+ public BGP information
++ huge public whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
++ public BGP information (in order to find active ASN's and routes)
 + public blocklists such as [firehol/blocklist-ipset](https://github.com/firehol/blocklist-ipsets)
 + my own datacenter/hosting detection algorithm
 + threat data from public honeypots
++ public IP geolocation information (Geolocation is accurate to the country level)
 
 Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information!
 
@@ -26,22 +27,38 @@ Learn more about how the API works: Visit the [API page](https://incolumitas.com
 
 This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`.
 
-The JSON response will always include the keys (Even if the looked-up IP address was not a match):
+The JSON API response **will always include the keys** (Even if the looked up IP address was not a match):
 
 + `ip` - `string` - the IP address that was looked up
++ `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs
 + `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
++ `is_tor` - `boolean` - is true if the IP address belongs to the TOR network
++ `is_proxy` - `boolean` - whether the IP address is a proxy
++ `is_abuser` - `boolean` - is true if the IP address committed abuse actions
++ `company` - `object` - Company information for the looked up IP address. The `company` object includes the following attributes:
+    + `name` - `string` - The name of the company
+    + `domain` - `string` - The domain of the company
+    + `network` - `string` - The network for which the company has ownership
++ `asn` - `object` - ASN information for the looked up IP address. The `asn` object includes the following information:
+    + `asn` - `int` - The AS number 
+    + `cidr` - `string` - The IP range as CIDR within the AS
+    + `descr` - `string` - An informational description of the AS
+    + `country` - `string` - The country where the AS is situated in
++ `location` - `object` - Geolocation information for the looked up IP address. The `location` object includes the following attributes:
+    + `country` - `string` - The ISO 3166-1 alpha-2 country code to which the IP address belongs. This is the country specific geolocation of the IP address.
 + `elapsed_ms` - `float` - how much internal processing time was spent in ms (Example: `1.71`)
 
-If there is a match, the API response will always include the following keys:
+If there is a datacenter match, the API response will always include the following keys:
 
-+ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, [check the api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
++ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
 + `cidr` - `string` - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
 
-For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/datacenter?ip=13.34.52.117](https://api.incolumitas.com/datacenter?ip=13.34.52.117). The API response for this request looks like this:
+For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/?ip=13.34.52.117](https://api.incolumitas.com/?ip=13.34.52.117). The API response for this request looks like this:
 
 ```json
 {
   "ip": "13.34.52.117",
+  "rir": "arin",
   "is_datacenter": true,
   "is_tor": false,
   "is_proxy": false,
@@ -51,7 +68,6 @@ For example, if you set the parameter `ip=13.34.52.117`, the API request looks l
   "datacenter": "Amazon AWS",
   "service": "AMAZON",
   "network_border_group": "eu-west-2",
-  "rir": "arin",
   "company": {
     "name": "Amazon Technologies Inc.",
     "domain": "amazon.com",
@@ -61,19 +77,20 @@ For example, if you set the parameter `ip=13.34.52.117`, the API request looks l
   "location": {
     "country": "us"
   },
-  "elapsed_ms": 0.23
+  "elapsed_ms": 1.59
 }
 ```
 
 You can of course also lookup IPv6 addresses:
 
-[https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000). 
+[https://api.incolumitas.com/?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000). 
 
 The response for this API request will be:
 
 ```json
 {
   "ip": "2600:1F18:7FFF:F800:0000:ffff:0000:0000",
+  "rir": "ARIN",
   "is_datacenter": true,
   "is_tor": false,
   "is_proxy": false,
@@ -83,7 +100,11 @@ The response for this API request will be:
   "datacenter": "Amazon AWS",
   "service": "ROUTE53_HEALTHCHECKS",
   "network_border_group": "us-east-1",
-  "rir": "ARIN",
+  "company": {
+    "name": "Amazon.com, Inc.",
+    "domain": "amazon.com",
+    "network": "2600:1F00::/24"
+  },
   "asn": {
     "asn": 14618,
     "route": "2600:1f18:6000::/35",
@@ -97,13 +118,13 @@ The response for this API request will be:
   "location": {
     "country": "not found"
   },
-  "elapsed_ms": 5.26
+  "elapsed_ms": 0.83
 }
 ```
 
-### POST Endpoint - [https://api.incolumitas.com/datacenter?](https://api.incolumitas.com/datacenter?)
+### POST Endpoint - [https://api.incolumitas.com/](https://api.incolumitas.com/)
 
-You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request. **Please note:** The API will return only matches for those IP addresses that belong to a datacenter. This approach saves networking bandwith.
+You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request.
 
 For example, in order to lookup the IP addresses
 
@@ -121,7 +142,7 @@ curl --header "Content-Type: application/json" \
   https://api.incolumitas.com/datacenter
 ```
 
-which will return this response (Note that the IP `162.88.0.0` did not return a match):
+which will return this response:
 
 ```json
 {
@@ -237,7 +258,7 @@ which will return this response (Note that the IP `162.88.0.0` did not return a 
 Simple IPv6 lookup using `curl`:
 
 ```bash
-curl 'https://api.incolumitas.com/datacenter?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000'
+curl 'https://api.incolumitas.com/?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000'
 ```
 
 Bulk IP lookup using `curl` in POST mode with Content-Type JSON:
@@ -246,7 +267,7 @@ Bulk IP lookup using `curl` in POST mode with Content-Type JSON:
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"ips": ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"]}' \
-  https://api.incolumitas.com/datacenter
+  https://api.incolumitas.com/
 ```
 
 ### JavaScript
@@ -254,7 +275,7 @@ curl --header "Content-Type: application/json" \
 Simple lookup in JavaScript:
 
 ```JavaScript
-fetch('https://api.incolumitas.com/datacenter?ip=23.236.48.55')
+fetch('https://api.incolumitas.com/?ip=23.236.48.55')
   .then(res => res.json())
   .then(res => console.log(res));
 ```
@@ -264,7 +285,7 @@ You can also do a bulk lookup with JavaScript with a POST request:
 ```JavaScript
 const ips = ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"];
 
-fetch('https://api.incolumitas.com/datacenter', {
+fetch('https://api.incolumitas.com/', {
   method: 'POST',
   headers: {
     'Accept': 'application/json, text/plain, */*',
