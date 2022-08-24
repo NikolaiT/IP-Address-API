@@ -98,7 +98,7 @@ The response for this API request will be:
 
 #### API Response 
 
-The JSON API response **will always include the keys** (Even if the looked up IP address was not a match):
+The JSON API response **will always include the keys**:
 
 + `ip` - `string` - the IP address that was looked up
 + `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs
