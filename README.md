@@ -1,11 +1,12 @@
-# Datacenter IP Address API
+# IP Address API
 
-Datacenter / Hosting IP Address API - Find out if an IP address belongs to a hosting provider such as AWS, Azure or Digitalocean. 
+The IP Address API gives you meta information for each IP address such as company and ASN details. Furthermore, it allows you to find out security information for each IP address, for example whether an IP address belongs to a hosting provider, is a proxy or belongs to an abuser.
 
-There are many scenarios in which you want to know whether an IP address orginates from a datacenter / hosting IP Address range. This API tries to answer this question as good as possible, by using 
+This API tries uses the following sources:
 
-+ public whois data published from datacenters itself (For example, [Google publishes their cloud IP ranges](https://www.gstatic.com/ipranges/goog.json) and [Amazon AWS as well](https://ip-ranges.amazonaws.com/ip-ranges.json))
-+ by searching through huge whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
++ huge whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
++ public BGP information
++ public blocklists such as [firehol/blocklist-ipset](https://github.com/firehol/blocklist-ipsets)
 
 Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information!
 
