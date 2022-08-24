@@ -25,33 +25,7 @@ Learn more about how the API works: Visit the [API page](https://incolumitas.com
 
 ### GET Endpoint - [https://api.incolumitas.com/?ip=142.250.186.110](https://api.incolumitas.com/?ip=142.250.186.110)
 
-This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`.
-
-The JSON API response **will always include the keys** (Even if the looked up IP address was not a match):
-
-+ `ip` - `string` - the IP address that was looked up
-+ `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs
-+ `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
-+ `is_tor` - `boolean` - is true if the IP address belongs to the TOR network
-+ `is_proxy` - `boolean` - whether the IP address is a proxy
-+ `is_abuser` - `boolean` - is true if the IP address committed abuse actions
-+ `company` - `object` - Company information for the looked up IP address. The `company` object includes the following attributes:
-    + `name` - `string` - The name of the company
-    + `domain` - `string` - The domain of the company
-    + `network` - `string` - The network for which the company has ownership
-+ `asn` - `object` - ASN information for the looked up IP address. The `asn` object includes the following information:
-    + `asn` - `int` - The AS number 
-    + `cidr` - `string` - The IP range as CIDR within the AS
-    + `descr` - `string` - An informational description of the AS
-    + `country` - `string` - The country where the AS is situated in
-+ `location` - `object` - Geolocation information for the looked up IP address. The `location` object includes the following attributes:
-    + `country` - `string` - The ISO 3166-1 alpha-2 country code to which the IP address belongs. This is the country specific geolocation of the IP address.
-+ `elapsed_ms` - `float` - how much internal processing time was spent in ms (Example: `1.71`)
-
-If there is a datacenter match, the API response will always include the following keys:
-
-+ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
-+ `cidr` - `string` - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
+This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`.
 
 For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/?ip=13.34.52.117](https://api.incolumitas.com/?ip=13.34.52.117). The API response for this request looks like this:
 
@@ -121,6 +95,34 @@ The response for this API request will be:
   "elapsed_ms": 0.83
 }
 ```
+
+#### API Response 
+
+The JSON API response **will always include the keys** (Even if the looked up IP address was not a match):
+
++ `ip` - `string` - the IP address that was looked up
++ `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs
++ `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
++ `is_tor` - `boolean` - is true if the IP address belongs to the TOR network
++ `is_proxy` - `boolean` - whether the IP address is a proxy
++ `is_abuser` - `boolean` - is true if the IP address committed abuse actions
++ `company` - `object` - Company information for the looked up IP address. The `company` object includes the following attributes:
+    + `name` - `string` - The name of the company
+    + `domain` - `string` - The domain of the company
+    + `network` - `string` - The network for which the company has ownership
++ `asn` - `object` - ASN information for the looked up IP address. The `asn` object includes the following information:
+    + `asn` - `int` - The AS number 
+    + `cidr` - `string` - The IP range as CIDR within the AS
+    + `descr` - `string` - An informational description of the AS
+    + `country` - `string` - The country where the AS is situated in
++ `location` - `object` - Geolocation information for the looked up IP address. The `location` object includes the following attributes:
+    + `country` - `string` - The ISO 3166-1 alpha-2 country code to which the IP address belongs. This is the country specific geolocation of the IP address.
++ `elapsed_ms` - `float` - how much internal processing time was spent in ms (Example: `1.71`)
+
+If there is a datacenter match, the API response will always include the following keys:
+
++ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
++ `cidr` - `string` - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
 
 ### POST Endpoint - [https://api.incolumitas.com/](https://api.incolumitas.com/)
 
