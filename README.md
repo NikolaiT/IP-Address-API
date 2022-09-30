@@ -25,7 +25,7 @@ Lookup any IP address: https://api.incolumitas.com/?q=3.5.140.2
 
 Lookup your own IP address: https://api.incolumitas.com/
 
-Use in JavaScript: 
+Usage with JavaScript: 
 
 ```JavaScript
 fetch('https://api.incolumitas.com/?q=23.236.48.55')
@@ -33,7 +33,11 @@ fetch('https://api.incolumitas.com/?q=23.236.48.55')
   .then(res => console.log(res));
 ```
 
-Use in JavaScript:
+Curl:
+
+```bash
+curl 'https://api.incolumitas.com/?q=32.5.140.2'
+```
 
 ## Core API Features
 
