@@ -1,132 +1,238 @@
 # IP Address API
 
-The IP Address API gives you meta information for each IP address such as company and ASN details. Furthermore, it allows you to find out security information for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if a IP address is a proxy (`is_proxy`) or belongs to an abuser (`is_abuser`).
+This free IP Address API returns useful information for each queried IP address. The response information includes the organization of the IP address, to which ASN the IP address belongs and the geolocation for the IP address.
 
-This API tries uses the following sources/algorithms:
+Furthermore, the API response allows you to derive security information for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if an IP address is a proxy (`is_proxy`) or belongs to an abuser (`is_abuser`).
 
-+ huge public whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
-+ public BGP information (in order to find active ASN's and routes)
-+ public blocklists such as [firehol/blocklist-ipset](https://github.com/firehol/blocklist-ipsets)
-+ my own datacenter/hosting detection algorithm
-+ threat data from public honeypots
-+ public IP geolocation information (Geolocation is accurate to the country level)
+But why would you use *this* API? Aren't there many other IP Address API's?
 
-Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/Datacenter-IP-API/) for more information!
+This API strongly emphasises datacenter / hosting detection. A complicated hosting detection algorithm is used to achieve a high detection rate. Currently, more than [1566 global hosting providers]({filename}/pages/datacenters.md) are tracked.
+
+The IP adddress API makes use of the following sources:
+
+1. Public whois records from regional Internet address registries such as RIPE NCC, APNIC, ARIN and so on
+2. Public BGP information (In order to find ASN information and their associated routes/prefixes)
+3. Public blocklists such as [firehol/blocklist-ipset](https://github.com/firehol/blocklist-ipsets)
+4. The API uses several proprietary datacenter/hosting detection algorithms
+5. The API uses IP threat data from public honeypots
+6. IP geolocation information (Geolocation is accurate to the country level)
+
+Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/IP-API/) for more information!
 
 ## Core API Features
 
-+ **Ready for Production:** This API can be used in production and is stable
-+ **Many datacenters supported:** [Thousands of different hosting providers and counting](https://incolumitas.com/pages/Hosting-Providers-List/) - From *Huawei Cloud Service* to *ServerMania Inc.*
-+ **Regularely updated:** The API database is automatically updated every day.
-+ **Pretty fast:** The API is very performant. On average, an IP lookup takes `0.042ms` (server side time consumed)
-+ **Bulk IP Lookups:** You can lookup up to 100 IP addresses per API call
++ **Ready for Production**: This API can be used in production and is stable
++ **Many datacenters supported:** [Thousands of different hosting providers and counting]({filename}/pages/datacenters.md) - From Huawei Cloud Service to ServerMania Inc. Find out whether the IP address is hosted by looking at the `is_datacenter` property!
++ **Always updated**: The API database is automatically several times per week. IP data is gathered from many sources:
+  + Self published IP ranges from large cloud providers
+  + Public whois data from regional internet registries (RIR's) such as RIPE NCC or APNIC
+  + Many other data sources such as public [BGP data](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
+  + Open Source IP blocklists
++ **AS (Autonomous System) support**: The API provides autonomous system information for each looked-up IP address
++ **Company Support**: The API provides organisational information for each network of each looked up IP address
++ **Bulk IP Lookups**: You can lookup up to 100 IP addresses per API call
+
+## API Response Format
+
+Let's explain the API output format by walking through an example. Most of the returned information is self-explanatory.
+
+This is how a typical API response looks like:
+
+```json
+{
+  "ip": "107.174.138.172",
+  "rir": "ARIN",
+  "is_bogon": false,
+  "is_datacenter": true,
+  "is_tor": true,
+  "is_proxy": false,
+  "is_abuser": true,
+  "datacenter": {
+    "datacenter": "ColoCrossing",
+    "cidr": "107.174.138.0/24"
+  },
+  "company": {
+    "name": "ColoCrossing",
+    "domain": "colocrossing.com",
+    "network": "107.172.0.0 - 107.175.255.255"
+  },
+  "asn": {
+    "asn": 36352,
+    "route": "107.174.138.0/24",
+    "descr": "AS-COLOCROSSING, US",
+    "country": "us",
+    "active": true,
+    "website": "https://colocrossing.com",
+    "org": "ColoCrossing",
+    "abuse": "abuse@colocrossing.com",
+    "type": "hosting"
+  },
+  "location": {
+    "country": "US",
+    "continent": "NA",
+    "state": "New York",
+    "city": "Buffalo",
+    "latitude": "42.8864",
+    "longitude": "-78.8784",
+    "ipdeny_country": "us",
+    "maxmind_geolite2_country": "us",
+    "ip2location_country": "us",
+    "ipip_country": "us"
+  },
+  "elapsed_ms": 0.32
+}
+```
+
+Let's dive into the different parts of the API response. Take a deep breath and fasten your seatbelt :)
+
+### Response Format: Top Level API Information
+
+Let's first look at the top level API information:
+
+```json
+{
+  "ip": "107.174.138.172",
+  "rir": "ARIN",
+  "is_bogon": false,
+  "is_datacenter": true,
+  "is_tor": true,
+  "is_proxy": false,
+  "is_abuser": true,
+  "elapsed_ms": 0.32
+}
+```
+
+The explanation for those fields is as follows:
+
++ `ip` - `string` - the IP address that was looked up, here it was `107.174.138.172`
++ `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs. Here it belongs to `ARIN`, which is the RIR responsible for North America
++ `is_bogon` - `boolean` - Whether the IP address is bogon. For example, the loopback IP `127.0.0.1` is a special/bogon IP address. The IP address `107.174.138.172` is of course not bogon, hence it is set to `false` here.
++ `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter. Here, we have the value `true`, since `107.174.138.172` belongs to the datacenter provider ColoCrossing.
++ `is_tor` - `boolean` - is true if the IP address belongs to the TOR network. This is the case here!
++ `is_proxy` - `boolean` - whether the IP address is a proxy. This is not the case here.
++ `is_abuser` - `boolean` - is true if the IP address committed abusive actions, which unfortunately was the case with `107.174.138.172`
++ `elapsed_ms` - `float` - how much internal processing time was spent in ms. This lookup only took `0.32ms`, which is quite fast :)
+
+### Response Format: The `datacenter` object
+
+```json
+  "datacenter": {
+    "datacenter": "ColoCrossing",
+    "cidr": "107.174.138.0/24"
+  },
+```
+
+If the IP address belongs to a datacenter/hosting provider, the API response will include a `datacenter` object with the following attributes:
+
++ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [api.incolumitas.com/info endpoint](https://api.incolumitas.com/info). In this case, the datacenter's name is `ColoCrossing`.
++ `cidr` - `string` - to which datacenter network the IP address belongs (In the above scenario: `107.174.138.0/24`)
+
+Most IP's don't belong to a hosting provider. In those cases, the `datacenter` object will not be present.
+
+### Response Format: The `company` object
+
+```json
+  "company": {
+    "name": "ColoCrossing",
+    "domain": "colocrossing.com",
+    "network": "107.172.0.0 - 107.175.255.255"
+  },
+```
+
+Most IP addresses can be associated with an organization or company. This API uses public whois database information to infer which organization is the owner of a certain IP address. Most API lookups will have an `company` object with the following attributes:
+
++ `name` - `string` - The name of the company
++ `domain` - `string` - The domain name of the company
++ `network` - `string` - The network for which the company has ownership
+
+### Response Format: The `asn` object
+
+```json
+  "asn": {
+    "asn": 36352,
+    "route": "107.174.138.0/24",
+    "descr": "AS-COLOCROSSING, US",
+    "country": "us",
+    "active": true,
+    "website": "https://colocrossing.com",
+    "org": "ColoCrossing",
+    "abuse": "abuse@colocrossing.com",
+    "type": "hosting"
+  },
+```
+
+Most IP addresses can be associated with an Autonomeous System (AS). The `asn` object provides the following attributes:
+
++ `asn` - `int` - The AS number
++ `route` - `string` - The IP route as CIDR in this AS
++ `descr` - `string` - An informational description of the AS
++ `country` - `string` - The country where the AS is situated in
++ `active` - `string` - Whether the AS is active (active = at least one route administred by the AS)
++ `website` - `string` - The website of the organization to which this AS belongs
++ `org` - `string` - The organization responisible for this AS
++ `type` - `string` - The type for this ASN, this is either `hosting`, `education`, `goverment`, `banking`, `business` or `isp`
+
+For inactive Autonomeous Systems, most of the above information is not available.
+
+### Response Format: The `location` object
+
+```json
+  "location": {
+    "country": "US",
+    "continent": "NA",
+    "state": "New York",
+    "city": "Buffalo",
+    "latitude": "42.8864",
+    "longitude": "-78.8784",
+    "ipdeny_country": "us",
+    "maxmind_geolite2_country": "us",
+    "ip2location_country": "us",
+    "ipip_country": "us"
+  },
+```
+
+The API provides geolocation information for the looked up IP address. The `location` object includes the following attributes:
+
++ `country` - `string` - The ISO 3166-1 alpha-2 country code to which the IP address belongs. This is the country specific geolocation of the IP address.
++ `continent` - `string` - The continent to which the IP address can be associated
++ `state` - `string` - The state for the IP address
++ `city` - `string` - The city to which the IP address belongs
++ `latitude` - `string` - The latitude for the IP address
++ `longitude` - `string` -The longitude for the IP address
++ `ipdeny_country` - `string` - The country for this IP address as provided by [ipdeny.com](https://www.ipdeny.com/ipblocks/)
++ `maxmind_geolite2_country` - `string` - The country for this IP address as provided by [maxmind.com geolite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en)
++ `ip2location_country` - `string` - The country for this IP address as provided by [ip2location.com](https://www.ip2location.com/database)
++ `ipip_country` - `string` - The country for this IP address as provided by [ipip.net](https://en.ipip.net/product/ip.html)
+
+Please understand that geolocation information can never be 100% accurate. However, country level accuracy is quite good.
+You can cross-check with the different `country` attributes from the different geolocation data providers. The more matching country attributes, the better the accuracy.
 
 ## API Endpoints
 
-### GET Endpoint - [https://api.incolumitas.com/?ip=142.250.186.110](https://api.incolumitas.com/?ip=142.250.186.110)
+The IP API currently has two endpoints.
 
-This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`.
+### GET - `/` - Lookup a single IP address or ASN
 
-For example, if you set the parameter `ip=13.34.52.117`, the API request looks like this: [https://api.incolumitas.com/?ip=13.34.52.117](https://api.incolumitas.com/?ip=13.34.52.117). The API response for this request looks like this:
+This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `ip`. Example: `ip=142.250.186.110`. You can also lookup **ASN** numbers by specifying the query `ip=AS209103`.
 
-```json
-{
-  "ip": "13.34.52.117",
-  "rir": "arin",
-  "is_datacenter": true,
-  "is_tor": false,
-  "is_proxy": false,
-  "is_abuser": false,
-  "cidr": "13.34.52.96/27",
-  "region": "eu-west-2",
-  "datacenter": "Amazon AWS",
-  "service": "AMAZON",
-  "network_border_group": "eu-west-2",
-  "company": {
-    "name": "Amazon Technologies Inc.",
-    "domain": "amazon.com",
-    "network": "13.24.0.0 - 13.59.255.255"
-  },
-  "asn": null,
-  "location": {
-    "country": "us"
-  },
-  "elapsed_ms": 1.59
-}
-```
+| <!-- -->         | <!-- -->                                           |
+|------------------|----------------------------------------------------|
+| **Endpoint**       | /                                  |
+| **Method**       | `GET`                                  |
+| **Parameter**       | `q` - The IP address or ASN to lookup                                 |
+| **Example** | [https://api.incolumitas.com/?q=3.5.140.2](https://api.incolumitas.com/?q=3.5.140.2)
+| **ASN Example** | [https://api.incolumitas.com/?q=AS42831](https://api.incolumitas.com/?q=AS42831)
 
-You can of course also lookup IPv6 addresses:
-
-[https://api.incolumitas.com/?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000](https://api.incolumitas.com/?ip=2600:1F18:7FFF:F800:0000:ffff:0000:0000). 
-
-The response for this API request will be:
-
-```json
-{
-  "ip": "2600:1F18:7FFF:F800:0000:ffff:0000:0000",
-  "rir": "ARIN",
-  "is_datacenter": true,
-  "is_tor": false,
-  "is_proxy": false,
-  "is_abuser": false,
-  "cidr": "2600:1f18:7fff:f800::/56",
-  "region": "us-east-1",
-  "datacenter": "Amazon AWS",
-  "service": "ROUTE53_HEALTHCHECKS",
-  "network_border_group": "us-east-1",
-  "company": {
-    "name": "Amazon.com, Inc.",
-    "domain": "amazon.com",
-    "network": "2600:1F00::/24"
-  },
-  "asn": {
-    "asn": 14618,
-    "route": "2600:1f18:6000::/35",
-    "descr": "AMAZON-AES, US",
-    "country": "us",
-    "active": true,
-    "website": "https://amazon.com",
-    "org": "Amazon.com, Inc.",
-    "abuse": "abuse@amazonaws.com"
-  },
-  "location": {
-    "country": "not found"
-  },
-  "elapsed_ms": 0.83
-}
-```
-
-#### API Response 
-
-The JSON API response **will always include the keys**:
-
-+ `ip` - `string` - the IP address that was looked up
-+ `rir` - `string` - to which [Regional Internet Registry](https://en.wikipedia.org/wiki/Regional_Internet_registry) the looked up IP address belongs
-+ `is_datacenter` - `boolean` - whether the IP address belongs to a datacenter
-+ `is_tor` - `boolean` - is true if the IP address belongs to the TOR network
-+ `is_proxy` - `boolean` - whether the IP address is a proxy
-+ `is_abuser` - `boolean` - is true if the IP address committed abuse actions
-+ `company` - `object` - Company information for the looked up IP address. The `company` object includes the following attributes:
-    + `name` - `string` - The name of the company
-    + `domain` - `string` - The domain of the company
-    + `network` - `string` - The network for which the company has ownership
-+ `asn` - `object` - ASN information for the looked up IP address. The `asn` object includes the following information:
-    + `asn` - `int` - The AS number 
-    + `cidr` - `string` - The IP range as CIDR within the AS
-    + `descr` - `string` - An informational description of the AS
-    + `country` - `string` - The country where the AS is situated in
-+ `location` - `object` - Geolocation information for the looked up IP address. The `location` object includes the following attributes:
-    + `country` - `string` - The ISO 3166-1 alpha-2 country code to which the IP address belongs. This is the country specific geolocation of the IP address.
-+ `elapsed_ms` - `float` - how much internal processing time was spent in ms (Example: `1.71`)
-
-If there is a datacenter match, the API response will always include the following keys:
-
-+ `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [api.incolumitas.com/info endpoint](https://api.incolumitas.com/info) (Example: `"Amazon AWS"`)
-+ `cidr` - `string` - the CIDR range that this IP address belongs to (Example: `"13.34.52.96/27"`)
-
-### POST Endpoint - [https://api.incolumitas.com/](https://api.incolumitas.com/)
+### POST - `/` - Lookup up to 100 IP addresses in one API call
 
 You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request.
+
+| <!-- -->         | <!-- -->                                           |
+|------------------|----------------------------------------------------|
+| **Endpoint**       | /                                  |
+| **Method**       | `POST`                                  |
+| **Content-Type**       | `Content-Type: application/json`                                  |
+| **Parameter**       | `ips` - An array of IPv4 and IPv6 addresses to lookup                                 |
 
 For example, in order to lookup the IP addresses
 
@@ -135,126 +241,13 @@ For example, in order to lookup the IP addresses
 + `162.88.0.0`
 + `20.41.193.225`
 
-you can use the following POST API request with `curl`:
+you can use the following POST API request with curl:
 
 ```bash
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"ips": ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"]}' \
-  https://api.incolumitas.com/datacenter
-```
-
-which will return this response:
-
-```json
-{
-  "162.158.0.0": {
-    "ip": "162.158.0.0",
-    "rir": "arin",
-    "is_datacenter": true,
-    "is_tor": false,
-    "is_proxy": false,
-    "is_abuser": false,
-    "datacenter": "Cloudflare",
-    "cidr": "162.158.0.0 - 162.159.255.255",
-    "company": {
-      "name": "Cloudflare, Inc.",
-      "domain": "cloudflare.com",
-      "network": "162.158.0.0 - 162.159.255.255"
-    },
-    "asn": {
-      "asn": 13335,
-      "route": "162.158.0.0/22",
-      "descr": "CLOUDFLARENET, US",
-      "country": "us",
-      "active": true,
-      "website": "https://cloudflare.com",
-      "org": "Cloudflare, Inc.",
-      "abuse": "abuse@cloudflare.com"
-    },
-    "location": {
-      "country": "us"
-    },
-    "elapsed_ms": 0.78
-  },
-  "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef": {
-    "ip": "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef",
-    "rir": "APNIC",
-    "is_datacenter": true,
-    "is_tor": false,
-    "is_proxy": false,
-    "is_abuser": false,
-    "cidr": "2406:dafe:e000::/40",
-    "region": "ap-east-1",
-    "datacenter": "Amazon AWS",
-    "service": "AMAZON",
-    "network_border_group": "ap-east-1",
-    "company": {
-      "name": "Amazon.com, Inc.",
-      "network": "2406:da00::/24"
-    },
-    "asn": null,
-    "location": {
-      "country": "not found"
-    },
-    "elapsed_ms": 0.9
-  },
-  "162.88.0.0": {
-    "ip": "162.88.0.0",
-    "rir": "arin",
-    "is_datacenter": true,
-    "is_tor": false,
-    "is_proxy": false,
-    "is_abuser": false,
-    "datacenter": "Oracle Cloud",
-    "cidr": "162.88.0.0 - 162.88.255.255",
-    "company": {
-      "name": "Oracle Corporation",
-      "domain": "oracle.com",
-      "network": "162.88.0.0 - 162.88.255.255"
-    },
-    "asn": null,
-    "location": {
-      "country": "us"
-    },
-    "elapsed_ms": 0.82
-  },
-  "20.41.193.225": {
-    "ip": "20.41.193.225",
-    "rir": "arin",
-    "is_datacenter": true,
-    "is_tor": false,
-    "is_proxy": false,
-    "is_abuser": false,
-    "cidr": "20.41.193.224/27",
-    "name": "AzurePortal.SouthIndia",
-    "datacenter": "Microsoft Azure",
-    "region": "southindia",
-    "regionId": 22,
-    "platform": "Azure",
-    "systemService": "AzurePortal",
-    "company": {
-      "name": "Microsoft Corporation",
-      "domain": "microsoft.com",
-      "network": "20.33.0.0 - 20.128.255.255"
-    },
-    "asn": {
-      "asn": 8075,
-      "route": "20.40.0.0/13",
-      "descr": "MICROSOFT-CORP-MSN-AS-BLOCK, US",
-      "country": "us",
-      "active": true,
-      "website": "https://microsoft.com",
-      "org": "Microsoft Corporation",
-      "abuse": "abuse@microsoft.com"
-    },
-    "location": {
-      "country": "us"
-    },
-    "elapsed_ms": 0.17
-  },
-  "total_elapsed_ms": 2.84
-}
+  https://api.incolumitas.com/
 ```
 
 ## Code Examples
@@ -301,4 +294,3 @@ fetch('https://api.incolumitas.com/', {
 }).then(res => res.json())
   .then(res => console.log(res));
 ```
-
