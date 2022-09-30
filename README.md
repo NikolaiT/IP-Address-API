@@ -19,6 +19,20 @@ The IP adddress API makes use of the following sources:
 
 Learn more about how the API works: Visit the [API page](https://incolumitas.com/pages/IP-API/) for more information!
 
+## Quickstart
+
+Lookup any IP address: https://api.incolumitas.com/?q=3.5.140.2
+
+Lookup your own IP address: https://api.incolumitas.com/
+
+```JavaScript
+fetch('https://api.incolumitas.com/?q=23.236.48.55')
+  .then(res => res.json())
+  .then(res => console.log(res));
+```
+
+Use in JavaScript:
+
 ## Core API Features
 
 + **Ready for Production**: This API can be used in production and is stable
