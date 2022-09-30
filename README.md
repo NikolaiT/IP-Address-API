@@ -25,6 +25,8 @@ Lookup any IP address: https://api.incolumitas.com/?q=3.5.140.2
 
 Lookup your own IP address: https://api.incolumitas.com/
 
+Use in JavaScript: 
+
 ```JavaScript
 fetch('https://api.incolumitas.com/?q=23.236.48.55')
   .then(res => res.json())
