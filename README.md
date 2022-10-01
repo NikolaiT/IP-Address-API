@@ -40,7 +40,6 @@ The IP adddress API internally uses the following data-sources:
 6. The API uses IP threat data from various honeypots
 7. IP geolocation information (Geolocation is accurate to the country level) from several different geoip providers
 
-| <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Author**         | Nikolai Tschacher ([incolumitas.com](https://incolumitas.com/))     |
 | **API Access**         | Free & unlimited (fair use)         |
