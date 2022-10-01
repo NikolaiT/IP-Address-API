@@ -6,7 +6,7 @@ Furthermore, the API response allows you to derive security information for each
 
 But why would you use *this* API? Aren't there many other IP Address API's?
 
-This API strongly emphasises **datacenter/hosting detection**. A complicated hosting detection algorithm was developed to achieve a high detection rate. Currently, more than [1566 global hosting providers]({filename}/pages/datacenters.md) are tracked. Whois records, public hosting IP ranges from hosting providers themselves and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a datacenter or not.
+This API strongly emphasises **datacenter/hosting detection**. A complicated hosting detection algorithm was developed to achieve a high detection rate. Currently, more than [1566 global hosting providers](https://incolumitas.com/pages/Hosting-Providers-List/) are tracked. Whois records, public hosting IP ranges from hosting providers themselves and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a datacenter or not.
 
 ## Quickstart
 
@@ -46,7 +46,7 @@ The IP adddress API internally uses the following data-sources:
 | **API Access**         | Free & unlimited (fair use)         |
 | **API Version**         | **v0.9.5 (30th September 2022)**         |
 | **API Endpoint**         | [**https://api.incolumitas.com/?q=3.5.140.2**](https://api.incolumitas.com/?q=3.5.140.2)         |
-| **Total Tracked Hosting Providers**         |    **[1566 hosting providers]({filename}/pages/datacenters.md)**      |
+| **Total Tracked Hosting Providers**         |    **[1566 hosting providers](https://incolumitas.com/pages/Hosting-Providers-List/)**      |
 | **Num Hosting Ipv4 Addresses**         |    **578,607** IPv4 CIDR ranges (1,124,037,736 Addresses in total)      |
 | **Num Hosting Ipv6 Addresses**         |    **491,415** IPv6 CIDR ranges (1.3398119786246428e+33 Addresses in total)      |
 
