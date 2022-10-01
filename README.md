@@ -1,3 +1,5 @@
+# IP Address API
+
 This free IP Address API gives you useful meta-information for each queried IP address. The API response includes the organization of the IP address, to which ASN the IP address belongs and the geolocation for the IP address.
 
 Furthermore, the API response allows you to derive security information for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if an IP address is a proxy (`is_proxy`) or belongs to an abuser (`is_abuser`).
