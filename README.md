@@ -106,7 +106,7 @@ Download and unzip the ASN database:
 
 ```bash
 cd /tmp
-curl -O https://ipapi.is/data/fullASN.json.zip
+curl -O https://raw.githubusercontent.com/NikolaiT/IP-Address-API/main/databases/fullASN.json.zip
 unzip fullASN.json.zip
 ```
 
@@ -141,7 +141,7 @@ Download and unzip the Hosting Ranges database:
 
 ```bash
 cd /tmp
-curl -O https://ipapi.is/data/hostingRanges.tsv.zip
+curl -O https://raw.githubusercontent.com/NikolaiT/IP-Address-API/main/databases/hostingRanges.tsv.zip
 unzip hostingRanges.tsv.zip
 ```
 
