@@ -27,14 +27,14 @@ The API furthermore includes accurate and rich ASN meta data. For instance, the 
 
 ## Quickstart
 
-Lookup any IP address: [https://api.incolumitas.com/?q=3.5.140.2](https://api.incolumitas.com/?q=3.5.140.2)
+Lookup any IP address: [https://ipapi.is/json/?q=3.5.140.2](https://ipapi.is/json/?q=3.5.140.2)
 
-Lookup your own IP address: [https://api.incolumitas.com/](https://api.incolumitas.com/)
+Lookup your own IP address: [https://ipapi.is/json/](https://ipapi.is/json/)
 
 Usage with JavaScript:
 
 ```JavaScript
-fetch('https://api.incolumitas.com/?q=23.236.48.55')
+fetch('https://ipapi.is/json/?q=23.236.48.55')
   .then(res => res.json())
   .then(res => console.log(res));
 ```
@@ -42,7 +42,7 @@ fetch('https://api.incolumitas.com/?q=23.236.48.55')
 Usage with `curl`:
 
 ```bash
-curl 'https://api.incolumitas.com/?q=32.5.140.2'
+curl 'https://ipapi.is/json/?q=32.5.140.2'
 ```
 
 ## Introduction
@@ -162,7 +162,7 @@ for (let line of hostingRanges) {
 
 The API output format is explained by walking through an example. Most of the returned information is self-explanatory.
 
-This is how a typical API response looks like. The IP `107.174.138.172` was queried with the API call [https://api.incolumitas.com/?q=107.174.138.172](https://api.incolumitas.com/?q=107.174.138.172):
+This is how a typical API response looks like. The IP `107.174.138.172` was queried with the API call [https://ipapi.is/json/?q=107.174.138.172](https://ipapi.is/json/?q=107.174.138.172):
 
 ```json
 {
@@ -178,7 +178,7 @@ This is how a typical API response looks like. The IP `107.174.138.172` was quer
     "name": "ColoCrossing",
     "domain": "colocrossing.com",
     "network": "107.172.0.0 - 107.175.255.255",
-    "whois": "https://api.incolumitas.com/?whois=107.172.0.0"
+    "whois": "https://ipapi.is/json/?whois=107.172.0.0"
   },
   "datacenter": {
     "datacenter": "ColoCrossing",
@@ -198,7 +198,7 @@ This is how a typical API response looks like. The IP `107.174.138.172` was quer
     "created": "2005-12-12",
     "updated": "2013-01-08",
     "rir": "arin",
-    "whois": "https://api.incolumitas.com/?whois=AS36352"
+    "whois": "https://ipapi.is/json/?whois=AS36352"
   },
   "location": {
     "country": "United States of America",
@@ -245,7 +245,7 @@ The field `ip` has datatype `string`.
 
 It is the IP address that was looked up, in the example above it is `107.174.138.172`.
 
-If no IP address was specified (Example: [https://api.incolumitas.com/](https://api.incolumitas.com/)), the client's own IP address is looked up.
+If no IP address was specified (Example: [https://ipapi.is/json/](https://ipapi.is/json/)), the client's own IP address is looked up.
 
 #### Field `rir`
 
@@ -309,7 +309,7 @@ The field stores how much internal processing time was spent in milliseconds (ms
 
 If the IP address belongs to a datacenter/hosting provider, the API response will include a `datacenter` object with the following attributes:
 
-- `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [info endpoint](https://api.incolumitas.com/info). In this case, the datacenter's name is `ColoCrossing`.
+- `datacenter` - `string` - to which datacenter the IP address belongs. For a full list of datacenters, check the [ipapi.is/json/info endpoint](https://ipapi.is/json/info). In this case, the datacenter's name is `ColoCrossing`.
 - `domain` - `string` - The domain name of the company
 - `network` - `string` - the network this IP address belongs to (In the above case: `107.172.0.0 - 107.175.255.255`)
 
@@ -370,7 +370,7 @@ For a couple of large cloud providers, such as Google Cloud, Amazon AWS, Digital
   "name": "ColoCrossing",
   "domain": "colocrossing.com",
   "network": "107.172.0.0 - 107.175.255.255",
-  "whois": "https://api.incolumitas.com/?whois=107.172.0.0"
+  "whois": "https://ipapi.is/json/?whois=107.172.0.0"
 },
 ```
 
@@ -397,7 +397,7 @@ Most IP addresses can be associated with an organization or company. The API use
   "created": "2005-12-12",
   "updated": "2013-01-08",
   "rir": "arin",
-  "whois": "https://api.incolumitas.com/?whois=AS36352"
+  "whois": "https://ipapi.is/json/?whois=AS36352"
 },
 ```
 
@@ -464,17 +464,17 @@ The IP API currently has two endpoints.
 
 This GET endpoint allows to lookup a single IPv4 or IPv6 IP address by specifying the query parameter `q`. Example: `q=142.250.186.110`. You can also lookup **ASN** numbers by specifying the query `q=AS209103`
 
-- **Endpoint** - [https://api.incolumitas.com/](https://api.incolumitas.com/)
+- **Endpoint** - [https://ipapi.is/json/](https://ipapi.is/json/)
 - **Method** - `GET`
 - **Parameter** - `q` - The IP address or ASN to lookup
-- **Example** - [https://api.incolumitas.com/?q=3.5.140.2](https://api.incolumitas.com/?q=3.5.140.2)
-- **ASN Example** - [https://api.incolumitas.com/?q=AS42831](https://api.incolumitas.com/?q=AS42831)
+- **Example** - [https://ipapi.is/json/?q=3.5.140.2](https://ipapi.is/json/?q=3.5.140.2)
+- **ASN Example** - [https://ipapi.is/json/?q=AS42831](https://ipapi.is/json/?q=AS42831)
 
 ### POST Endpoint - Query up to 100 IP Addresses in one API call
 
 You can also make a bulk API lookup with up to 100 IP addresses (Either IPv4 or IPv6) in one single request.
 
-- **Endpoint** - [https://api.incolumitas.com/](https://api.incolumitas.com/)
+- **Endpoint** - [https://ipapi.is/json/](https://ipapi.is/json/)
 - **Method** - `POST`
 - **Content-Type** - `Content-Type: application/json`
 - **Parameter** - `ips` - An array of IPv4 and IPv6 addresses to lookup
@@ -492,5 +492,5 @@ you can use the following POST API request with `curl`:
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"ips": ["162.158.0.0", "2406:dafe:e0ff:ffff:ffff:ffff:dead:beef", "162.88.0.0", "20.41.193.225"]}' \
-  https://api.incolumitas.com/
+  https://ipapi.is/json/
 ```
