@@ -8,14 +8,14 @@ This API strongly emphasizes **hosting detection**. A complicated hosting detect
 
 ## Quickstart
 
-Lookup any IP address: [https://ipapi.is/json/?q=3.5.140.2](https://ipapi.is/json/?q=3.5.140.2)
+Lookup any IP address: [https://api.ipapi.is/?q=3.5.140.2](https://api.ipapi.is/?q=3.5.140.2)
 
-Lookup your own IP address: [https://ipapi.is/json/](https://ipapi.is/json/)
+Lookup your own IP address: [https://api.ipapi.is/](https://api.ipapi.is/)
 
 Usage with JavaScript:
 
 ```JavaScript
-fetch('https://ipapi.is/json/?q=23.236.48.55')
+fetch('https://api.ipapi.is/?q=23.236.48.55')
   .then(res => res.json())
   .then(res => console.log(res));
 ```
@@ -23,7 +23,7 @@ fetch('https://ipapi.is/json/?q=23.236.48.55')
 Usage with `curl`:
 
 ```bash
-curl 'https://ipapi.is/json/?q=32.5.140.2'
+curl 'https://api.ipapi.is/?q=32.5.140.2'
 ```
 
 For a full documentation, please visit the [documentation page](https://ipapi.is/developers.html).
