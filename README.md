@@ -4,18 +4,18 @@ This IP address API returns useful meta-information for IP addresses. For exampl
 
 Furthermore, the API response allows to derive **security information** for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if an IP address is a proxy (`is_proxy`) or VPN (`is_vpn`) or belongs to an abuser (`is_abuser`).
 
-This API strongly emphasizes **hosting detection**. A complicated hosting detection algorithm was developed to achieve a high detection rate. [Thousands of different hosting providers](https://ipapi.is/hosting-detection.html) are tracked. Whois records, public hosting IP ranges from hosting providers and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a hosting provider or not.
+This API strongly emphasizes **hosting detection**. A complicated hosting detection algorithm was developed to achieve a high detection rate. Whois records, public hosting IP ranges from hosting providers and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a hosting provider or not.
 
 ## Quickstart
 
-Lookup any IP address: [https://api.ipapi.is/?q=3.5.140.2](https://api.ipapi.is/?q=3.5.140.2)
+Lookup any IP address: [https://api.incolumitas.com/?q=3.5.140.2](https://api.incolumitas.com/?q=3.5.140.2)
 
-Lookup your own IP address: [https://api.ipapi.is/](https://api.ipapi.is/)
+Lookup your own IP address: [https://api.incolumitas.com/](https://api.incolumitas.com/)
 
 Usage with JavaScript:
 
 ```JavaScript
-fetch('https://api.ipapi.is/?q=23.236.48.55')
+fetch('https://api.incolumitas.com/?q=23.236.48.55')
   .then(res => res.json())
   .then(res => console.log(res));
 ```
@@ -23,20 +23,16 @@ fetch('https://api.ipapi.is/?q=23.236.48.55')
 Usage with `curl`:
 
 ```bash
-curl 'https://api.ipapi.is/?q=32.5.140.2'
+curl 'https://api.incolumitas.com/?q=32.5.140.2'
 ```
 
-For a full documentation, please visit the [documentation page](https://ipapi.is/developers.html).
+## IP Address Databases Download
 
-## Free IP Address Databases (ipapi.is)
+This repository contains three databases:
 
-This repository contains the free databases that are used by the commercial IP API <https://ipapi.is>
-
-Please consider subscribing to a paid plan at [https://ipapi.is/about.html](https://ipapi.is/about.html) to help the project.
-
-+ [Geolocation Database](https://ipapi.is/geolocation.html) - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
-+ [ASN Database](https://ipapi.is/asn.html) - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's)
-+ [Hosting IP Ranges Database](https://ipapi.is/hosting-detection.html) - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers.
++ Geolocation Database - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
++ ASN Database - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's)
++ Hosting IP Ranges Database - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers.
 
 ## Geolocation Database
 
@@ -66,7 +62,7 @@ The geolocation database is provided as large CSV file with the following header
 
 ## ASN Database
 
-For offline ASN data access, the [**ASN Database**](https://ipapi.is/asn.html) is provided. The ASN database includes all assigned and allocated AS numbers by IANA and respective meta information. The database is updated several times per week. For active ASN's (at least one route/prefix assigned to the AS), the database includes rich meta information. For example, the provided information for the ASN `50673` would be:
+For offline ASN data access, the **ASN Database** is provided. The ASN database includes all assigned and allocated AS numbers by IANA and respective meta information. The database is updated several times per week. For active ASN's (at least one route/prefix assigned to the AS), the database includes rich meta information. For example, the provided information for the ASN `50673` would be:
 
 ```JavaScript
 "50673": {
@@ -96,15 +92,13 @@ For offline ASN data access, the [**ASN Database**](https://ipapi.is/asn.html) i
 
 The database is in JSON format. The key is the ASN as `int` and the value is an object with AS meta information such as the one above.
 
-[Click here to download the ASN Database](https://ipapi.is/asn.html)
-
 **How to download & parse the ASN database?**
 
 Download and unzip the ASN database:
 
 ```bash
 cd /tmp
-curl -O https://ipapi.is/data/fullASN.json.zip
+curl -O https://github.com/NikolaiT/IP-Address-API/raw/main/databases/fullASN.json.zip
 unzip fullASN.json.zip
 ```
 
@@ -131,15 +125,13 @@ OVH Sp. z o. o. 178.32.191.0 - 178.32.191.127 www.ovh.com
 myLoc managed IT AG 46.245.176.0 - 46.245.183.255 www.myloc.de
 ```
 
-[Click here to download the Hosting IP Ranges Database](https://ipapi.is/hosting-detection.html)
-
 **How to download & parse the Datacenter database?**
 
 Download and unzip the Hosting Ranges database:
 
 ```bash
 cd /tmp
-curl -O https://ipapi.is/data/hostingRanges.tsv.zip
+curl -O https://github.com/NikolaiT/IP-Address-API/raw/main/databases/hostingRanges.tsv.zip
 unzip hostingRanges.tsv.zip
 ```
 
