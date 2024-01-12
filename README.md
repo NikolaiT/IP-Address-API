@@ -30,9 +30,9 @@ curl 'https://api.incolumitas.com/?q=32.5.140.2'
 
 This repository contains three databases:
 
-+ Geolocation Database - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
-+ ASN Database - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's)
-+ Hosting IP Ranges Database - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers.
++ Geolocation Database - free - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
++ ASN Database - sample only - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's). You can get the [full database here](https://ipapi.is/).
++ Hosting IP Ranges Database - sample only - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers. You can get the [full database here](https://ipapi.is/).
 
 ## Geolocation Database
 
@@ -62,7 +62,9 @@ The geolocation database is provided as large CSV file with the following header
 
 ## ASN Database
 
-For offline ASN data access, the **ASN Database** is provided. The ASN database includes all assigned and allocated AS numbers by IANA and respective meta information. The database is updated several times per week. For active ASN's (at least one route/prefix assigned to the AS), the database includes rich meta information. For example, the provided information for the ASN `50673` would be:
+For offline ASN data access, the **ASN Database** is provided.
+
+The ASN database includes all assigned and allocated AS numbers by IANA and respective meta information. The database is updated several times per week. For active ASN's (at least one route/prefix assigned to the AS), the database includes rich meta information. For example, the provided information for the ASN `50673` would be:
 
 ```JavaScript
 "50673": {
@@ -92,57 +94,53 @@ For offline ASN data access, the **ASN Database** is provided. The ASN database 
 
 The database is in JSON format. The key is the ASN as `int` and the value is an object with AS meta information such as the one above.
 
-**How to download & parse the ASN database?**
-
-Download and unzip the ASN database:
-
-```bash
-cd /tmp
-curl -O https://github.com/NikolaiT/IP-Address-API/raw/main/databases/fullASN.json.zip
-unzip fullASN.json.zip
-```
-
-And parse with nodejs:
-
-```JavaScript
-let asnDatabase = require('./fullASN.json');
-for (let asn in asnDatabase) {
-  console.log(asn, asnDatabase[asn]);
-}
-```
-
 ### Hosting IP Ranges Database
 
-Furthermore, the **Hosting IP ranges Database** is provided for offline and scalable access. This database contains all known datacenter IP ranges in the Internet. A proprietary algorithm was developed to determine if a network belongs to a hosting provider.
++ [IPv4 Sample (CSV)](https://ipapi.is/data/HostingRangesIPv4-Sample.csv)
++ [IPv6 Sample (CSV)](https://ipapi.is/data/HostingRangesIPv6-Sample.csv)
 
-The file format of the database is tab separated text file (.tsv), where each line of the file contains the `company`, `network` and `domain` of the hosting provider.
+The database considers all of the following services as hosting providers:
 
-Example excerpt of the database:
++ Normal hosting providers such as [Hetzner.de](https://www.hetzner.de/) or [Leaseweb.com](https://www.leaseweb.com/)
++ Large cloud providers such as [Amazon AWS](https://aws.amazon.com/) or [Microsoft Azure](https://azure.microsoft.com/)
++ Content Delivery Networks such as [Cloudflare](https://www.cloudflare.com/), [Fastly](https://www.fastly.com/) or [edg.io](https://edg.io/)
++ Anti-DDOS services such as [qrator.net](https://qrator.net/) or [ddos-guard.net](https://ddos-guard.net/)
++ IP leasing organizations such as [ipxo.com](https://ipxo.com/) or [interlir.com](https://interlir.com/)
++ Other SaaS, IaaS, or PaaS organizations such as [fly.io](https://fly.io/) or [Heroku](https://www.heroku.com/)
 
-```text
-Linode, LLC 178.79.160.0 - 178.79.167.255 www.linode.com
-OVH Sp. z o. o. 178.32.191.0 - 178.32.191.127 www.ovh.com
-myLoc managed IT AG 46.245.176.0 - 46.245.183.255 www.myloc.de
-```
+A [proprietary algorithm](https://ipapi.is/blog/detecting-hosting-providers.html) was developed to determine if a network belongs to a hosting provider or not. The database contains more than 470k IPv4 networks and more than 360k IPv6 networks and is constantly growing.
 
-**How to download & parse the Datacenter database?**
+The file format of the database is CSV, where each line of the file contains the following fields:
 
-Download and unzip the Hosting Ranges database:
++ `ipVersion` - Determines the IP type of the network. Either `4` or `6`.
++ `startIp` - The start IP address of the network range.
++ `endIp` - The end IP address of the network range.
++ `datacenter` - The name of the hosting / datacenter provider.
++ `domain` - The domain name of the hosting provider's website.
 
-```bash
-cd /tmp
-curl -O https://github.com/NikolaiT/IP-Address-API/raw/main/databases/hostingRanges.tsv.zip
-unzip hostingRanges.tsv.zip
-```
+Example excerpt of the database (CSV):
 
-And parse with nodejs:
-
-```JavaScript
-const fs = require('fs');
-
-let hostingRanges = fs.readFileSync('hostingRanges.tsv').toString().split('\n');
-for (let line of hostingRanges) {
-  let [company, network, domain] = line.split('\t');
-  console.log(company, network, domain);
-}
+```csv
+ipVersion,startIp,endIp,datacenter,domain
+4,176.9.14.8,176.9.14.15,Hetzner Online GmbH,www.hetzner.com
+4,87.252.45.216,87.252.45.223,James Parker,fastnet.co.uk
+4,5.35.9.0,5.35.9.255,OOO Network of data-centers Selectel,selectel.ru
+4,46.97.71.216,46.97.71.223,Atom Hosting SRL,vodafone.com
+4,86.66.36.176,86.66.36.183,Internet Services,isi.ch
+4,51.68.216.0,51.68.216.127,FAST SERV INC d.b.a. QHoster.com,ovh.net
+4,211.14.25.128,211.14.25.159,"BroadBand Tower, Inc.",www.bbtower.co.jp
+4,195.128.178.0,195.128.178.255,MOD Mission Critical LLC,modmc.net
+4,185.54.7.0,185.54.7.255,HIDORA SA,hidora.io
+4,46.4.41.224,46.4.41.255,Hetzner Online GmbH,www.hetzner.com
+4,87.118.220.244,87.118.220.247,Limited liabilities company Atlantic.,www.atlantic.net
+4,87.252.39.152,87.252.39.159,James Parker,fastnet.co.uk
+4,5.154.33.0,5.154.33.255,SETEGENIL SL,servihosting.es
+4,185.139.128.0,185.139.131.255,Miss Hosting AB,misshosting.com
+4,103.125.164.0,103.125.167.255,"Beijing Jingliang Cloud Technology Co.,Ltd.",ssvnet.cn
+4,128.204.205.112,128.204.205.112,Snel.com B.V.,www.snel.com
+4,85.199.246.176,85.199.246.183,M247 UK Ltd,m247.com
+4,67.216.96.0,67.216.111.255,"ETEX COMMUNICATIONS, LLC",www.godaddy.com
+4,148.252.239.152,148.252.239.155,M247 UK Ltd,m247.com
+4,176.9.33.88,176.9.33.95,Hetzner Online GmbH,www.hetzner.com
+4,5.133.198.180,5.133.198.181,Internet Vikings International AB,internetvikings.com
 ```
