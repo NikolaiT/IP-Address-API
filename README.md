@@ -26,9 +26,9 @@ Usage with `curl`:
 curl 'https://api.incolumitas.com/?q=32.5.140.2'
 ```
 
-## Free API Limitations
+## API Limitations
 
-It is very costly to maintain the API and takes a lot of time to update the data and maintain and improve the data quality.
+It is very costly to maintain the API, because it takes a lot of time to update the data and improve the data quality. The API runs on 4 servers across the globe and hosting alone costs 150$ per month.
 
 For that reason, the free plan is limited to 1000 requests per day.
 
