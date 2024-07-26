@@ -30,7 +30,7 @@ curl 'https://api.incolumitas.com/?q=32.5.140.2'
 
 It is very costly to maintain the API, because it takes a lot of time to update the data and improve the data quality. The API runs on 4 servers across the globe and hosting alone costs 150$ per month.
 
-For that reason, the free plan is limited to 1000 requests per day.
+For that reason, the free plan is limited to 1000 requests per day and there exists a pro version at [https://ipapi.is/](https://ipapi.is/)
 
 In order to increase you daily request volume, consider subscribing to a paid plan at [https://ipapi.is/pricing.html](https://ipapi.is/pricing.html) to help out the project. The API runs on several servers across the globe and currently handles millions of daily requests.
 
