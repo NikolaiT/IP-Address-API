@@ -26,13 +26,30 @@ Usage with `curl`:
 curl 'https://api.incolumitas.com/?q=32.5.140.2'
 ```
 
+## Free API Limitations
+
+It is very costly to maintain the API and takes a lot of time to update the data and maintain and improve the data quality.
+
+For that reason, the free plan is limited to 1000 requests per day.
+
+In order to increase you daily request volume, consider subscribing to a paid plan at [https://ipapi.is/pricing.html](https://ipapi.is/pricing.html) to help out the project. The API runs on several servers across the globe and currently handles millions of daily requests.
+
 ## IP Address Databases Download
 
-This repository contains three databases:
+This repository contains three free databases:
 
 + Geolocation Database - free - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
 + ASN Database - sample only - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's). You can get the [full database here](https://ipapi.is/).
 + Hosting IP Ranges Database - sample only - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers. You can get the [full database here](https://ipapi.is/).
+
+## Commercial Databases
+
+If you want to use accurate and frequently updated IP address data for commercial projects, consider using the commercial databases at [ipapi.is](https://ipapi.is)
+
++ [IP to Hosting Database](https://ipapi.is/hosting-detection.html) - **Commercial** -  Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. The database contains very small and niche hosting providers.
++ [IP to Geolocation Database](https://ipapi.is/geolocation.html) - **Free** - Contains the geographical location (Including coordinates, city name and country) of millions of unique IPv4 and IPv6 networks.
++ [IP to ASN Database](https://ipapi.is/asn.html) - **Commercial** - This database includes rich meta data for all active and inactive ASNs of the Internet. Currently, there are around 85.000 active ASNs and hundreds of thousands inactive/unassigned ASNs.
++ [IP to VPN Database](https://ipapi.is/vpn-detection.html) - **Commercial** - The IP to VPN Database is a database that contains VPN IP addresses from well-known providers like ExpressVPN and NordVPN. Additionally, the database contains IP ranges from other VPN providers from which the provider's name is not known.
 
 ## Geolocation Database
 
