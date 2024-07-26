@@ -47,7 +47,7 @@ This repository contains three free databases:
 If you want to use accurate and frequently updated IP address data for commercial projects, consider using the commercial databases at [ipapi.is](https://ipapi.is)
 
 + [IP to Hosting Database](https://ipapi.is/hosting-detection.html) - **Commercial** -  Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. The database contains very small and niche hosting providers.
-+ [IP to Geolocation Database](https://ipapi.is/geolocation.html) - **Free** - Contains the geographical location (Including coordinates, city name and country) of millions of unique IPv4 and IPv6 networks.
++ [IP to Geolocation Database](https://ipapi.is/geolocation.html) - **Free & Commercial** - Contains the geographical location (Including coordinates, city name and country) of millions of unique IPv4 and IPv6 networks.
 + [IP to ASN Database](https://ipapi.is/asn.html) - **Commercial** - This database includes rich meta data for all active and inactive ASNs of the Internet. Currently, there are around 85.000 active ASNs and hundreds of thousands inactive/unassigned ASNs.
 + [IP to VPN Database](https://ipapi.is/vpn-detection.html) - **Commercial** - The IP to VPN Database is a database that contains VPN IP addresses from well-known providers like ExpressVPN and NordVPN. Additionally, the database contains IP ranges from other VPN providers from which the provider's name is not known.
 
