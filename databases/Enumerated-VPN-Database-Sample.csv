@@ -1,501 +1,501 @@
 startIp,endIp,ipVersion,serviceName,serviceUrl,exitNodeType,lastSeen,exitNodeRegion,hostname
-185.199.102.183,185.199.102.183,4,NordVPN,https://nordvpn.com,exit_node,1736459463024,New York,visit.keznews.com
-193.160.101.150,193.160.101.150,4,NordVPN,https://nordvpn.com,exit_node,1734888310107,,
-176.126.84.136,176.126.84.136,4,Celo VPN,https://celo.net,vpn_server,1737973562672,Sweden - Stockholm (UDP 1194),kennedy.brispec.com
-194.34.233.12,194.34.233.12,4,NordVPN,https://nordvpn.com,exit_node,1736547385411,Milan,
-104.234.212.62,104.234.212.62,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143881,,barton.valueunltd.com
-45.80.28.222,45.80.28.222,4,NordVPN,https://nordvpn.com,exit_node,1736910588735,Milan,
-45.13.191.98,45.13.191.98,4,ExpressVPN,https://expressvpn.com,exit_node,1731424118598,Norway,
-128.90.145.254,128.90.145.254,4,VyprVPN,https://vyprvpn.com,vpn_server,1737975537318,,undefined.hostname.localhost
-194.5.155.241,194.5.155.241,4,NordVPN,https://nordvpn.com,exit_node,1736016516295,,
-109.169.53.220,109.169.53.220,4,WiTopia VPN,https://witopia.net,vpn_server,1737974964596,UK - London,
-2001:ac8:28:4:3d90:2a7c:ac1a:3bc6,2001:ac8:28:4:3d90:2a7c:ac1a:3bc6,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Zurich, Switzerland",
-45.88.222.19,45.88.222.19,4,NordVPN,https://nordvpn.com,exit_node,1733495616121,,
-93.177.75.26,93.177.75.26,4,TorGuard,https://torguard.net,vpn_server,1737975537312,,
-195.80.150.186,195.80.150.186,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-195.88.86.164,195.88.86.164,4,NordVPN,https://nordvpn.com,exit_node,1731120264303,Istanbul,
-146.70.201.194,146.70.201.194,4,MullvadVPN,https://mullvad.net,vpn_server,1737975572086,"Tokyo, Japan",
-146.19.156.158,146.19.156.158,4,NordVPN,https://nordvpn.com,exit_node,1736320755689,Belgrade,undefined.hostname.localhost
-185.242.6.117,185.242.6.117,4,Surfshark,https://surfshark.com,vpn_server,1737975502692,cz-prg.prod.surfshark.com_tcp,
-185.161.202.182,185.161.202.182,4,NordVPN,https://nordvpn.com,exit_node,1733495616171,,
-94.101.115.150,94.101.115.150,4,NordVPN,https://nordvpn.com,exit_node,1735833494172,,
-50.114.94.23,50.114.94.23,4,ExpressVPN,https://expressvpn.com,exit_node,1728511838601,USA - Houston,
-154.16.49.85,154.16.49.85,4,CyberGhost,https://cyberghostvpn.com,exit_node,1734631499635,,
-45.83.145.52,45.83.145.52,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143880,,
-178.132.110.31,178.132.110.31,4,NordVPN,https://nordvpn.com,exit_node,1729173409436,Bratislava,
-45.80.156.183,45.80.156.183,4,ExpressVPN,https://expressvpn.com,vpn_server,1737975537293,"Marina Bay, Singapore",
-178.132.110.49,178.132.110.49,4,NordVPN,https://nordvpn.com,exit_node,1735163023022,Bratislava,
-79.127.141.51,79.127.141.51,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143881,,unn-79-127-141-51.datapacket.com
-216.131.105.130,216.131.105.130,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Brussels, Belgium",216-131-105-130.bru.as62651.net
-45.86.203.110,45.86.203.110,4,ExpressVPN,https://expressvpn.com,exit_node,1732985251774,UK - Midlands,
-185.225.234.27,185.225.234.27,4,NordVPN,https://nordvpn.com,exit_node,1732072176691,Hong Kong,
-178.132.111.8,178.132.111.8,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
-128.90.175.14,128.90.175.14,4,VyprVPN,https://vyprvpn.com,exit_node,1737800456818,,undefined.hostname.localhost
-149.102.245.142,149.102.245.142,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,unn-149-102-245-142.datapacket.com
-84.239.62.250,84.239.62.250,4,ExpressVPN,https://expressvpn.com,vpn_server,1737975418674,my_expressvpn_australia_-_adelaide_udp,
-192.145.119.71,192.145.119.71,4,NordVPN,https://nordvpn.com,exit_node,1729380279510,Phoenix,
-146.70.200.130,146.70.200.130,4,MullvadVPN,https://mullvad.net,vpn_server,1737975572086,"Sydney, Australia",
-181.215.195.233,181.215.195.233,4,NordVPN,https://nordvpn.com,exit_node,1737800408084,,
-77.75.121.99,77.75.121.99,4,NordVPN,https://nordvpn.com,exit_node,1737978143856,,77-75-121-99.as42831.net
-83.171.250.176,83.171.250.176,4,NordVPN,https://nordvpn.com,exit_node,1729104630129,Los Angeles,
-181.214.165.53,181.214.165.53,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-95.214.216.227,95.214.216.227,4,NordVPN,https://nordvpn.com,exit_node,1736198167871,Warsaw,
-194.110.85.249,194.110.85.249,4,NordVPN,https://nordvpn.com,exit_node,1734709769711,Luxembourg,
-193.142.203.38,193.142.203.38,4,NordVPN,https://nordvpn.com,exit_node,1731366594969,Prague,
-185.204.1.225,185.204.1.225,4,MullvadVPN,https://mullvad.net,exit_node,1734890526840,,host-185-204-1-225.creanova.org
-156.146.47.149,156.146.47.149,4,NordVPN,https://nordvpn.com,exit_node,1737978143855,,unn-156-146-47-149.cdn77.com
-45.38.140.13,45.38.140.13,4,ExpressVPN,https://expressvpn.com,vpn_server,1737975537293,"New Jersey, USA",
-185.192.71.233,185.192.71.233,4,ExpressVPN,https://expressvpn.com,exit_node,1728129397682,UK - London,
-185.215.181.6,185.215.181.6,4,NordVPN,https://nordvpn.com,exit_node,1734200492861,,
-45.133.5.88,45.133.5.88,4,ExpressVPN,https://expressvpn.com,exit_node,1728437051573,Australia - Sydney,
-45.13.191.44,45.13.191.44,4,ExpressVPN,https://expressvpn.com,exit_node,1735696864400,Norway,
-146.70.225.253,146.70.225.253,4,MullvadVPN,https://mullvad.net,exit_node,1729101655836,it-mil-ovpn-202,
-45.8.25.74,45.8.25.74,4,ExpressVPN,https://expressvpn.com,exit_node,1736958894565,Indonesia,
-194.187.251.34,194.187.251.34,4,TorGuard,https://torguard.net,vpn_server,1737975537312,,host34.totalab.us
-185.199.101.222,185.199.101.222,4,NordVPN,https://nordvpn.com,exit_node,1736016516374,,
-138.199.35.106,138.199.35.106,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,unn-138-199-35-106.datapacket.com
-45.91.22.70,45.91.22.70,4,ExpressVPN,https://expressvpn.com,exit_node,1736767808421,France - Paris - 1,
-95.153.31.120,95.153.31.120,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,
-45.133.5.119,45.133.5.119,4,ExpressVPN,https://expressvpn.com,exit_node,1732990093961,Australia - Sydney,
-45.14.195.77,45.14.195.77,4,NordVPN,https://nordvpn.com,exit_node,1734467053663,Buffalo,
-81.22.39.58,81.22.39.58,4,NordVPN,https://nordvpn.com,exit_node,1734888310107,,
-178.249.212.142,178.249.212.142,4,NordVPN,https://nordvpn.com,exit_node,1737978143855,,unn-178-249-212-142.datapacket.com
-46.183.108.21,46.183.108.21,4,NordVPN,https://nordvpn.com,exit_node,1737800408084,,
-185.44.78.63,185.44.78.63,4,WiTopia VPN,https://witopia.net,vpn_server,1737974964596,UK - London,63.78.44.185.baremetal.zare.com
-91.196.221.73,91.196.221.73,4,NordVPN,https://nordvpn.com,exit_node,1731993763963,London,
-91.90.124.133,91.90.124.133,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737973581019,Isle of Man,
-216.131.108.8,216.131.108.8,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Zurich, Switzerland",216-131-108-8.zrh.as62651.net
-194.61.41.31,194.61.41.31,4,ExpressVPN,https://expressvpn.com,exit_node,1735933122321,Philippines,
-185.172.53.183,185.172.53.183,4,NordVPN,https://nordvpn.com,exit_node,1737059113618,Saint Louis,
-213.152.161.87,213.152.161.87,4,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Alblasserdam, Netherlands",hosted-by.airvpn.org
-216.131.108.160,216.131.108.160,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Zurich, Switzerland",216-131-108-160.vdu.as62651.net
-77.81.142.158,77.81.142.158,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737973581843,Mexico,
-149.102.245.162,149.102.245.162,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,unn-149-102-245-162.datapacket.com
-212.103.60.119,212.103.60.119,4,NordVPN,https://nordvpn.com,exit_node,1735942878826,Vienna,
-185.238.231.98,185.238.231.98,4,ExpressVPN,https://expressvpn.com,exit_node,1728295869955,USA - Denver,
-192.30.89.28,192.30.89.28,4,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Vancouver, Canada",
-95.211.95.19,95.211.95.19,4,IVPN,https://ivpn.net,vpn_server,1737975537295,"Amsterdam, Netherlands",
-84.239.10.149,84.239.10.149,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1736193342811,US Virginia,
-45.84.136.211,45.84.136.211,4,NordVPN,https://nordvpn.com,exit_node,1728866104726,Paris,
-146.70.211.232,146.70.211.232,4,MullvadVPN,https://mullvad.net,exit_node,1728214134761,us-dal-ovpn-001,
-194.126.177.108,194.126.177.108,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-195.181.170.228,195.181.170.228,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,unn-195-181-170-228.datapacket.com
-108.161.151.123,108.161.151.123,4,SlickVPN,https://slickvpn.com,vpn_server,1737975537311,"San Diego, United States",
-146.70.202.54,146.70.202.54,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-146.70.132.12,146.70.132.12,4,MullvadVPN,https://mullvad.net,exit_node,1734817826497,gb-mnc-ovpn-001,
-212.92.104.212,212.92.104.212,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,
-194.61.40.158,194.61.40.158,4,ExpressVPN,https://expressvpn.com,exit_node,1733766814321,India (via Singapore),
-83.171.250.224,83.171.250.224,4,NordVPN,https://nordvpn.com,exit_node,1733495616121,,
-91.193.232.16,91.193.232.16,4,ExpressVPN,https://expressvpn.com,exit_node,1728389166908,USA - Atlanta,
-128.90.161.12,128.90.161.12,4,VyprVPN,https://vyprvpn.com,exit_node,1737800456818,,undefined.hostname.localhost
-45.155.40.246,45.155.40.246,4,NordVPN,https://nordvpn.com,exit_node,1736696687676,Budapest,
-139.28.218.151,139.28.218.151,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,haircut.ductinmedi.com
-79.127.160.205,79.127.160.205,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143882,,unn-79-127-160-205.datapacket.com
-136.144.35.103,136.144.35.103,4,ExpressVPN,https://expressvpn.com,exit_node,1731427046447,USA - New Jersey - 3,
-85.9.20.136,85.9.20.136,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-2.57.169.180,2.57.169.180,4,ExpressVPN,https://expressvpn.com,exit_node,1728505984432,Canada - Toronto - 2,
-85.8.130.76,85.8.130.76,4,ExpressVPN,https://expressvpn.com,exit_node,1728640303535,USA - Seattle,
-178.132.107.237,178.132.107.237,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
-45.132.225.223,45.132.225.223,4,ExpressVPN,https://expressvpn.com,exit_node,1728399827429,Australia - Melbourne,
-37.19.213.178,37.19.213.178,4,NordVPN,https://nordvpn.com,exit_node,1736937577481,Toronto,unn-37-19-213-178.datapacket.com
-103.137.12.117,103.137.12.117,4,NordVPN,https://nordvpn.com,exit_node,1735697052647,Brisbane,
-93.177.73.234,93.177.73.234,4,TorGuard,https://torguard.net,vpn_server,1737975537312,,
-194.59.249.14,194.59.249.14,4,GooseVPN,https://goosevpn.com,vpn_server,1737975431108,fr-6,
-216.131.79.180,216.131.79.180,4,IPVanish,https://ipvanish.com,exit_node,1725505300871,dal-b46.ipvanish.com,216-131-79-180.dal.as62651.net
-87.120.102.68,87.120.102.68,4,NordVPN,https://nordvpn.com,exit_node,1736016516295,,87-120-102-68.madcom.al
-198.54.134.55,198.54.134.55,4,MullvadVPN,https://mullvad.net,exit_node,1733215071239,us-sjc-ovpn-001,static-198-54-134-55.cust.tzulo.com
-62.128.217.85,62.128.217.85,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1737975537294,,no-ptr.as20860.net
-2a03:1b20:7:f011::6f,2a03:1b20:7:f011::6f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"London, UK",
-173.244.55.149,173.244.55.149,4,ExpressVPN,https://expressvpn.com,exit_node,1736926046235,Bolivia,
-37.140.254.68,37.140.254.68,4,ExpressVPN,https://expressvpn.com,exit_node,1732919687498,Switzerland,
-156.59.42.130,156.59.42.130,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Seoul, Korea",
-146.70.173.4,146.70.173.4,4,MullvadVPN,https://mullvad.net,exit_node,1730565696282,us-lax-wg-401,
-163.5.241.70,163.5.241.70,4,ExpressVPN,https://expressvpn.com,exit_node,1734035032584,France - Paris - 2,
-130.195.250.115,130.195.250.115,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-149.88.20.138,149.88.20.138,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,unn-149-88-20-138.datapacket.com
-64.64.99.10,64.64.99.10,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1736308612265,Bolivia,
-156.67.94.14,156.67.94.14,4,NordVPN,https://nordvpn.com,exit_node,1737975221189,,
-185.215.181.175,185.215.181.175,4,NordVPN,https://nordvpn.com,exit_node,1732809277787,Atlanta,
-89.147.101.69,89.147.101.69,4,NordVPN,https://nordvpn.com,exit_node,1735828779347,Seoul,
-86.106.20.115,86.106.20.115,4,NordVPN,https://nordvpn.com,exit_node,1737978143858,,
-194.110.85.81,194.110.85.81,4,NordVPN,https://nordvpn.com,exit_node,1731854136996,Luxembourg,
-185.211.32.214,185.211.32.214,4,NordVPN,https://nordvpn.com,exit_node,1733191771442,San Francisco,
-45.95.243.42,45.95.243.42,4,ExpressVPN,https://expressvpn.com,exit_node,1728432509479,Austria,
-2a00:1678:1337:2330:12bf:12b3:f675:d486,2a00:1678:1337:2330:12bf:12b3:f675:d486,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Alblasserdam, Netherlands",
-45.141.123.61,45.141.123.61,4,NordVPN,https://nordvpn.com,exit_node,1737800408033,,
-94.156.205.42,94.156.205.42,4,NordVPN,https://nordvpn.com,exit_node,1732837782363,Taipei,
-45.155.40.174,45.155.40.174,4,NordVPN,https://nordvpn.com,exit_node,1728697568193,Budapest,
-194.5.53.132,194.5.53.132,4,ExpressVPN,https://expressvpn.com,exit_node,1728493050408,France - Paris - 2,
-37.140.254.120,37.140.254.120,4,ExpressVPN,https://expressvpn.com,exit_node,1731366963326,Switzerland,
-13.38.35.60,13.38.35.60,4,X-VPN,https://xvpn.io,exit_node,1737978143850,,ec2-13-38-35-60.eu-west-3.compute.amazonaws.com
-79.127.182.146,79.127.182.146,4,MullvadVPN,https://mullvad.net,exit_node,1737292533578,hu-bud-wg-201,unn-79-127-182-146.datapacket.com
-103.137.12.246,103.137.12.246,4,NordVPN,https://nordvpn.com,exit_node,1730505113745,Brisbane,
-156.146.40.205,156.146.40.205,4,IVPN,https://ivpn.net,vpn_server,1737975537295,"Bratislava, Slovakia",unn-156-146-40-205.cdn77.com
-45.154.138.32,45.154.138.32,4,ExpressVPN,https://expressvpn.com,exit_node,1735161696739,France - Marseille,
-188.213.34.12,188.213.34.12,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-37.235.53.233,37.235.53.233,4,VPNArea,https://vpnarea.com,vpn_server,1737975487801,Spain-Madrid-P2P,233.53.235.37.in-addr.arpa
-198.54.132.37,198.54.132.37,4,ExpressVPN,https://expressvpn.com,exit_node,1730296718504,Finland,static-198-54-132-37.cust.tzulo.com
-146.70.200.186,146.70.200.186,4,MullvadVPN,https://mullvad.net,exit_node,1729688746166,au-syd-ovpn-001,
-5.154.174.195,5.154.174.195,4,NordVPN,https://nordvpn.com,exit_node,1730580716763,Lisbon,
-193.203.13.80,193.203.13.80,4,NordVPN,https://nordvpn.com,exit_node,1737800408033,,
-185.65.135.252,185.65.135.252,4,MullvadVPN,https://mullvad.net,exit_node,1732159521412,se-sto-wg-008,
-138.199.59.130,138.199.59.130,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-128.90.154.5,128.90.154.5,4,VyprVPN,https://vyprvpn.com,exit_node,1737975258368,,undefined.hostname.localhost
-45.10.152.66,45.10.152.66,4,NordVPN,https://nordvpn.com,exit_node,1730058839893,Copenhagen,
-209.160.115.4,209.160.115.4,4,VyprVPN,https://vyprvpn.com,exit_node,1737975258336,,
-185.213.83.58,185.213.83.58,4,NordVPN,https://nordvpn.com,exit_node,1736715673990,Jakarta,
-149.50.218.68,149.50.218.68,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,unn-149-50-218-68.datapacket.com
-2.59.157.208,2.59.157.208,4,NordVPN,https://nordvpn.com,exit_node,1736315849036,Miami,
-108.165.232.34,108.165.232.34,4,ExpressVPN,https://expressvpn.com,exit_node,1734042395786,Brazil,
-2404:f780:4:dec::a02f,2404:f780:4:dec::a02f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Brisbane, Australia",
-203.159.81.50,203.159.81.50,4,ExpressVPN,https://expressvpn.com,exit_node,1733667139092,Israel,
-195.88.86.245,195.88.86.245,4,NordVPN,https://nordvpn.com,exit_node,1735384325294,Istanbul,
-185.213.82.186,185.213.82.186,4,NordVPN,https://nordvpn.com,exit_node,1733838515979,Taipei,
-146.19.88.153,146.19.88.153,4,NordVPN,https://nordvpn.com,exit_node,1733205658561,Sofia,
-45.130.136.24,45.130.136.24,4,ExpressVPN,https://expressvpn.com,exit_node,1737068709847,Spain - Barcelona,
-192.200.148.168,192.200.148.168,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Atlanta, United States",192-200-148-168.atl.as62651.net
-185.225.234.30,185.225.234.30,4,NordVPN,https://nordvpn.com,exit_node,1732985457346,Hong Kong,
-82.102.19.81,82.102.19.81,4,MullvadVPN,https://mullvad.net,exit_node,1735940393361,be-bru-ovpn-101,
-194.32.120.210,194.32.120.210,4,ExpressVPN,https://expressvpn.com,exit_node,1728320498618,UK - London,
-95.214.216.54,95.214.216.54,4,NordVPN,https://nordvpn.com,exit_node,1731715390588,Warsaw,
-95.173.221.99,95.173.221.99,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143881,,unn-95-173-221-99.datapacket.com
-185.212.111.147,185.212.111.147,4,NordVPN,https://nordvpn.com,vpn_server,1737975537296,"Sarajevo, Bosnia and Herzegovina",
-45.128.199.141,45.128.199.141,4,ExpressVPN,https://expressvpn.com,exit_node,1731307701694,Netherlands - Amsterdam,
-185.153.179.49,185.153.179.49,4,NordVPN,https://nordvpn.com,exit_node,1729367888669,Vancouver,
-149.88.105.72,149.88.105.72,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,unn-149-88-105-72.datapacket.com
-173.244.43.8,173.244.43.8,4,ExpressVPN,https://expressvpn.com,exit_node,1737069758354,Bermuda,mta.accounts.todaycard.com
-2.58.74.204,2.58.74.204,4,NordVPN,https://nordvpn.com,exit_node,1733202949218,Zagreb,
-185.214.96.117,185.214.96.117,4,NordVPN,https://nordvpn.com,exit_node,1728902022523,Riga,
-45.89.242.14,45.89.242.14,4,ExpressVPN,https://expressvpn.com,exit_node,1733667891147,UK - Docklands,
-85.203.34.157,85.203.34.157,4,ExpressVPN,https://expressvpn.com,exit_node,1728495943893,UK - East London,
-66.90.82.30,66.90.82.30,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,
-207.204.228.76,207.204.228.76,4,IPVanish,https://ipvanish.com,exit_node,1725483505364,las-c12.ipvanish.com,76.228.204.207.client.dyn.strong-sf22.as22781.net
-193.37.32.223,193.37.32.223,4,ExpressVPN,https://expressvpn.com,exit_node,1735828519141,Singapore - Jurong,
-185.196.22.159,185.196.22.159,4,NordVPN,https://nordvpn.com,vpn_server,1737975537296,"Frankfurt, Germany",
-91.242.248.237,91.242.248.237,4,NordVPN,https://nordvpn.com,exit_node,1737975221220,,
-69.16.147.142,69.16.147.142,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Copenhagen, Denmark",69-16-147-142.cph.as62651.net
-185.245.87.227,185.245.87.227,4,NordVPN,https://nordvpn.com,exit_node,1737978143853,,no-mans-land.m247.com
-45.133.172.78,45.133.172.78,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1734039475641,UK Manchester,
-136.144.33.119,136.144.33.119,4,ExpressVPN,https://expressvpn.com,exit_node,1733425183379,USA - Los Angeles - 1,
-146.70.174.146,146.70.174.146,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143859,,
-45.84.139.58,45.84.139.58,4,NordVPN,https://nordvpn.com,exit_node,1736969690638,Frankfurt,
-45.131.194.238,45.131.194.238,4,ExpressVPN,https://expressvpn.com,exit_node,1732824471593,USA - San Francisco,
-173.239.217.160,173.239.217.160,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-191.101.217.218,191.101.217.218,4,CyberGhost,https://cyberghostvpn.com,exit_node,1733512555427,,
-185.203.218.133,185.203.218.133,4,NordVPN,https://nordvpn.com,exit_node,1734983352849,,
-146.70.168.57,146.70.168.57,4,MullvadVPN,https://mullvad.net,exit_node,1732833226722,us-nyc-ovpn-501,
-191.96.150.7,191.96.150.7,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-185.245.86.54,185.245.86.54,4,NordVPN,https://nordvpn.com,exit_node,1737978143852,,no-mans-land.m247.com
-94.131.12.81,94.131.12.81,4,VPN Unlimited,https://vpnunlimitedapp.com,vpn_server,1737975537318,,ch.vpnunlimited.com
-173.239.200.147,173.239.200.147,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737973581861,Malaysia,
-93.114.129.67,93.114.129.67,4,NordVPN,https://nordvpn.com,exit_node,1735833494172,,
-84.239.41.131,84.239.41.131,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1732901122746,US Pennsylvania,
-138.199.18.82,138.199.18.82,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,unn-138-199-18-82.datapacket.com
-2607:9000:a000:25:ed56:4d76:d22e:88da,2607:9000:a000:25:ed56:4d76:d22e:88da,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"New York City, United States",
-88.150.180.82,88.150.180.82,4,VPN Unlimited,https://vpnunlimitedapp.com,vpn_server,1737975537318,,
-98.159.43.31,98.159.43.31,4,ExpressVPN,https://expressvpn.com,exit_node,1731829681730,Thailand,
-102.165.16.103,102.165.16.103,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-193.142.203.40,193.142.203.40,4,NordVPN,https://nordvpn.com,exit_node,1731832697433,Prague,
-45.144.113.146,45.144.113.146,4,NordVPN,https://nordvpn.com,exit_node,1733495616122,,
-78.159.107.69,78.159.107.69,4,VPN.ac,https://vpn.ac,vpn_server,1737975487301,germany-aes256-tcp,
-102.129.232.13,102.129.232.13,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1731355455796,US Silicon Valley,
-143.244.39.26,143.244.39.26,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975502046,uk_london,unn-143-244-39-26.datapacket.com
-45.86.203.34,45.86.203.34,4,ExpressVPN,https://expressvpn.com,exit_node,1731093684724,UK - Midlands,
-185.81.125.85,185.81.125.85,4,NordVPN,https://nordvpn.com,exit_node,1737800408033,,
-178.132.107.63,178.132.107.63,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
-178.132.109.27,178.132.109.27,4,NordVPN,https://nordvpn.com,exit_node,1731346796315,Bucharest,
-45.134.224.170,45.134.224.170,4,NordVPN,https://nordvpn.com,exit_node,1734618231798,,
-136.144.42.101,136.144.42.101,4,ExpressVPN,https://expressvpn.com,exit_node,1736193430948,USA - Washington DC,
-45.14.192.136,45.14.192.136,4,NordVPN,https://nordvpn.com,exit_node,1734888310109,,
-216.131.114.18,216.131.114.18,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Frankfurt, Germany",216-131-114-18.fra.as54203.net
-102.129.232.118,102.129.232.118,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737973633289,US Silicon Valley,
-185.159.156.148,185.159.156.148,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143859,,
-185.159.156.137,185.159.156.137,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143859,,
-2001:ac8:40:b1::1f,2001:ac8:40:b1::1f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Tokyo, Japan",
-91.232.28.117,91.232.28.117,4,IVPN,https://ivpn.net,exit_node,1728312807208,"Seattle, WA",each-kiss.rogueother.com
-212.102.57.97,212.102.57.97,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1733202093197,DE Frankfurt,unn-212-102-57-97.cdn77.com
-84.239.47.17,84.239.47.17,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1735679133522,US Connecticut,aaabirotica.ro
-196.245.54.162,196.245.54.162,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1732839395696,ES Valencia,
-156.67.94.158,156.67.94.158,4,NordVPN,https://nordvpn.com,exit_node,1728203925919,Athens,
-185.183.105.130,185.183.105.130,4,Windscribe,https://windscribe.com,vpn_server,1737975567474,Italy,
-185.113.140.77,185.113.140.77,4,SaferVPN,https://safervpn.com,vpn_server,1737975465332,Portugal,freeze-tandem.pinkworkhub.com
-85.203.21.19,85.203.21.19,4,ExpressVPN,https://expressvpn.com,exit_node,1733659004002,Singapore - Jurong,
-89.147.101.154,89.147.101.154,4,NordVPN,https://nordvpn.com,exit_node,1729988059936,Seoul,
-203.159.81.75,203.159.81.75,4,ExpressVPN,https://expressvpn.com,exit_node,1732996374461,Israel,
-91.90.122.43,91.90.122.43,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-2a02:29b8:dc01:1832::a1f,2a02:29b8:dc01:1832::a1f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Zurich, Switzerland",
-85.203.44.191,85.203.44.191,4,ExpressVPN,https://expressvpn.com,exit_node,1737058330227,Sweden,
-45.88.221.249,45.88.221.249,4,NordVPN,https://nordvpn.com,exit_node,1733495616202,,
-45.155.42.80,45.155.42.80,4,NordVPN,https://nordvpn.com,exit_node,1737978143857,,
-91.193.232.147,91.193.232.147,4,ExpressVPN,https://expressvpn.com,exit_node,1731217046420,USA - Atlanta,
-77.81.142.92,77.81.142.92,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-185.214.96.248,185.214.96.248,4,NordVPN,https://nordvpn.com,exit_node,1729443973205,Riga,
-45.80.184.9,45.80.184.9,4,NordVPN,https://nordvpn.com,exit_node,1734713950861,Bangkok,
-156.67.94.136,156.67.94.136,4,NordVPN,https://nordvpn.com,exit_node,1733667799317,Athens,
-91.196.69.9,91.196.69.9,4,NordVPN,https://nordvpn.com,exit_node,1737978143856,,
-194.5.53.10,194.5.53.10,4,ExpressVPN,https://expressvpn.com,exit_node,1737139255397,France - Paris - 2,
-149.102.236.220,149.102.236.220,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,unn-149-102-236-220.datapacket.com
-196.196.53.14,196.196.53.14,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-5.62.56.128,5.62.56.128,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1737975537294,"Montego Bay, Jamaica",r-128-56-62-5.consumer-pool.prcdn.net
-156.67.94.36,156.67.94.36,4,NordVPN,https://nordvpn.com,exit_node,1729439064511,Athens,
-198.54.135.79,198.54.135.79,4,MullvadVPN,https://mullvad.net,exit_node,1728061735369,us-qas-wg-002,static-198-54-135-79.cust.tzulo.com
-95.181.239.16,95.181.239.16,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-178.132.106.172,178.132.106.172,4,NordVPN,https://nordvpn.com,exit_node,1734888310109,,
-68.235.46.205,68.235.46.205,4,MullvadVPN,https://mullvad.net,exit_node,1736354734490,,round1.sorehandsworld.com
-45.92.229.247,45.92.229.247,4,ExpressVPN,https://expressvpn.com,exit_node,1735243198348,USA - New York,
-158.220.78.94,158.220.78.94,4,NordVPN,https://nordvpn.com,exit_node,1729458859831,Santiago,
-149.22.80.100,149.22.80.100,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,unn-149-22-80-100.datapacket.com
-45.95.243.162,45.95.243.162,4,ExpressVPN,https://expressvpn.com,exit_node,1728318741440,Austria,
-136.144.43.79,136.144.43.79,4,ExpressVPN,https://expressvpn.com,exit_node,1731105588453,USA - Dallas,
-2.58.74.251,2.58.74.251,4,NordVPN,https://nordvpn.com,exit_node,1733841555571,Zagreb,
-93.115.0.35,93.115.0.35,4,MullvadVPN,https://mullvad.net,exit_node,1730000235122,si-lju-wg-002,
-149.18.84.143,149.18.84.143,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-95.181.237.18,95.181.237.18,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-178.132.107.212,178.132.107.212,4,NordVPN,https://nordvpn.com,exit_node,1732193434309,Paris,
-45.133.176.17,45.133.176.17,4,ExpressVPN,https://expressvpn.com,exit_node,1733640637687,Taiwan - 3,
-198.44.129.137,198.44.129.137,4,MullvadVPN,https://mullvad.net,exit_node,1732884684472,us-lax-ovpn-102,static-198-44-129-137.cust.tzulo.com
-91.193.232.63,91.193.232.63,4,ExpressVPN,https://expressvpn.com,exit_node,1728503552817,USA - Atlanta,
-185.246.208.86,185.246.208.86,4,IVPN,https://ivpn.net,vpn_server,1737975537295,"Warsaw, Poland",unn-185-246-208-86.datapacket.com
-141.98.255.144,141.98.255.144,4,MullvadVPN,https://mullvad.net,exit_node,1737018687235,se-mma-ovpn-014,
-146.70.54.90,146.70.54.90,4,TorGuard,https://torguard.net,vpn_server,1737975537312,,
-45.132.227.178,45.132.227.178,4,ExpressVPN,https://expressvpn.com,exit_node,1731532929701,USA - Washington DC,
-85.203.20.96,85.203.20.96,4,ExpressVPN,https://expressvpn.com,exit_node,1733416329073,Croatia,
-5.62.61.96,5.62.61.96,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1737975537294,"Djibouti, Republicof Djibouti",r-96-61-62-5.consumer-pool.prcdn.net
-193.46.242.18,193.46.242.18,4,NordVPN,https://nordvpn.com,exit_node,1734888310109,,
-107.181.177.18,107.181.177.18,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,18.177.181.107.wiredns.net
-45.67.96.88,45.67.96.88,4,ExpressVPN,https://expressvpn.com,exit_node,1737075685761,Australia - Sydney - 2,
-149.22.89.95,149.22.89.95,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,unn-149-22-89-95.datapacket.com
-128.90.159.19,128.90.159.19,4,VyprVPN,https://vyprvpn.com,exit_node,1737800456818,,undefined.hostname.localhost
-223.252.60.100,223.252.60.100,4,PureVPN,https://purevpn.com,vpn_server,1737975537311,"Sydney, Australia",223-252-60-100.as45671.net
-213.152.186.20,213.152.186.20,4,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Alblasserdam, Netherlands",connected-by.global-layer.com
-193.9.37.11,193.9.37.11,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,
-2001:ac8:28:a3::f001,2001:ac8:28:a3::f001,6,MullvadVPN,https://mullvad.net,vpn_server,1737975572086,"Zurich, Switzerland",
-191.96.255.124,191.96.255.124,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1733192259401,US Silicon Valley,
-92.118.63.211,92.118.63.211,4,NordVPN,https://nordvpn.com,exit_node,1731546866631,Sofia,
-85.190.234.166,85.190.234.166,4,NordVPN,https://nordvpn.com,exit_node,1734888310107,,
-156.59.50.233,156.59.50.233,4,MullvadVPN,https://mullvad.net,exit_node,1727520812140,th-bkk-wg-002,
-89.238.141.228,89.238.141.228,4,IVPN,https://ivpn.net,vpn_server,1737975537295,"Manchester, United Kingdom",89.238.141.228.adsl.inet-telecom.org
-2001:ac8:39:23::f,2001:ac8:39:23::f,6,Cryptostorm,https://cryptostorm.is,vpn_server,1737975237229,Italy-Rome_UDP,
-45.134.224.179,45.134.224.179,4,NordVPN,https://nordvpn.com,exit_node,1733495616121,,
-185.132.186.56,185.132.186.56,4,ExpressVPN,https://expressvpn.com,exit_node,1736945737995,South Africa,
-45.67.99.9,45.67.99.9,4,ExpressVPN,https://expressvpn.com,exit_node,1735574878255,Spain - Barcelona - 2,
-188.213.202.17,188.213.202.17,4,ExpressVPN,https://expressvpn.com,exit_node,1731345824635,USA - Tampa - 1,
-2a00:1678:2470:37:801b:661c:47b5:7b5f,2a00:1678:2470:37:801b:661c:47b5:7b5f,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Alblasserdam, Netherlands",
-146.70.221.35,146.70.221.35,4,Windscribe,https://windscribe.com,vpn_server,1737975567474,Serbia,
-149.22.84.87,149.22.84.87,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,unn-149-22-84-87.datapacket.com
-156.146.63.187,156.146.63.187,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,unn-156-146-63-187.cdn77.com
-128.90.119.27,128.90.119.27,4,VyprVPN,https://vyprvpn.com,exit_node,1729889160830,Uruguay,undefined.hostname.localhost
-185.187.243.51,185.187.243.51,4,NordVPN,https://nordvpn.com,exit_node,1737978143854,,
-45.132.225.249,45.132.225.249,4,ExpressVPN,https://expressvpn.com,exit_node,1734044696245,Australia - Melbourne,
-45.133.193.94,45.133.193.94,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,
-2a0d:5600:6:116:2c72:ab:cb01:9170,2a0d:5600:6:116:2c72:ab:cb01:9170,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Miami, United States",
-192.200.158.56,192.200.158.56,4,IPVanish,https://ipvanish.com,vpn_server,1737975537295,"Phoenix, United States",192-200-158-56.phx.as13926.net
-216.151.184.79,216.151.184.79,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"London, United Kingdom",216-151-184-79.lon.as62651.net
-146.70.119.68,146.70.119.68,4,MullvadVPN,https://mullvad.net,exit_node,1730407006446,gb-lon-wg-301,
-176.67.80.204,176.67.80.204,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"Amsterdam, Netherlands",176-67-80-204.ams.as54203.net
-203.209.219.40,203.209.219.40,4,PureVPN,https://purevpn.com,vpn_server,1737975537311,"Melbourne, Australia",ip40.ip219.ip209.ip203.infra.enspire.com.au
-146.70.115.164,146.70.115.164,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,146-70-115-164.pool.ovpn.com
-149.40.63.132,149.40.63.132,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,unn-149-40-63-132.datapacket.com
-196.240.54.43,196.240.54.43,4,NordVPN,https://nordvpn.com,vpn_server,1737975537303,"Riga, Latvia",
-109.236.63.93,109.236.63.93,4,NordVPN,https://nordvpn.com,exit_node,1735561094570,,
-45.88.97.250,45.88.97.250,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1730752668535,DE Frankfurt,
-194.116.208.149,194.116.208.149,4,NordVPN,https://nordvpn.com,exit_node,1732083564829,Athens,
-91.239.7.62,91.239.7.62,4,NordVPN,https://nordvpn.com,exit_node,1733745953634,Tirana,
-181.214.166.229,181.214.166.229,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1730131364301,US Chicago,
-169.150.232.154,169.150.232.154,4,NordVPN,https://nordvpn.com,exit_node,1737978143855,,unn-169-150-232-154.datapacket.com
-91.193.232.177,91.193.232.177,4,ExpressVPN,https://expressvpn.com,exit_node,1731643612771,USA - Atlanta,
-85.203.44.216,85.203.44.216,4,ExpressVPN,https://expressvpn.com,exit_node,1735673300593,Sweden - 2,
-68.235.43.34,68.235.43.34,4,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Chicago IL, USA",
-5.199.135.217,5.199.135.217,4,Anonine,https://anonine.com,vpn_server,1737975052663,Germany-Dusseldorf,
-2.58.241.51,2.58.241.51,4,PrivateVPN,https://privatevpn.com,vpn_server,1737975537310,"Taipei, Taiwan",2-58-241-51.hostinginside.com
-149.40.63.149,149.40.63.149,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,unn-149-40-63-149.datapacket.com
-79.127.134.39,79.127.134.39,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143880,,unn-79-127-134-39.datapacket.com
-185.238.231.66,185.238.231.66,4,ExpressVPN,https://expressvpn.com,exit_node,1735392068427,USA - Denver,
-104.21.96.1,104.21.96.1,4,tigerVPN,https://tigervpn.com,vpn_server,1737975479858,US Seattle,
-195.154.146.140,195.154.146.140,4,VPN.ht,https://vpn.ht,vpn_server,1737975488749,fr-256b,195-154-146-140.rev.poneytelecom.eu
-185.65.134.152,185.65.134.152,4,MullvadVPN,https://mullvad.net,exit_node,1735383045881,nl-ams-ovpn-002,
-45.67.99.55,45.67.99.55,4,ExpressVPN,https://expressvpn.com,exit_node,1731556214517,Spain - Barcelona - 2,
-2a03:1b20:1:f410::a01f,2a03:1b20:1:f410::a01f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Malmö, Sweden",
-136.144.43.155,136.144.43.155,4,ExpressVPN,https://expressvpn.com,exit_node,1734504384920,USA - Dallas,
-37.46.113.228,37.46.113.228,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,lux-net-ip.as51430.net
-178.249.211.2,178.249.211.2,4,NordVPN,https://nordvpn.com,exit_node,1737978143855,,unn-178-249-211-2.datapacket.com
-146.70.202.131,146.70.202.131,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143860,,
-146.19.156.143,146.19.156.143,4,NordVPN,https://nordvpn.com,exit_node,1735379497542,Belgrade,undefined.hostname.localhost
-45.91.23.51,45.91.23.51,4,ExpressVPN,https://expressvpn.com,exit_node,1733939673993,Canada - Montreal,
-87.239.255.32,87.239.255.32,4,NordVPN,https://nordvpn.com,exit_node,1737978143857,,example.com
-62.90.188.146,62.90.188.146,4,SaferVPN,https://safervpn.com,vpn_server,1737975465194,Israel,62-90-188-146.barak.net.il
-185.187.171.62,185.187.171.62,4,NordVPN,https://nordvpn.com,exit_node,1733189137320,Atlanta,
-89.147.101.90,89.147.101.90,4,NordVPN,https://nordvpn.com,exit_node,1735245297113,Seoul,
-79.127.217.44,79.127.217.44,4,MullvadVPN,https://mullvad.net,exit_node,1734988061407,,unn-79-127-217-44.datapacket.com
-146.70.132.69,146.70.132.69,4,MullvadVPN,https://mullvad.net,exit_node,1734501209860,gb-mnc-ovpn-003,
-23.26.220.2,23.26.220.2,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737973581053,India,
-185.192.16.204,185.192.16.204,4,ExpressVPN,https://expressvpn.com,exit_node,1732889581310,Ireland,
-91.214.67.140,91.214.67.140,4,NordVPN,https://nordvpn.com,exit_node,1734888310107,,
-45.14.193.22,45.14.193.22,4,NordVPN,https://nordvpn.com,exit_node,1734200492829,,
-146.70.196.2,146.70.196.2,4,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Budapest, Hungary",
-2a02:6ea0:de08:2::a29f,2a02:6ea0:de08:2::a29f,6,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Toronto, Canada",
-85.203.44.241,85.203.44.241,4,ExpressVPN,https://expressvpn.com,exit_node,1736311047597,Sweden - 2,
-191.101.210.175,191.101.210.175,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1733404019200,AU Sydney,
-45.155.43.145,45.155.43.145,4,NordVPN,https://nordvpn.com,exit_node,1731219453971,Sofia,
-83.171.250.46,83.171.250.46,4,NordVPN,https://nordvpn.com,exit_node,1733495616121,,
-185.91.122.24,185.91.122.24,4,IPVanish,https://ipvanish.com,vpn_server,1737975537294,"London, United Kingdom",185-91-122-24.lon.as54203.net
-64.44.63.98,64.44.63.98,4,TorGuard,https://torguard.net,vpn_server,1737975537312,"Chicago, USA",98-63-44-64.reverse-dns
-145.14.135.130,145.14.135.130,4,NordVPN,https://nordvpn.com,exit_node,1733495616122,,
-178.175.141.222,178.175.141.222,4,NordVPN,https://nordvpn.com,exit_node,1736697150205,Chisinau,
-37.221.112.205,37.221.112.205,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,
-206.221.178.210,206.221.178.210,4,OctaneVPN,https://octanevpn.com,vpn_server,1737975456324,United-States-New-York,
-91.214.67.63,91.214.67.63,4,NordVPN,https://nordvpn.com,exit_node,1731815307224,Amsterdam,
-193.19.207.229,193.19.207.229,4,MullvadVPN,https://mullvad.net,exit_node,1731010154321,it-mil-ovpn-201,
-91.148.238.4,91.148.238.4,4,Privado,https://privado.com,vpn_server,1737975537306,"Frankfurt am Main, Germany",
-108.165.232.11,108.165.232.11,4,ExpressVPN,https://expressvpn.com,exit_node,1732833415709,Brazil,
-45.14.195.105,45.14.195.105,4,NordVPN,https://nordvpn.com,exit_node,1732169512019,Buffalo,
-212.102.37.146,212.102.37.146,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1730916553271,Switzerland,unn-212-102-37-146.cdn77.com
-212.102.49.190,212.102.49.190,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1731527754872,ES Madrid,unn-212-102-49-190.cdn77.com
-45.141.123.59,45.141.123.59,4,NordVPN,https://nordvpn.com,exit_node,1731516577938,Marseille,
-83.219.96.136,83.219.96.136,4,ExpressVPN,https://expressvpn.com,exit_node,1736972805708,Cuba,
-37.120.237.87,37.120.237.87,4,MullvadVPN,https://mullvad.net,exit_node,1728228772202,ca-mtr-ovpn-001,
-192.142.226.21,192.142.226.21,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-192.166.246.200,192.166.246.200,4,NordVPN,https://nordvpn.com,exit_node,1732922128522,Singapore,
-185.132.186.37,185.132.186.37,4,ExpressVPN,https://expressvpn.com,exit_node,1730700845213,South Africa,
-37.235.55.43,37.235.55.43,4,SlickVPN,https://slickvpn.com,vpn_server,1737975537311,"Isle Of Man, United Kingdom",43.55.235.37.in-addr.arpa
-156.146.51.115,156.146.51.115,4,NordVPN,https://nordvpn.com,exit_node,1737978143856,,unn-156-146-51-115.cdn77.com
-109.69.110.140,109.69.110.140,4,NordVPN,https://nordvpn.com,exit_node,1737978143857,,140.110.69.109.baremetal.zare.com
-84.247.50.248,84.247.50.248,4,IPVanish,https://ipvanish.com,exit_node,1725627541101,osl-c06.ipvanish.com,
-5.182.32.96,5.182.32.96,4,NordVPN,https://nordvpn.com,exit_node,1732066483413,Charlotte,
-79.127.144.144,79.127.144.144,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143881,,unn-79-127-144-144.datapacket.com
-191.96.103.91,191.96.103.91,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975502204,us_seattle,
-146.70.202.108,146.70.202.108,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-146.70.132.77,146.70.132.77,4,MullvadVPN,https://mullvad.net,exit_node,1734033175298,gb-mnc-ovpn-003,
-104.200.151.58,104.200.151.58,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-193.160.101.154,193.160.101.154,4,NordVPN,https://nordvpn.com,exit_node,1733937882372,Helsinki,
-173.205.85.48,173.205.85.48,4,MullvadVPN,https://mullvad.net,exit_node,1737143786008,us-uyk-wg-103,173.205.85.48.static.quadranet.com
-173.244.62.54,173.244.62.54,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537306,,
-216.131.109.131,216.131.109.131,4,IPVanish,https://ipvanish.com,exit_node,1725522064833,prg-c15.ipvanish.com,216-131-109-131.prg.as62651.net
-158.220.78.97,158.220.78.97,4,NordVPN,https://nordvpn.com,exit_node,1733653794961,Santiago,
-38.240.225.94,38.240.225.94,4,MullvadVPN,https://mullvad.net,exit_node,1734450599263,,
-86.48.8.31,86.48.8.31,4,NordVPN,https://nordvpn.com,exit_node,1731091170840,Sydney,
-45.85.145.81,45.85.145.81,4,NordVPN,https://nordvpn.com,exit_node,1728168903016,Manassas,
-185.218.127.17,185.218.127.17,4,NordVPN,https://nordvpn.com,exit_node,1733664171435,Sydney,
-185.159.157.138,185.159.157.138,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-193.124.21.198,193.124.21.198,4,NordVPN,https://nordvpn.com,exit_node,1737978143858,,
-173.239.240.24,173.239.240.24,4,ExpressVPN,https://expressvpn.com,exit_node,1735156564242,USA - New Jersey - 3,
-45.88.97.80,45.88.97.80,4,CyberGhost,https://cyberghostvpn.com,exit_node,1733502473856,,
-185.214.96.41,185.214.96.41,4,NordVPN,https://nordvpn.com,exit_node,1729966754013,Riga,
-172.94.110.37,172.94.110.37,4,Ivacy,https://ivacy.com,vpn_server,1737975498165,RS_Belgrade_QR_UDP,
-193.37.33.214,193.37.33.214,4,ExpressVPN,https://expressvpn.com,exit_node,1731980111001,USA - Seattle,
-45.130.105.190,45.130.105.190,4,NordVPN,https://nordvpn.com,exit_node,1732117500576,Frankfurt,
-85.203.15.196,85.203.15.196,4,ExpressVPN,https://expressvpn.com,exit_node,1728666457695,Germany - Frankfurt - 3,
-43.251.164.36,43.251.164.36,4,VyprVPN,https://vyprvpn.com,exit_node,1730138922145,Singapore,
-149.40.58.2,149.40.58.2,4,Surfshark,https://surfshark.com,vpn_server,1737975537311,"Houston, United States",unn-149-40-58-2.datapacket.com
-146.70.168.66,146.70.168.66,4,MullvadVPN,https://mullvad.net,vpn_server,1737975572086,"New York, NY, USA",
-64.64.116.18,64.64.116.18,4,ExpressVPN,https://expressvpn.com,exit_node,1736696897048,USA - Lincoln Park,ids33.ricnxk.co
-95.173.221.48,95.173.221.48,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143880,,unn-95-173-221-48.datapacket.com
-79.127.149.80,79.127.149.80,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143881,,unn-79-127-149-80.datapacket.com
-5.182.110.61,5.182.110.61,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-45.128.133.221,45.128.133.221,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143880,,
-216.238.117.129,216.238.117.129,4,VPN Unlimited,https://vpnunlimitedapp.com,vpn_server,1737975537312,,216-238-117-129.constant.com
-217.64.113.58,217.64.113.58,4,VPNArea,https://vpnarea.com,vpn_server,1737975487801,Italy-Milan-P2P,pbserver2.paperbackshop.co.uk
-107.170.231.171,107.170.231.171,4,LimeVPN,https://limevpn.com,vpn_server,1737973619999,United States 2,
-149.22.84.112,149.22.84.112,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,unn-149-22-84-112.datapacket.com
-45.133.6.73,45.133.6.73,4,ExpressVPN,https://expressvpn.com,exit_node,1731444249808,Australia - Perth,
-95.181.237.22,95.181.237.22,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-192.169.120.45,192.169.120.45,4,HideMe VPN,https://hide.me,exit_node,1731852061074,Taiwan,
-190.93.96.19,190.93.96.19,4,ExpressVPN,https://expressvpn.com,exit_node,1736926452622,Mexico,
-181.215.169.121,181.215.169.121,4,NordVPN,https://nordvpn.com,exit_node,1729529772645,Los Angeles,
-94.156.30.49,94.156.30.49,4,NordVPN,https://nordvpn.com,exit_node,1736854085802,Mumbai,
-173.239.194.181,173.239.194.181,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537306,,
-37.120.197.61,37.120.197.61,4,NordVPN,https://nordvpn.com,exit_node,1737978143854,,
-188.241.80.68,188.241.80.68,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537309,,
-103.53.199.118,103.53.199.118,4,TotalVPN,https://totalvpn.com,vpn_server,1737974948481,Hong Kong - HK,
-185.198.243.176,185.198.243.176,4,ExpressVPN,https://expressvpn.com,exit_node,1729962587676,UK - Docklands,
-84.239.33.19,84.239.33.19,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975537310,,
-185.184.228.160,185.184.228.160,4,NordVPN,https://nordvpn.com,exit_node,1732107896483,New York,
-217.148.140.137,217.148.140.137,4,PureVPN,https://purevpn.com,vpn_server,1737975496169,usphx2-auto-udp-qr,
-185.213.82.240,185.213.82.240,4,NordVPN,https://nordvpn.com,exit_node,1734037453960,Taipei,
-98.159.36.135,98.159.36.135,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1732989760321,Bosnia and Herzegovina,
-194.34.235.211,194.34.235.211,4,NordVPN,https://nordvpn.com,exit_node,1735561094504,,
-192.81.128.78,192.81.128.78,4,GhostPath,https://ghostpath.com,vpn_server,1737975429623,United-States-Palo-Alto,192-81-128-78.ip.linodeusercontent.com
-68.235.43.204,68.235.43.204,4,Windscribe,https://windscribe.com,vpn_server,1737975537319,,
-160.238.37.53,160.238.37.53,4,NordVPN,https://nordvpn.com,exit_node,1731370675252,Seoul,
-45.10.155.230,45.10.155.230,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
-102.129.145.179,102.129.145.179,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1729687575344,US California,
-165.231.182.138,165.231.182.138,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-84.17.52.180,84.17.52.180,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1737975537294,"Zurich, Switzerland",unn-84-17-52-180.cdn77.com
-45.248.78.254,45.248.78.254,4,NordVPN,https://nordvpn.com,exit_node,1736860064479,Perth,
-37.120.131.235,37.120.131.235,4,NordVPN,https://nordvpn.com,exit_node,1737978143852,,
-185.159.158.107,185.159.158.107,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-104.254.90.246,104.254.90.246,4,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Toronto, Ontario, Canada",
-154.47.16.116,154.47.16.116,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1731824542861,Colombia,unn-154-47-16-116.datapacket.com
-146.70.96.69,146.70.96.69,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,
-185.99.3.25,185.99.3.25,4,Windscribe,https://windscribe.com,vpn_server,1737975567474,Bosnia,ba-001.windscribe.com
-91.205.107.133,91.205.107.133,4,NordVPN,https://nordvpn.com,exit_node,1737978143857,,
-193.37.32.219,193.37.32.219,4,ExpressVPN,https://expressvpn.com,exit_node,1728338923844,Singapore - Jurong,
-176.125.229.139,176.125.229.139,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-37.46.115.251,37.46.115.251,4,HideMe VPN,https://hide.me,exit_node,1732106775186,Serbia,rs.as51430.net
-50.114.45.240,50.114.45.240,4,ExpressVPN,https://expressvpn.com,exit_node,1731557234640,Japan - Osaka,
-216.24.216.46,216.24.216.46,4,CyberGhost,https://cyberghostvpn.com,exit_node,1737821955608,,
-94.140.9.213,94.140.9.213,4,NordVPN,https://nordvpn.com,exit_node,1728889730757,Chicago,
-185.216.231.240,185.216.231.240,4,NordVPN,https://nordvpn.com,exit_node,1731096113782,Seattle,
-85.190.238.39,85.190.238.39,4,NordVPN,https://nordvpn.com,exit_node,1737978143856,,
-217.114.38.82,217.114.38.82,4,NordVPN,https://nordvpn.com,exit_node,1737978143854,,
-185.253.160.9,185.253.160.9,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737973632209,Armenia,
-85.203.34.119,85.203.34.119,4,ExpressVPN,https://expressvpn.com,exit_node,1728440575998,UK - East London,
-136.144.19.185,136.144.19.185,4,ExpressVPN,https://expressvpn.com,exit_node,1731455363042,USA - Miami,
-86.104.248.182,86.104.248.182,4,NordVPN,https://nordvpn.com,exit_node,1734200492827,,182.248.104.86.baremetal.zare.com
-2a06:3040::ec4,2a06:3040::ec4,6,Cryptostorm,https://cryptostorm.is,vpn_server,1737975237640,Portugal_UDP,
-191.96.255.72,191.96.255.72,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-185.245.255.74,185.245.255.74,4,NordVPN,https://nordvpn.com,exit_node,1731985370980,Brussels,
-87.120.102.94,87.120.102.94,4,NordVPN,https://nordvpn.com,exit_node,1729380642423,Tirana,87-120-102-94.madcom.al
-136.144.17.218,136.144.17.218,4,ExpressVPN,https://expressvpn.com,exit_node,1732798433112,Canada - Toronto,
-178.218.167.211,178.218.167.211,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,alt1.pvpn.mojsite.com
-149.102.247.242,149.102.247.242,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,unn-149-102-247-242.datapacket.com
-146.70.202.171,146.70.202.171,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143876,,
-149.102.254.83,149.102.254.83,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143879,,unn-149-102-254-83.datapacket.com
-45.133.6.60,45.133.6.60,4,ExpressVPN,https://expressvpn.com,exit_node,1736539002406,Australia - Perth,
-146.70.144.72,146.70.144.72,4,MullvadVPN,https://mullvad.net,exit_node,1728243825825,pl-waw-ovpn-201,
-91.214.67.202,91.214.67.202,4,NordVPN,https://nordvpn.com,exit_node,1734200492827,,
-155.133.15.235,155.133.15.235,4,NordVPN,https://nordvpn.com,exit_node,1735241399960,Mexico,
-146.70.215.219,146.70.215.219,4,NordVPN,https://nordvpn.com,exit_node,1734618231798,,
-194.5.155.108,194.5.155.108,4,NordVPN,https://nordvpn.com,exit_node,1737975221189,,
-45.10.153.197,45.10.153.197,4,NordVPN,https://nordvpn.com,exit_node,1734441862470,,
-153.92.40.137,153.92.40.137,4,NordVPN,https://nordvpn.com,exit_node,1737067034161,Toronto,
-43.225.189.175,43.225.189.175,4,MullvadVPN,https://mullvad.net,exit_node,1737067878963,us-bos-wg-002,
-149.50.209.152,149.50.209.152,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143880,,unn-149-50-209-152.datapacket.com
-185.215.181.131,185.215.181.131,4,NordVPN,https://nordvpn.com,exit_node,1737800408084,,
-185.107.80.78,185.107.80.78,4,Cryptostorm,https://cryptostorm.is,vpn_server,1737975237485,Netherlands_UDP,netherlands.cstorm.is
-185.169.255.48,185.169.255.48,4,NordVPN,https://nordvpn.com,exit_node,1737978143852,,
-85.190.239.106,85.190.239.106,4,NordVPN,https://nordvpn.com,exit_node,1737978143856,,
-45.83.138.14,45.83.138.14,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143877,,
-2001:ac8:23:13:f3b9:3ff5:7cc3:2a0b,2001:ac8:23:13:f3b9:3ff5:7cc3:2a0b,6,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Madrid, Spain",
-185.214.97.101,185.214.97.101,4,NordVPN,https://nordvpn.com,exit_node,1736539419522,Barcelona,
-193.37.32.43,193.37.32.43,4,ExpressVPN,https://expressvpn.com,exit_node,1728547096541,Singapore - Jurong,
-209.58.130.163,209.58.130.163,4,VPN.ac,https://vpn.ac,vpn_server,1737975487779,us-west_san-francisco-aes256-udp,
-190.93.96.8,190.93.96.8,4,ExpressVPN,https://expressvpn.com,exit_node,1734028106027,Mexico,
-172.253.114.139,172.253.114.139,4,Secure VPN,https://securevpn.com,exit_node,1737978143850,,js-in-f139.1e100.net
-37.140.254.69,37.140.254.69,4,ExpressVPN,https://expressvpn.com,exit_node,1728504441544,Switzerland,
-206.217.206.65,206.217.206.65,4,MullvadVPN,https://mullvad.net,exit_node,1733207724211,us-dal-wg-502,noptr.midphase.com
-45.80.28.194,45.80.28.194,4,NordVPN,https://nordvpn.com,exit_node,1737978143857,,
-5.135.35.186,5.135.35.186,4,VPNSecure,https://vpnsecure.me,vpn_server,1737975537318,"Antwerp, France",ip186.ip-5-135-35.eu
-45.14.195.70,45.14.195.70,4,NordVPN,https://nordvpn.com,exit_node,1730503601813,Buffalo,
-185.189.114.186,185.189.114.186,4,IVPN,https://ivpn.net,vpn_server,1737975570413,"Budapest, Hungary",185.189.114.186.adsl.inet-telecom.org
-91.196.220.42,91.196.220.42,4,NordVPN,https://nordvpn.com,exit_node,1737978143854,,
-94.156.205.108,94.156.205.108,4,NordVPN,https://nordvpn.com,exit_node,1736874922160,Taipei,
-94.101.115.176,94.101.115.176,4,NordVPN,https://nordvpn.com,exit_node,1734888310166,,
-179.61.197.218,179.61.197.218,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-185.245.86.35,185.245.86.35,4,NordVPN,https://nordvpn.com,exit_node,1737978143852,,no-mans-land.m247.com
-2a02:6ea0:c201:1::f101,2a02:6ea0:c201:1::f101,6,MullvadVPN,https://mullvad.net,vpn_server,1737975572086,"Prague, Czech Republic",
-185.197.192.28,185.197.192.28,4,NordVPN,https://nordvpn.com,exit_node,1733272263911,Miami,
-216.131.86.10,216.131.86.10,4,StrongVPN,https://strongvpn.com,exit_node,1731020374336,Las Vegas,10.86.131.216.srv.ds35.reliablehosting.com
-173.239.217.175,173.239.217.175,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1737975572855,,
-45.90.222.160,45.90.222.160,4,NordVPN,https://nordvpn.com,exit_node,1731952419854,Vancouver,
-196.196.53.29,196.196.53.29,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1737975537293,,
-85.237.194.101,85.237.194.101,4,ExpressVPN,https://expressvpn.com,exit_node,1728453904420,USA - Chicago,
-192.154.196.183,192.154.196.183,4,NordVPN,https://nordvpn.com,exit_node,1729098181447,Mexico,
-181.41.206.123,181.41.206.123,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1731206885685,US Pennsylvania,
-86.107.55.249,86.107.55.249,4,NordVPN,https://nordvpn.com,exit_node,1733495616121,,
-204.8.98.31,204.8.98.31,4,AirVPN,https://airvpn.org,vpn_server,1737975569309,"Dallas, Texas, United States",
-141.98.255.86,141.98.255.86,4,MullvadVPN,https://mullvad.net,vpn_server,1737975537295,"Malmö, Sweden",
-5.62.59.48,5.62.59.48,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1737975537294,"Providence, USA",r-48-59-62-5.consumer-pool.prcdn.net
-94.156.14.6,94.156.14.6,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1733661183404,Bulgaria,
-198.145.234.30,198.145.234.30,4,Hotspot Shield,https://hotspotshield.com,exit_node,1737010199464,Chile,
-79.135.105.131,79.135.105.131,4,ProtonVPN,https://protonvpn.com,exit_node,1737978143878,,
+91.195.98.82,91.195.98.82,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Romania,
+43.250.207.98,43.250.207.98,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,
+45.87.213.86,45.87.213.86,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Tokyo, Japan",
+193.19.206.45,193.19.206.45,4,NordVPN,,exit_node,1739244952265,,
+196.196.53.61,196.196.53.61,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+196.197.28.141,196.197.28.141,4,ProtonVPN,,exit_node,1739244952280,,
+146.70.166.11,146.70.166.11,4,MullvadVPN,https://mullvad.net,exit_node,1738808318731,New York,
+193.203.12.41,193.203.12.41,4,NordVPN,https://nordvpn.com,exit_node,1735567235900,Stockholm,
+181.214.218.109,181.214.218.109,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,
+67.213.221.19,67.213.221.19,4,TorGuard,https://torguard.net,vpn_server,1739104350224,"New York, USA",
+103.137.12.43,103.137.12.43,4,NordVPN,,exit_node,1739244952259,,
+2606:9580:103:e::f001,2606:9580:103:e::f001,6,Mullvad,https://mullvad.net,vpn_server,1739104517688,"Vancouver, Canada",
+103.107.196.243,103.107.196.243,4,NordVPN,,exit_node,1739244952259,,
+191.96.106.106,191.96.106.106,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518716,,
+119.81.173.141,119.81.173.141,4,VPNArea,https://vpnarea.com,vpn_server,1739103761465,Hong Kong2,8d.ad.5177.ip4.static.sl-reverse.com
+146.70.59.33,146.70.59.33,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+2001:ac8:28:a2::a31f,2001:ac8:28:a2::a31f,6,MullvadVPN,https://mullvad.net,vpn_server,1739104350204,"Zurich, Switzerland",
+178.208.168.3,178.208.168.3,4,vypervpn,,,,United Kingdom,
+45.94.208.192,45.94.208.192,4,NordVPN,,exit_node,1739244952264,,
+85.12.61.9,85.12.61.9,4,Privado,https://privado.com,vpn_server,1739104350223,"Ashburn, United States",
+207.244.100.148,207.244.100.148,4,ibVPN,https://ibvpn.com,vpn_server,1739103792964,USA - New York 4,
+109.69.110.171,109.69.110.171,4,NordVPN,https://nordvpn.com,exit_node,1737800408033,,171.110.69.109.baremetal.zare.com
+195.47.194.177,195.47.194.177,4,MullvadVPN,https://mullvad.net,exit_node,1739050832379,Nicosia,
+5.62.56.236,5.62.56.236,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Balfour Town, Turksand Caicos Islands",r-236-56-62-5.consumer-pool.prcdn.net
+191.96.36.186,191.96.36.186,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+188.212.135.6,188.212.135.6,4,ExpressVPN,https://expressvpn.com,exit_node,1736567885977,Poland,
+45.85.145.140,45.85.145.140,4,NordVPN,https://nordvpn.com,exit_node,1738593783550,Manassas,
+154.47.19.129,154.47.19.129,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Austria,unn-154-47-19-129.datapacket.com
+84.239.7.151,84.239.7.151,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,
+69.16.157.40,69.16.157.40,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Milan, Italy",69-16-157-40.lin.as62651.net
+129.227.90.243,129.227.90.243,4,TunnelBear,https://tunnelbear.com,vpn_server,1739104109038,Singapore,
+173.239.196.173,173.239.196.173,4,expressvpn,,,,pakistan-ca-version-2.expressnetw.com,
+162.218.229.130,162.218.229.130,4,SlickVPN,https://slickvpn.com,vpn_server,1739104350224,"Houston, United States",
+194.35.233.125,194.35.233.125,4,NordVPN,,exit_node,1739244952259,,
+194.187.251.94,194.187.251.94,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Brussels, Belgium",94.251.187.194.in-addr.arpa
+108.181.52.151,108.181.52.151,4,PureVPN,https://purevpn.com,vpn_server,1739104350224,"Seoul, Korea",
+84.247.91.13,84.247.91.13,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+2402:9500:8000:8:8f2d:896f:f3bf:b2b2,2402:9500:8000:8:8f2d:896f:f3bf:b2b2,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Taipei, Taiwan",
+37.46.115.47,37.46.115.47,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,rs.as51430.net
+2a02:6ea0:c034:1::a30f,2a02:6ea0:c034:1::a30f,6,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Amsterdam, Netherlands",unn-ams.cdn77.com
+45.154.154.20,45.154.154.20,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1737298460024,Uruguay,
+185.183.105.146,185.183.105.146,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Italy,
+91.132.139.75,91.132.139.75,4,NordVPN,,exit_node,1739244952258,,
+194.110.85.56,194.110.85.56,4,NordVPN,https://nordvpn.com,exit_node,1737141233202,Luxembourg,
+190.14.37.240,190.14.37.240,4,VPNArea,https://vpnarea.com,vpn_server,1739103761465,Panama,vk36.hndfshouse.info
+37.120.211.171,37.120.211.171,4,NordVPN,,exit_node,1739244952258,,
+185.228.19.239,185.228.19.239,4,NordVPN,https://nordvpn.com,exit_node,1736016516374,,
+61.216.159.176,61.216.159.176,4,TorGuard,https://torguard.net,vpn_server,1739104097741,Taiwan,61-216-159-176.hinet-ip.hinet.net
+198.144.156.79,198.144.156.79,4,VPN.ac,https://vpn.ac,vpn_server,1739104109499,2-hop-CA4-CH1-aes256-udp,
+113.203.221.3,113.203.221.3,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Karachi, Pakistan",
+212.102.39.212,212.102.39.212,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,unn-212-102-39-212.datapacket.com
+193.138.218.217,193.138.218.217,4,MullvadVPN,https://mullvad.net,exit_node,1738911213027,Malmö,
+176.227.241.50,176.227.241.50,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"San Jose, Costa Rica",
+193.29.107.174,193.29.107.174,4,ProtonVPN,,exit_node,1739244952278,,
+142.202.48.211,142.202.48.211,4,Anonine,https://anonine.com,vpn_server,1739103839870,UnitedStates-NewYork,
+84.21.168.223,84.21.168.223,4,NordVPN,https://nordvpn.com,exit_node,1738943853360,,
+79.127.149.69,79.127.149.69,4,ProtonVPN,,exit_node,1739244952280,,unn-79-127-149-69.datapacket.com
+45.91.22.16,45.91.22.16,4,ExpressVPN,https://expressvpn.com,exit_node,1738351133982,France - Paris - 1,
+96.44.191.130,96.44.191.130,4,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Dallas, TX, USA",96.44.191.130.static.quadranet.com
+103.230.144.102,103.230.144.102,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Taipei, Taiwan",
+91.214.169.72,91.214.169.72,4,AirVPN,https://airvpn.org,vpn_server,1739104350201,"Zurich, Switzerland",
+172.93.177.187,172.93.177.187,4,NordVPN,,exit_node,1739244952259,,187-177-93-172.reverse-dns
+72.37.242.43,72.37.242.43,4,WiTopia VPN,https://witopia.net,vpn_server,1739103776744,US - Chicago,
+195.206.183.111,195.206.183.111,4,NordVPN,,exit_node,1739244952258,,111.183.206.195.baremetal.zare.com
+138.199.11.110,138.199.11.110,4,NordVPN,,exit_node,1739244952265,,unn-138-199-11-110.datapacket.com
+37.19.218.197,37.19.218.197,4,WeVPN,https://wevpn.com,vpn_server,1739104350224,,unn-37-19-218-197.datapacket.com
+79.127.187.157,79.127.187.157,4,ProtonVPN,,exit_node,1739244952274,,unn-79-127-187-157.datapacket.com
+181.41.206.106,181.41.206.106,4,pia,,,,us_denver,
+196.240.54.114,196.240.54.114,4,ProtonVPN,,exit_node,1739244952273,,
+149.34.253.7,149.34.253.7,4,NordVPN,,exit_node,1739244952263,,unn-149-34-253-7.datapacket.com
+37.19.195.162,37.19.195.162,4,NordVPN,,exit_node,1739244952263,,unn-37-19-195-162.datapacket.com
+2606:6080:1001:f:9fcf:2f1a:d992:1543,2606:6080:1001:f:9fcf:2f1a:d992:1543,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Toronto, Ontario, Canada",
+109.236.63.159,109.236.63.159,4,NordVPN,https://nordvpn.com,exit_node,1736016516337,,
+146.70.59.20,146.70.59.20,4,pia,,,,portugal,
+2606:9580:100:d:c191:a9da:1689:55db,2606:9580:100:d:c191:a9da:1689:55db,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Vancouver, Canada",
+45.137.126.91,45.137.126.91,4,ExpressVPN,https://expressvpn.com,exit_node,1738809872761,,
+146.70.112.189,146.70.112.189,4,Surfshark,https://surfshark.com,vpn_server,1739104087506,ca-mon.prod.surfshark.com_udp,
+146.70.52.230,146.70.52.230,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739103279771,Russia,
+79.127.184.150,79.127.184.150,4,ProtonVPN,,exit_node,1739244952295,,unn-79-127-184-150.datapacket.com
+146.70.123.53,146.70.123.53,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Brussels, Belgium",
+188.126.94.99,188.126.94.99,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1735692218694,DK Copenhagen,
+45.88.190.11,45.88.190.11,4,NordVPN,https://nordvpn.com,exit_node,1735561094540,,
+212.103.60.38,212.103.60.38,4,NordVPN,https://nordvpn.com,exit_node,1738673296732,,
+37.19.197.129,37.19.197.129,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,unn-37-19-197-129.datapacket.com
+45.133.5.130,45.133.5.130,4,ExpressVPN,https://expressvpn.com,exit_node,1738344763053,Australia - Sydney,
+2a02:6ea0:5500:2::f001,2a02:6ea0:5500:2::f001,6,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Lima, Peru",
+128.90.174.8,128.90.174.8,4,vypervpn,,,,Latvia,undefined.hostname.localhost
+216.168.16.37,216.168.16.37,4,Giganews,https://giganews.com,vpn_server,1739104350202,,
+143.244.41.217,143.244.41.217,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739103499245,Netherlands,unn-143-244-41-217.datapacket.com
+45.139.48.248,45.139.48.248,4,ProtonVPN,,exit_node,1739244952275,,
+82.118.30.63,82.118.30.63,4,ExpressVPN,https://expressvpn.com,exit_node,1738069438133,Czech Republic,
+146.70.11.4,146.70.11.4,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,
+216.151.180.130,216.151.180.130,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"New York, United States",216-151-180-130.nyc.as62651.net
+46.183.111.58,46.183.111.58,4,NordVPN,,exit_node,1739244952265,,
+45.133.192.194,45.133.192.194,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Iceland,
+45.144.114.15,45.144.114.15,4,NordVPN,https://nordvpn.com,exit_node,1737800408085,,
+68.235.46.173,68.235.46.173,4,MullvadVPN,https://mullvad.net,exit_node,1738901567167,Chicago,static-68-235-46-173.cust.tzulo.com
+149.22.94.135,149.22.94.135,4,ProtonVPN,,exit_node,1739244952280,,unn-149-22-94-135.datapacket.com
+93.115.7.238,93.115.7.238,4,ExpressVPN,https://expressvpn.com,exit_node,1738877584503,,no-rdns.free.clues.ro
+31.171.154.132,31.171.154.132,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+184.170.241.2,184.170.241.2,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,visit.keznews.com
+192.145.118.146,192.145.118.146,4,NordVPN,,exit_node,1739244952260,,
+191.96.255.130,191.96.255.130,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+85.12.31.240,85.12.31.240,4,Privado,https://privado.com,vpn_server,1739104350223,"Ashburn, United States",
+149.22.80.75,149.22.80.75,4,ProtonVPN,,exit_node,1739244952276,,unn-149-22-80-75.datapacket.com
+149.88.99.130,149.88.99.130,4,NordVPN,,exit_node,1739244952264,,unn-149-88-99-130.datapacket.com
+185.213.154.145,185.213.154.145,4,MullvadVPN,https://mullvad.net,exit_node,1739042492711,Gothenburg,
+45.83.138.7,45.83.138.7,4,ProtonVPN,,exit_node,1739244952276,,
+146.19.88.12,146.19.88.12,4,NordVPN,https://nordvpn.com,exit_node,1738320835638,Sofia,
+104.152.46.42,104.152.46.42,4,VPN.ht,https://vpn.ht,vpn_server,1739104118190,us-256b,
+155.133.15.36,155.133.15.36,4,NordVPN,https://nordvpn.com,exit_node,1736913086746,Mexico,
+45.14.193.102,45.14.193.102,4,NordVPN,https://nordvpn.com,exit_node,1736967303415,Oslo,
+188.241.80.30,188.241.80.30,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.159.156.105,185.159.156.105,4,ProtonVPN,,exit_node,1739244952273,,
+37.19.205.169,37.19.205.169,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Tokyo, Japan",unn-37-19-205-169.datapacket.com
+163.5.171.15,163.5.171.15,4,ProtonVPN,,exit_node,1739244952277,,
+103.137.14.189,103.137.14.189,4,NordVPN,https://nordvpn.com,exit_node,1735679864057,Melbourne,
+172.98.33.104,172.98.33.104,4,ExpressVPN,https://expressvpn.com,exit_node,1735572162370,USA - Dallas,
+185.156.46.34,185.156.46.34,4,ProtonVPN,,exit_node,1739244952277,,unn-185-156-46-34.datapacket.com
+185.250.215.236,185.250.215.236,4,NordVPN,https://nordvpn.com,exit_node,1738163385695,,
+85.203.44.131,85.203.44.131,4,ExpressVPN,https://expressvpn.com,exit_node,1736717222986,Sweden,
+2a00:1678:1337:7a18:8388:c010:29e2:f0b3,2a00:1678:1337:7a18:8388:c010:29e2:f0b3,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Alblasserdam, Netherlands",
+149.22.88.28,149.22.88.28,4,ProtonVPN,,exit_node,1739244952276,,unn-149-22-88-28.datapacket.com
+31.222.254.120,31.222.254.120,4,NordVPN,,exit_node,1739244952264,,
+2a00:1678:2470:aaaa:9916:4fb:8e5f:3e93,2a00:1678:2470:aaaa:9916:4fb:8e5f:3e93,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Alblasserdam, Netherlands",
+95.214.216.5,95.214.216.5,4,NordVPN,https://nordvpn.com,exit_node,1737800407980,,
+143.244.44.88,143.244.44.88,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,unn-143-244-44-88.datapacket.com
+104.234.212.131,104.234.212.131,4,ProtonVPN,,exit_node,1739244952274,,rose.cleancouae.com
+173.239.216.17,173.239.216.17,4,ExpressVPN,https://expressvpn.com,exit_node,1736883656285,Switzerland,
+5.62.58.80,5.62.58.80,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Quito, Ecuador",r-80-58-62-5.consumer-pool.prcdn.net
+212.103.60.208,212.103.60.208,4,NordVPN,https://nordvpn.com,exit_node,1738943853360,,
+149.36.48.133,149.36.48.133,4,ProtonVPN,,exit_node,1739244952277,,unn-149-36-48-133.datapacket.com
+45.90.222.106,45.90.222.106,4,NordVPN,,exit_node,1739244952265,,
+173.239.216.35,173.239.216.35,4,ExpressVPN,https://expressvpn.com,exit_node,1738334089650,Switzerland,
+5.181.234.91,5.181.234.91,4,NordVPN,,exit_node,1739244952258,,
+185.147.214.42,185.147.214.42,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Madrid, Spain",185-147-214-42.mad.as62651.net
+216.183.125.246,216.183.125.246,4,nordvpn,,,,us11540,
+193.46.242.10,193.46.242.10,4,NordVPN,https://nordvpn.com,exit_node,1735561094504,,
+146.19.88.241,146.19.88.241,4,NordVPN,https://nordvpn.com,exit_node,1738257812194,Sofia,
+194.110.85.3,194.110.85.3,4,NordVPN,https://nordvpn.com,exit_node,1735379551599,Luxembourg,
+98.159.43.56,98.159.43.56,4,ExpressVPN,https://expressvpn.com,exit_node,1736853766930,Thailand,
+149.88.102.48,149.88.102.48,4,ProtonVPN,,exit_node,1739244952277,,unn-149-88-102-48.datapacket.com
+45.83.146.18,45.83.146.18,4,ProtonVPN,,exit_node,1739244952275,,
+77.243.86.57,77.243.86.57,4,NordVPN,https://nordvpn.com,exit_node,1735675670367,Madrid,
+178.175.141.210,178.175.141.210,4,NordVPN,https://nordvpn.com,exit_node,1736706090617,Chisinau,
+141.98.255.238,141.98.255.238,4,MullvadVPN,https://mullvad.net,exit_node,1738169704232,,
+37.221.112.221,37.221.112.221,4,ProtonVPN,,exit_node,1739244952275,,
+79.127.136.78,79.127.136.78,4,ProtonVPN,,exit_node,1739244952279,,unn-79-127-136-78.datapacket.com
+185.216.34.119,185.216.34.119,4,ibVPN,https://ibvpn.com,vpn_server,1739103785643,Austria - Vienna 2,
+216.169.140.14,216.169.140.14,4,IPVanish,https://ipvanish.com,vpn_server,1739104263271,ipvanish-US-Atlanta-atl-c02,216-169-140-14.iad.as54203.net
+45.80.186.42,45.80.186.42,4,NordVPN,https://nordvpn.com,exit_node,1736938197288,Hanoi,
+45.86.211.1,45.86.211.1,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Phoenix, United States",
+104.129.56.68,104.129.56.68,4,Windscribe,https://windscribe.com,vpn_server,1739104350224,,unassigned.quadranet.com
+2001:ac8:20:c5::4,2001:ac8:20:c5::4,6,VPNTunnel,https://vpntunnel.com,vpn_server,1739104118599,GermanyFrankfurt.udp,
+178.249.212.10,178.249.212.10,4,NordVPN,,exit_node,1739244952262,,unn-178-249-212-10.datapacket.com
+138.199.24.9,138.199.24.9,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1735384479125,Singapore,unn-138-199-24-9.datapacket.com
+5.62.56.156,5.62.56.156,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Kingston, Norfolk Island",r-156-56-62-5.consumer-pool.prcdn.net
+79.135.104.84,79.135.104.84,4,ProtonVPN,,exit_node,1739244952273,,
+2a02:6ea0:2901:1::a01f,2a02:6ea0:2901:1::a01f,6,MullvadVPN,https://mullvad.net,vpn_server,1739104350204,"Bratislava, Slovakia",
+94.140.11.27,94.140.11.27,4,NordVPN,,exit_node,1739244952260,,
+146.70.194.70,146.70.194.70,4,ProtonVPN,,exit_node,1739244952275,,
+216.73.161.243,216.73.161.243,4,ExpressVPN,https://expressvpn.com,exit_node,1735385984150,USA - New York,
+181.214.218.60,181.214.218.60,4,pia,,,,belgium,
+193.9.36.17,193.9.36.17,4,ProtonVPN,,exit_node,1739244952276,,
+194.26.211.190,194.26.211.190,4,NordVPN,https://nordvpn.com,exit_node,1736927172845,Belgrade,
+69.4.234.142,69.4.234.142,4,MullvadVPN,https://mullvad.net,vpn_server,1739104350204,"Salt Lake City UT, USA",4504ea8e.setaptr.net
+146.70.85.162,146.70.85.162,4,Perfect Privacy,https://perfect-privacy.com,vpn_server,1739104350223,,
+212.102.51.195,212.102.51.195,4,NordVPN,https://nordvpn.com,exit_node,1738817359767,Tokyo,unn-212-102-51-195.cdn77.com
+192.200.158.36,192.200.158.36,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Phoenix, United States",192-200-158-36.phx.as13926.net
+66.90.73.116,66.90.73.116,4,ProtonVPN,,exit_node,1739244952274,,
+194.113.66.151,194.113.66.151,4,NordVPN,,exit_node,1739244952266,,
+45.32.29.235,45.32.29.235,4,ibVPN,https://ibvpn.com,vpn_server,1739103788686,Japan - Tokyo 3,45.32.29.235.vultrusercontent.com
+181.215.195.195,181.215.195.195,4,NordVPN,,exit_node,1739244952263,,
+154.47.16.242,154.47.16.242,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,unn-154-47-16-242.datapacket.com
+173.239.236.92,173.239.236.92,4,ExpressVPN,https://expressvpn.com,exit_node,1736967121972,Malaysia,
+102.129.153.171,102.129.153.171,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.214.97.230,185.214.97.230,4,NordVPN,https://nordvpn.com,exit_node,1738344921793,Barcelona,
+46.183.111.77,46.183.111.77,4,NordVPN,https://nordvpn.com,exit_node,1738873524586,London,
+95.181.236.29,95.181.236.29,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1737293008338,Georgia,
+188.214.122.125,188.214.122.125,4,pia,,,,egypt,
+209.107.216.194,209.107.216.194,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Casablanca   Virtual, Morocco",209-107-216-194.cmn.as62651.net
+193.43.69.200,193.43.69.200,4,NordVPN,https://nordvpn.com,exit_node,1738642397558,Marseille,
+185.243.57.133,185.243.57.133,4,NordVPN,https://nordvpn.com,exit_node,1738641143567,Miami,
+109.236.62.158,109.236.62.158,4,NordVPN,https://nordvpn.com,exit_node,1738163385695,,
+146.70.164.54,146.70.164.54,4,TunnelBear,https://tunnelbear.com,vpn_server,1739104108944,Romania,civility.adeay.com
+146.70.194.83,146.70.194.83,4,ProtonVPN,,exit_node,1739244952275,,
+181.214.99.159,181.214.99.159,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Chicago, USA",mail0.bsocentre.nl
+178.239.161.213,178.239.161.213,4,NordVPN,,exit_node,1739244952258,,213.161.239.178.baremetal.zare.com
+188.241.177.52,188.241.177.52,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518716,,
+185.233.133.241,185.233.133.241,4,ExpressVPN,https://expressvpn.com,vpn_server,1739103867419,my_expressvpn_laos_udp,
+196.196.53.130,196.196.53.130,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,
+86.48.15.66,86.48.15.66,4,NordVPN,https://nordvpn.com,exit_node,1738099097487,Toronto,
+146.70.123.100,146.70.123.100,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Belgium,
+194.5.48.200,194.5.48.200,4,ExpressVPN,https://expressvpn.com,exit_node,1736927981833,Japan - Yokohama,
+5.253.115.51,5.253.115.51,4,NordVPN,https://nordvpn.com,exit_node,1738630857172,Frankfurt,
+2607:fcd0:bb80:405::f001,2607:fcd0:bb80:405::f001,6,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Chicago, IL, USA",
+178.249.214.217,178.249.214.217,4,MullvadVPN,https://mullvad.net,exit_node,1738155047909,ca-tor-ovpn-002,unn-178-249-214-217.datapacket.com
+195.158.248.228,195.158.248.228,4,ProtonVPN,,exit_node,1739244952274,,
+149.88.105.239,149.88.105.239,4,ProtonVPN,,exit_node,1739244952277,,unn-149-88-105-239.datapacket.com
+185.147.214.235,185.147.214.235,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Madrid, Spain",185-147-214-235.mad.as62651.net
+145.14.135.35,145.14.135.35,4,nordvpn,,,,us9625,
+108.171.105.66,108.171.105.66,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Guatemala City   Virtual, Guatemala",108-171-105-66.mia.as54203.net
+102.165.16.107,102.165.16.107,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.213.155.178,185.213.155.178,4,MullvadVPN,https://mullvad.net,exit_node,1739050051535,Frankfurt,
+5.254.23.70,5.254.23.70,4,Ivacy,https://ivacy.com,vpn_server,1739103954122,DE_Frankfurt_TCP,
+149.88.20.95,149.88.20.95,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Lisbon, Portugal",unn-149-88-20-95.datapacket.com
+31.13.191.112,31.13.191.112,4,ProtonVPN,,exit_node,1739244952279,,
+185.65.134.148,185.65.134.148,4,MullvadVPN,https://mullvad.net,exit_node,1739056146065,Amsterdam,
+199.101.192.90,199.101.192.90,4,ExpressVPN,https://expressvpn.com,exit_node,1736536307685,USA - Los Angeles - 5,
+156.146.37.122,156.146.37.122,4,CyberGhost,https://cyberghostvpn.com,exit_node,1736035553755,,unn-156-146-37-122.cdn77.com
+143.244.63.4,143.244.63.4,4,NordVPN,,exit_node,1739244952265,,109632633.syd.cdn77.com
+149.22.82.15,149.22.82.15,4,ProtonVPN,,exit_node,1739244952276,,unn-149-22-82-15.datapacket.com
+45.85.248.42,45.85.248.42,4,NordVPN,https://nordvpn.com,exit_node,1738163385661,,
+178.132.108.183,178.132.108.183,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
+216.131.105.81,216.131.105.81,4,IPVanish,https://ipvanish.com,vpn_server,1739104181235,ipvanish-BE-Brussels-bru-c36,216-131-105-81.bru.as62651.net
+31.13.191.122,31.13.191.122,4,ProtonVPN,,exit_node,1739244952279,,
+154.16.81.67,154.16.81.67,4,pia,,,,au_sydney,
+45.133.5.38,45.133.5.38,4,ExpressVPN,https://expressvpn.com,exit_node,1736773616497,Australia - Sydney,
+192.161.188.195,192.161.188.195,4,Windscribe,https://windscribe.com,vpn_server,1739104350224,,192.161.188.195.static.quadranet.com
+2a00:1678:2470:29:1354:d6fb:b5c1:7a50,2a00:1678:2470:29:1354:d6fb:b5c1:7a50,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Alblasserdam, Netherlands",
+45.128.199.214,45.128.199.214,4,ExpressVPN,https://expressvpn.com,exit_node,1738875355563,Amsterdam,
+86.104.23.22,86.104.23.22,4,NordVPN,https://nordvpn.com,exit_node,1738673296732,,
+37.19.197.137,37.19.197.137,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,
+185.202.221.146,185.202.221.146,4,NordVPN,,exit_node,1739244952262,,visit.keznews.com
+87.120.103.242,87.120.103.242,4,Windscribe,https://windscribe.com,vpn_server,1739104350224,,87-120-103-242.madcom.al
+84.17.62.136,84.17.62.136,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,unn-84-17-62-136.cdn77.com
+212.102.43.207,212.102.43.207,4,NordVPN,,exit_node,1739244952264,,unn-212-102-43-207.cdn77.com
+185.153.179.148,185.153.179.148,4,NordVPN,,exit_node,1739244952262,,
+156.146.55.242,156.146.55.242,4,ProtonVPN,,exit_node,1739244952277,,unn-156-146-55-242.cdn77.com
+146.70.130.218,146.70.130.218,4,FastestVPN,https://fastestvpn.com,vpn_server,1739104350202,"Dublin, Ireland",
+64.64.116.9,64.64.116.9,4,ExpressVPN,https://expressvpn.com,exit_node,1738900109209,Lincoln Park,ids82.ricnxk.co
+185.81.125.114,185.81.125.114,4,NordVPN,https://nordvpn.com,exit_node,1738673296732,,
+2a0d:5600:6:115:9545:70e5:59c1:bad1,2a0d:5600:6:115:9545:70e5:59c1:bad1,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Miami, United States",
+193.148.18.82,193.148.18.82,4,ProtonVPN,,exit_node,1739244952274,,lamp.clauen.com
+146.70.66.229,146.70.66.229,4,Cryptostorm,https://cryptostorm.is,vpn_server,1739103857104,Romania_UDP,
+149.88.110.51,149.88.110.51,4,ProtonVPN,,exit_node,1739244952276,,unn-149-88-110-51.datapacket.com
+94.156.150.108,94.156.150.108,4,NordVPN,,exit_node,1739244952265,,
+2001:ac8:20:5:623e:50fc:8023:a65,2001:ac8:20:5:623e:50fc:8023:a65,6,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Frankfurt, Germany",
+185.187.243.220,185.187.243.220,4,NordVPN,https://nordvpn.com,exit_node,1738163385733,,
+45.85.145.117,45.85.145.117,4,NordVPN,https://nordvpn.com,exit_node,1737800408084,,
+45.137.126.95,45.137.126.95,4,ExpressVPN,https://expressvpn.com,exit_node,1735384559960,India (via UK),
+185.245.84.99,185.245.84.99,4,ProtonVPN,,exit_node,1739244952278,,no-mans-land.m247.com
+103.107.199.169,103.107.199.169,4,PureVPN,https://purevpn.com,vpn_server,1739104141899,sg2-auto-tcp-qr,
+89.187.171.178,89.187.171.178,4,CyberGhost,https://cyberghostvpn.com,exit_node,1738687670903,,unn-89-187-171-178.cdn77.com
+109.248.149.36,109.248.149.36,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Latvia,
+173.249.217.34,173.249.217.34,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"New York City, United States",static-173-249-217-34.cust.tzulo.com
+156.146.45.151,156.146.45.151,4,Surfshark,https://surfshark.com,vpn_server,1739104089931,hk-hkg.prod.surfshark.com_udp,unn-156-146-45-151.cdn77.com
+31.13.191.69,31.13.191.69,4,ProtonVPN,,exit_node,1739244952279,,
+2.57.171.143,2.57.171.143,4,ExpressVPN,https://expressvpn.com,vpn_server,1739103863331,my_expressvpn_bolivia_udp,
+193.228.56.132,193.228.56.132,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Valletta, Malta",
+82.102.23.138,82.102.23.138,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Sofia, Bulgaria",
+84.247.49.210,84.247.49.210,4,Trust.Zone,https://trust.zone,vpn_server,1739104104919,Singapore,
+45.91.21.8,45.91.21.8,4,ExpressVPN,https://expressvpn.com,exit_node,1736932905506,Sweden - 2,
+45.95.243.60,45.95.243.60,4,ExpressVPN,https://expressvpn.com,exit_node,1738871513773,,
+212.129.42.210,212.129.42.210,4,NordVPN,,exit_node,1739244952260,,212-129-42-210.rev.poneytelecom.eu
+149.40.59.83,149.40.59.83,4,Ivacy,https://ivacy.com,vpn_server,1739104150148,NL_Amsterdam_TCP,unn-149-40-59-83.datapacket.com
+84.17.59.137,84.17.59.137,4,ivpn,https://ivpn.net,vpn_server,1739104504706,"Milan, Italy",unn-84-17-59-137.cdn77.com
+146.70.202.77,146.70.202.77,4,ProtonVPN,,exit_node,1739244952278,,
+45.137.77.44,45.137.77.44,4,NordVPN,,exit_node,1739244952265,,
+198.7.56.228,198.7.56.228,4,Windscribe,https://windscribe.com,vpn_server,1739104350224,,
+45.139.48.253,45.139.48.253,4,protonvpn,,,,hr,
+216.169.132.64,216.169.132.64,4,IPVanish,https://ipvanish.com,vpn_server,1739104246129,ipvanish-UK-Manchester-man-a11,216-169-132-64.mia.as54203.net
+194.35.121.88,194.35.121.88,4,NordVPN,https://nordvpn.com,exit_node,1738911444579,Vienna,
+63.141.238.149,63.141.238.149,4,Hotspot Shield,https://hotspotshield.com,exit_node,1736554743497,Kansas City,mx4.mailer.healthynhappynow.org
+37.46.113.191,37.46.113.191,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,lux-net-ip.as51430.net
+178.239.165.181,178.239.165.181,4,NordVPN,,exit_node,1739244952262,,181.165.239.178.baremetal.zare.com
+141.98.254.161,141.98.254.161,4,MullvadVPN,https://mullvad.net,exit_node,1738834411391,Copenhagen,
+146.70.38.89,146.70.38.89,4,pia,,,,argentina,
+62.3.36.86,62.3.36.86,4,NordVPN,https://nordvpn.com,exit_node,1736916194520,Toronto,
+193.42.0.225,193.42.0.225,4,NordVPN,https://nordvpn.com,exit_node,1738821267598,Chicago,
+185.94.30.62,185.94.30.62,4,VPN.ht,https://vpn.ht,vpn_server,1739104117147,ca-256b,
+149.18.84.151,149.18.84.151,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,
+154.47.25.170,154.47.25.170,4,ProtonVPN,,exit_node,1739244952277,,unn-154-47-25-170.datapacket.com
+173.239.196.9,173.239.196.9,4,ExpressVPN,https://expressvpn.com,exit_node,1739054559739,,
+146.70.194.44,146.70.194.44,4,ProtonVPN,,exit_node,1739244952275,,
+103.1.215.117,103.1.215.117,4,Ivacy,https://ivacy.com,vpn_server,1739103953144,AU_Sydney_TCP,
+154.16.49.100,154.16.49.100,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739103286925,United States,
+79.127.146.78,79.127.146.78,4,ProtonVPN,,exit_node,1739244952280,,unn-79-127-146-78.datapacket.com
+185.169.0.190,185.169.0.190,4,NordVPN,https://nordvpn.com,exit_node,1737800408085,,
+185.159.157.247,185.159.157.247,4,ProtonVPN,,exit_node,1739244952273,,
+95.181.236.16,95.181.236.16,4,pia,,,,georgia,
+190.2.132.157,190.2.132.157,4,ProtonVPN,,exit_node,1739244952277,,190-2-132-157.hosted-by-worldstream.net
+191.101.217.97,191.101.217.97,4,CyberGhost,https://cyberghostvpn.com,exit_node,1738693131142,,
+185.213.80.106,185.213.80.106,4,NordVPN,,exit_node,1739244952263,,
+185.229.59.108,185.229.59.108,4,NordVPN,,exit_node,1739244952262,,
+45.151.45.4,45.151.45.4,4,ProtonVPN,,exit_node,1739244952274,,
+185.161.202.118,185.161.202.118,4,NordVPN,,exit_node,1739244952265,,
+185.145.245.97,185.145.245.97,4,Windscribe,https://windscribe.com,vpn_server,1739104350224,,
+62.128.217.85,62.128.217.85,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Glasgow, UK",no-ptr.as20860.net
+185.132.187.19,185.132.187.19,4,ExpressVPN,https://expressvpn.com,exit_node,1737004272596,Belgium,
+138.199.21.193,138.199.21.193,4,Proton VPN,,exit_node,1739244952253,,unn-138-199-21-193.datapacket.com
+191.101.209.115,191.101.209.115,4,CyberGhost,https://cyberghostvpn.com,exit_node,1735845329571,,
+193.43.70.80,193.43.70.80,4,NordVPN,https://nordvpn.com,exit_node,1736016516295,,
+185.232.20.35,185.232.20.35,4,NordVPN,,exit_node,1739244952265,,no-mans-land.m247.com
+103.27.230.61,103.27.230.61,4,vypervpn,,,,Thailand,
+196.196.106.69,196.196.106.69,4,ExpressVPN,https://expressvpn.com,exit_node,1739057114024,,
+185.76.11.19,185.76.11.19,4,ProtonVPN,,exit_node,1739244952274,,unn-185-76-11-19.datapacket.com
+181.41.206.76,181.41.206.76,4,pia,,,,us_denver,
+149.102.245.156,149.102.245.156,4,ProtonVPN,,exit_node,1739244952273,,unn-149-102-245-156.datapacket.com
+206.217.134.116,206.217.134.116,4,Windscribe,https://windscribe.com,vpn_server,1739104484854,US Central,206-217-134-116-host.colocrossing.com
+173.239.216.39,173.239.216.39,4,ExpressVPN,https://expressvpn.com,exit_node,1738810206387,,
+45.129.35.90,45.129.35.90,4,NordVPN,https://nordvpn.com,exit_node,1738163385695,,
+156.146.55.38,156.146.55.38,4,NordVPN,,exit_node,1739244952262,,unn-156-146-55-38.cdn77.com
+93.114.129.123,93.114.129.123,4,NordVPN,,exit_node,1739244952264,,
+193.43.70.25,193.43.70.25,4,NordVPN,https://nordvpn.com,exit_node,1736016516337,,
+102.129.234.171,102.129.234.171,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.72.199.130,185.72.199.130,4,PrivateVPN,https://privatevpn.com,vpn_server,1739104350223,"Torun, Poland",host-199-72-185-130.dataspace.pl
+129.227.3.140,129.227.3.140,4,HideMe VPN,https://hide.me,vpn_server,1739103334850,South Korea,
+216.131.108.67,216.131.108.67,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Zurich, Switzerland",216-131-108-67.zrh.as62651.net
+146.70.217.118,146.70.217.118,4,ProtonVPN,,exit_node,1739244952276,,
+23.95.79.164,23.95.79.164,4,ZoogVPN,https://zoogvpn.com,vpn_server,1739104133058,us1.east.webunlim.com.udp,
+138.199.30.21,138.199.30.21,4,CyberGhost,https://cyberghostvpn.com,exit_node,1735839869386,,unn-138-199-30-21.datapacket.com
+185.104.184.42,185.104.184.42,4,AirVPN,https://airvpn.org,vpn_server,1739104493526,"Frankfurt, Germany",42.184.104.185.in-addr.arpa
+146.70.116.218,146.70.116.218,4,MullvadVPN,https://mullvad.net,exit_node,1738904414415,Vienna,
+91.90.123.60,91.90.123.60,4,ProtonVPN,,exit_node,1739244952275,,
+149.102.254.72,149.102.254.72,4,ProtonVPN,,exit_node,1739244952278,,unn-149-102-254-72.datapacket.com
+89.251.0.53,89.251.0.53,4,ExpressVPN,https://expressvpn.com,exit_node,1739045073647,Toronto,
+184.170.250.162,184.170.250.162,4,VPNArea,https://vpnarea.com,vpn_server,1739104113651,USA-IL-Chicago2-P2P,
+176.125.228.10,176.125.228.10,4,pia,,,,algeria,
+146.70.134.130,146.70.134.130,4,Mullvad,https://mullvad.net,vpn_server,1739104517688,"Zurich, Switzerland",
+2.56.252.57,2.56.252.57,4,nordvpn,,,,jp539,
+45.133.172.227,45.133.172.227,4,pia,,,,uk_manchester,
+116.90.72.118,116.90.72.118,4,NordVPN,https://nordvpn.com,exit_node,1736971718852,Adelaide,
+154.47.29.151,154.47.29.151,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1738064480410,Croatia,unn-154-47-29-151.datapacket.com
+185.234.68.100,185.234.68.100,4,NordVPN,https://nordvpn.com,vpn_server,1739104350206,"Reykjavik, Iceland",
+185.65.135.163,185.65.135.163,4,MullvadVPN,https://mullvad.net,exit_node,1738643847110,Stockholm,
+85.190.238.13,85.190.238.13,4,NordVPN,,exit_node,1739244952264,,
+185.192.71.19,185.192.71.19,4,ExpressVPN,https://expressvpn.com,exit_node,1737071151140,UK - London,
+217.138.199.82,217.138.199.82,4,MullvadVPN,https://mullvad.net,vpn_server,1739103470586,Czech Republic,
+103.75.116.27,103.75.116.27,4,FastestVPN,https://fastestvpn.com,vpn_server,1739104350202,,
+185.103.99.121,185.103.99.121,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Birmingham, United Kingdom",185-103-99-121.as42831.net
+98.159.33.90,98.159.33.90,4,ExpressVPN,https://expressvpn.com,exit_node,1739058103454,Albuquerque,
+146.70.195.38,146.70.195.38,4,ProtonVPN,,exit_node,1739244952275,,
+185.244.215.14,185.244.215.14,4,ProtonVPN,,exit_node,1739244952278,,no-mans-land.m247.com
+216.131.122.38,216.131.122.38,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"San Jose, United States",216-131-122-38.sjc.as22781.net
+149.22.94.129,149.22.94.129,4,ProtonVPN,,exit_node,1739244952280,,unn-149-22-94-129.datapacket.com
+45.132.225.3,45.132.225.3,4,ExpressVPN,https://expressvpn.com,vpn_server,1739104350202,"Melbourne, Australia",
+193.43.70.187,193.43.70.187,4,nordvpn,,,,fr847,
+194.59.250.3,194.59.250.3,4,VPN.ac,https://vpn.ac,vpn_server,1739104112422,sweden-2-aes256-udp,host160.thedsma.pw
+194.127.199.137,194.127.199.137,4,MullvadVPN,https://mullvad.net,exit_node,1738673039014,Stavanger,
+45.83.144.23,45.83.144.23,4,ProtonVPN,,exit_node,1739244952276,,
+173.239.203.48,173.239.203.48,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1738618208442,melbourne,
+181.215.195.240,181.215.195.240,4,NordVPN,,exit_node,1739244952263,,
+103.137.15.21,103.137.15.21,4,NordVPN,https://nordvpn.com,exit_node,1738863326375,Melbourne,
+185.238.28.21,185.238.28.21,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Atlanta, United States",
+128.90.157.4,128.90.157.4,4,VyprVPN,https://vyprvpn.com,exit_node,1738673313514,,undefined.hostname.localhost
+185.192.69.236,185.192.69.236,4,ExpressVPN,https://expressvpn.com,exit_node,1738902363560,Docklands,
+23.162.40.65,23.162.40.65,4,MullvadVPN,https://mullvad.net,exit_node,1739049377127,Los Angeles,
+45.91.23.155,45.91.23.155,4,ExpressVPN,https://expressvpn.com,exit_node,1738072616888,Canada - Montreal,
+104.234.227.109,104.234.227.109,4,ExpressVPN,https://expressvpn.com,exit_node,1738075612207,USA - Los Angeles - 5,
+185.253.160.146,185.253.160.146,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,
+213.152.162.246,213.152.162.246,4,NordVPN,,exit_node,1739244952262,,connected-by.global-layer.com
+191.101.61.128,191.101.61.128,4,pia,,,,us_las_vegas,
+37.120.235.173,37.120.235.173,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,
+184.170.252.231,184.170.252.231,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+216.131.112.62,216.131.112.62,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Amsterdam, Netherlands",216-131-112-62.ams.as62651.net
+146.70.13.67,146.70.13.67,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Dallas, United States",
+156.59.50.194,156.59.50.194,4,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Bangkok, Thailand",
+107.173.69.147,107.173.69.147,4,NordVPN,,exit_node,1739244952259,,147-69-173-107.reverse-dns
+149.88.27.234,149.88.27.234,4,ProtonVPN,,exit_node,1739244952273,,unn-149-88-27-234.datapacket.com
+91.90.122.15,91.90.122.15,4,pia,,,,liechtenstein,
+194.35.233.83,194.35.233.83,4,NordVPN,,exit_node,1739244952259,,
+84.239.5.156,84.239.5.156,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+103.176.152.37,103.176.152.37,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Bangkok, Thailand",
+193.37.33.177,193.37.33.177,4,ExpressVPN,https://expressvpn.com,exit_node,1738669982617,Seattle,
+37.19.210.93,37.19.210.93,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,unn-37-19-210-93.datapacket.com
+104.238.191.246,104.238.191.246,4,TunnelBear,https://tunnelbear.com,vpn_server,1739104108217,France,104.238.191.246.vultrusercontent.com
+158.220.78.103,158.220.78.103,4,NordVPN,https://nordvpn.com,exit_node,1738330353345,Santiago,
+209.87.169.189,209.87.169.189,4,ExpressVPN,https://expressvpn.com,exit_node,1737143677858,USA - New Jersey - 1,
+103.155.232.231,103.155.232.231,4,ProtonVPN,,exit_node,1739244952278,,103.155.232.231.static.xtom.jp
+146.70.90.3,146.70.90.3,4,NordVPN,,exit_node,1739244952262,,
+191.96.36.153,191.96.36.153,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1736883507873,CA Toronto,
+120.138.16.251,120.138.16.251,4,TunnelBear,https://tunnelbear.com,vpn_server,1739104108714,New Zealand,rdns.120.138.16.251.sth.nz
+146.70.147.120,146.70.147.120,4,ProtonVPN,,exit_node,1739244952275,,
+143.202.163.102,143.202.163.102,4,PureVPN,https://purevpn.com,vpn_server,1739104350224,"San Pedro, Costa Rica",
+5.180.61.21,5.180.61.21,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
+45.130.83.134,45.130.83.134,4,ExpressVPN,https://expressvpn.com,exit_node,1738261116758,USA - New York,
+45.80.184.169,45.80.184.169,4,NordVPN,https://nordvpn.com,exit_node,1735691219613,Bangkok,
+93.114.129.99,93.114.129.99,4,NordVPN,,exit_node,1739244952264,,
+188.241.82.178,188.241.82.178,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,
+108.171.103.233,108.171.103.233,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Boston, United States",108-171-103-233.sfo.as22781.net
+185.189.114.122,185.189.114.122,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350201,,
+98.98.200.149,98.98.200.149,4,TunnelBear,https://tunnelbear.com,vpn_server,1739104108682,Netherlands,
+62.133.47.23,62.133.47.23,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.77.217.31,185.77.217.31,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Helsinki, Finland",
+84.239.17.140,84.239.17.140,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+193.32.126.117,193.32.126.117,4,Mullvad,https://mullvad.net,vpn_server,1739104517688,"Paris, France",
+37.19.221.195,37.19.221.195,4,Proton VPN,,exit_node,1739244952254,,unn-37-19-221-195.datapacket.com
+109.70.151.2,109.70.151.2,4,NordVPN,https://nordvpn.com,vpn_server,1739104350207,"London, United Kingdom",2.151.70.109.baremetal.zare.com
+149.88.18.6,149.88.18.6,4,Ivacy,https://ivacy.com,vpn_server,1739104151869,US_Ashburn_TCP,unn-149-88-18-6.datapacket.com
+198.54.134.184,198.54.134.184,4,MullvadVPN,https://mullvad.net,exit_node,1738174744307,,static-198-54-134-184.cust.tzulo.com
+45.131.195.207,45.131.195.207,4,ExpressVPN,https://expressvpn.com,exit_node,1735940036466,Jersey,
+69.167.12.39,69.167.12.39,4,VyprVPN,https://vyprvpn.com,exit_node,1738673313570,,
+193.29.61.48,193.29.61.48,4,NordVPN,,exit_node,1739244952263,,
+203.188.189.5,203.188.189.5,4,ExpressVPN,https://expressvpn.com,exit_node,1738916877839,,
+138.199.40.169,138.199.40.169,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"New York, United States",unn-138-199-40-169.datapacket.com
+146.70.195.101,146.70.195.101,4,ProtonVPN,,exit_node,1739244952275,,
+209.58.191.117,209.58.191.117,4,VPN.ac,https://vpn.ac,vpn_server,1739104111451,hong-kong_tseung-kwan-o-aes256-udp,
+79.127.184.131,79.127.184.131,4,ProtonVPN,,exit_node,1739244952295,,unn-79-127-184-131.datapacket.com
+216.131.78.38,216.131.78.38,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Dallas, United States",216-131-78-38.dal.as62651.net
+178.132.109.136,178.132.109.136,4,NordVPN,,exit_node,1739244952265,,
+95.214.216.58,95.214.216.58,4,NordVPN,https://nordvpn.com,exit_node,1738638239784,Warsaw,
+98.159.39.4,98.159.39.4,4,ExpressVPN,https://expressvpn.com,exit_node,1738832814471,,
+213.109.200.4,213.109.200.4,4,NordVPN,https://nordvpn.com,exit_node,1737800407980,,
+89.37.175.180,89.37.175.180,4,NordVPN,https://nordvpn.com,exit_node,1736695298061,London,180.175.37.89.baremetal.zare.com
+84.17.39.40,84.17.39.40,4,ExpressVPN,https://expressvpn.com,vpn_server,1739103867651,my_expressvpn_macau_udp,unn-84-17-39-40.cdn77.com
+212.102.44.162,212.102.44.162,4,ProtonVPN,,exit_node,1739244952277,,unn-212-102-44-162.cdn77.com
+173.255.160.141,173.255.160.141,4,IPVanish,https://ipvanish.com,vpn_server,1739104322412,ipvanish-US-New-York-nyc-a23,173-255-160-141.nyc.as54203.net
+138.199.16.37,138.199.16.37,4,NordVPN,,exit_node,1739244952260,,unn-138-199-16-37.datapacket.com
+185.81.126.19,185.81.126.19,4,NordVPN,,exit_node,1739244952265,,
+185.156.172.163,185.156.172.163,4,Windscribe,https://windscribe.com,vpn_server,1739104484855,Netherlands,
+185.147.214.36,185.147.214.36,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Madrid, Spain",185-147-214-36.mad.as62651.net
+192.142.18.17,192.142.18.17,4,CyberGhost,https://cyberghostvpn.com,vpn_server,1739104350202,,
+185.203.218.36,185.203.218.36,4,NordVPN,https://nordvpn.com,exit_node,1736016516374,,visit.keznews.com
+85.203.44.126,85.203.44.126,4,ExpressVPN,https://expressvpn.com,exit_node,1735682834751,Sweden,
+178.239.165.36,178.239.165.36,4,NordVPN,,exit_node,1739244952261,,36.165.239.178.baremetal.zare.com
+2404:f780:5:def::c2f,2404:f780:5:def::c2f,6,Mullvad,https://mullvad.net,vpn_server,1739104517689,"Auckland, New Zealand",
+82.221.107.178,82.221.107.178,4,ivpn,https://ivpn.net,vpn_server,1739104504456,"Reykjavik, Iceland",
+193.160.101.32,193.160.101.32,4,NordVPN,https://nordvpn.com,exit_node,1738100675621,Helsinki,
+149.36.48.138,149.36.48.138,4,ProtonVPN,,exit_node,1739244952277,,unn-149-36-48-138.datapacket.com
+193.37.254.21,193.37.254.21,4,AirVPN,https://airvpn.org,vpn_server,1739104350201,"Phoenix Arizona, United States",
+157.97.134.169,157.97.134.169,4,NordVPN,https://nordvpn.com,exit_node,1736016516374,,
+185.77.217.91,185.77.217.91,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Helsinki, Finland",
+146.70.204.169,146.70.204.169,4,ProtonVPN,,exit_node,1739244952278,,
+185.233.133.191,185.233.133.191,4,ExpressVPN,https://expressvpn.com,vpn_server,1739103867419,my_expressvpn_laos_udp,
+188.215.235.91,188.215.235.91,4,protonvpn,,,,kh,
+185.228.3.7,185.228.3.7,4,ExpressVPN,https://expressvpn.com,exit_node,1738913494705,,
+194.124.76.60,194.124.76.60,4,NordVPN,https://nordvpn.com,exit_node,1738254273462,New York,
+193.43.70.22,193.43.70.22,4,nordvpn,,,,fr858,
+146.70.142.139,146.70.142.139,4,ProtonVPN,,exit_node,1739244952278,,
+185.91.122.138,185.91.122.138,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"London, United Kingdom",185-91-122-138.lon.as54203.net
+216.131.122.224,216.131.122.224,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"San Jose, United States",216-131-122-224.sjc.as22781.net
+146.70.194.60,146.70.194.60,4,ProtonVPN,,exit_node,1739244952275,,
+212.102.57.12,212.102.57.12,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,unn-212-102-57-12.cdn77.com
+84.239.42.12,84.239.42.12,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739103499933,Ukraine,
+45.155.43.216,45.155.43.216,4,NordVPN,https://nordvpn.com,exit_node,1737800407980,,
+216.131.82.129,216.131.82.129,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"New York, United States",216-131-82-129.nyc.as62651.net
+5.62.56.88,5.62.56.88,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"San Miguel, El Salvador",r-88-56-62-5.consumer-pool.prcdn.net
+178.175.141.232,178.175.141.232,4,NordVPN,https://nordvpn.com,exit_node,1738101116981,Chisinau,
+69.16.147.26,69.16.147.26,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Copenhagen, Denmark",69-16-147-26.cph.as62651.net
+188.212.135.164,188.212.135.164,4,ExpressVPN,https://expressvpn.com,exit_node,1738828595022,,
+181.41.202.234,181.41.202.234,4,pia,,,,ca_vancouver,
+45.91.23.36,45.91.23.36,4,ExpressVPN,https://expressvpn.com,exit_node,1738104375173,Canada - Montreal,
+216.131.84.141,216.131.84.141,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Cincinnati, United States",216-131-84-141.cvg.as22781.net
+146.70.174.220,146.70.174.220,4,ProtonVPN,,exit_node,1739244952275,,
+192.145.118.154,192.145.118.154,4,NordVPN,,exit_node,1739244952260,,
+45.129.35.204,45.129.35.204,4,NordVPN,https://nordvpn.com,exit_node,1736016516337,,
+74.80.180.195,74.80.180.195,4,Windscribe,https://windscribe.com,vpn_server,1739104484854,US East,
+185.128.9.155,185.128.9.155,4,NordVPN,https://nordvpn.com,exit_node,1738346174951,Lisbon,
+139.28.176.21,139.28.176.21,4,Surfshark,https://surfshark.com,vpn_server,1739104350224,"Manchester, United Kingdom",
+85.237.194.162,85.237.194.162,4,expressvpn,,,,usa-chicago-ca-version-2.expressnetw.com,
+86.48.11.31,86.48.11.31,4,NordVPN,https://nordvpn.com,exit_node,1735941510352,Singapore,
+193.46.242.212,193.46.242.212,4,NordVPN,https://nordvpn.com,exit_node,1737800408033,,
+149.88.26.133,149.88.26.133,4,pia,,,,israel,unn-149-88-26-133.datapacket.com
+173.239.207.44,173.239.207.44,4,ExpressVPN,https://expressvpn.com,vpn_server,1739104350202,"New York, USA",
+45.91.48.28,45.91.48.28,4,ExpressVPN,https://expressvpn.com,vpn_server,1739104350202,,
+85.204.124.85,85.204.124.85,4,ExpressVPN,https://expressvpn.com,exit_node,1739052621029,,
+5.62.62.8,5.62.62.8,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Luanda, Angola",r-8-62-62-5.consumer-pool.prcdn.net
+5.62.56.140,5.62.56.140,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Anabar, Nauru",r-140-56-62-5.consumer-pool.prcdn.net
+84.239.27.159,84.239.27.159,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1738098384680,US Ohio,
+185.199.100.25,185.199.100.25,4,NordVPN,https://nordvpn.com,vpn_server,1739104350207,"Madrid, Spain",
+45.133.5.141,45.133.5.141,4,ExpressVPN,https://expressvpn.com,exit_node,1738646259093,Sydney,
+193.42.96.61,193.42.96.61,4,NordVPN,https://nordvpn.com,exit_node,1738943853360,,
+178.132.108.40,178.132.108.40,4,NordVPN,https://nordvpn.com,exit_node,1735561094504,,
+128.90.151.8,128.90.151.8,4,VyprVPN,https://vyprvpn.com,exit_node,1738943875935,,undefined.hostname.localhost
+84.239.33.136,84.239.33.136,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104518715,,
+185.230.125.43,185.230.125.43,4,ProtonVPN,,exit_node,1739244952279,,
+173.244.55.130,173.244.55.130,4,ExpressVPN,https://expressvpn.com,exit_node,1738908801920,,
+84.239.62.105,84.239.62.105,4,ExpressVPN,https://expressvpn.com,exit_node,1738252758025,Australia - Adelaide,
+23.106.85.66,23.106.85.66,4,WiTopia VPN,https://witopia.net,vpn_server,1739103777133,US - Long Beach,23.106.85.66.rdns.cloudradium.com
+31.13.189.244,31.13.189.244,4,ProtonVPN,,exit_node,1739244952278,,
+141.98.254.140,141.98.254.140,4,MullvadVPN,https://mullvad.net,exit_node,1739044040170,Copenhagen,
+62.182.99.220,62.182.99.220,4,NordVPN,,exit_node,1739244952260,,
+176.67.80.24,176.67.80.24,4,IPVanish,https://ipvanish.com,vpn_server,1739104350203,"Amsterdam, Netherlands",176-67-80-24.ams.as54203.net
+149.88.24.161,149.88.24.161,4,ProtonVPN,,exit_node,1739244952279,,unn-149-88-24-161.datapacket.com
+188.214.125.142,188.214.125.142,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+185.153.177.60,185.153.177.60,4,NordVPN,https://nordvpn.com,exit_node,1738908929367,Mexico,
+181.41.206.153,181.41.206.153,4,Private Internet Access,https://privateinternetaccess.com,exit_node,1737293384475,US Denver,
+146.19.156.8,146.19.156.8,4,NordVPN,https://nordvpn.com,exit_node,1736931150356,Belgrade,undefined.hostname.localhost
+128.90.135.2,128.90.135.2,4,vypervpn,,,,Netherlands,undefined.hostname.localhost
+91.148.241.69,91.148.241.69,4,Privado,https://privado.com,vpn_server,1739104350223,"Amsterdam, Netherlands",
+149.22.80.56,149.22.80.56,4,ProtonVPN,,exit_node,1739244952274,,unn-149-22-80-56.datapacket.com
+209.127.24.40,209.127.24.40,4,IPVanish,https://ipvanish.com,vpn_server,1739104350202,"Montreal, Canada",
+149.22.94.1,149.22.94.1,4,ProtonVPN,,exit_node,1739244952273,,unn-149-22-94-1.datapacket.com
+45.85.248.28,45.85.248.28,4,NordVPN,https://nordvpn.com,exit_node,1738063823020,Oslo,
+185.255.129.78,185.255.129.78,4,NordVPN,https://nordvpn.com,exit_node,1738099462761,Zurich,
+193.142.201.202,193.142.201.202,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
+209.182.101.70,209.182.101.70,4,SmartDNSProxy VPN,https://smartdnsproxy.com,vpn_server,1739104085235,United_States-Los_Angeles2_UDP81,
+185.132.187.142,185.132.187.142,4,ExpressVPN,https://expressvpn.com,exit_node,1736319960854,Belgium,
+45.130.105.148,45.130.105.148,4,NordVPN,https://nordvpn.com,exit_node,1735833494206,,
+149.102.245.181,149.102.245.181,4,ProtonVPN,,exit_node,1739244952276,,unn-149-102-245-181.datapacket.com
+185.194.178.109,185.194.178.109,4,ExpressVPN,https://expressvpn.com,vpn_server,1739103865297,my_expressvpn_france_-_strasbourg_udp,
+212.30.36.223,212.30.36.223,4,ExpressVPN,https://expressvpn.com,exit_node,1738812695249,Nuremberg,
+84.239.48.7,84.239.48.7,4,Private Internet Access,https://privateinternetaccess.com,vpn_server,1739104350223,,
+146.70.225.31,146.70.225.31,4,MullvadVPN,https://mullvad.net,exit_node,1739052481822,Milan,
+193.148.18.34,193.148.18.34,4,Proton VPN,,exit_node,1739244952253,,junr.russevillage.com
+5.62.63.32,5.62.63.32,4,Hide My Ass VPN,https://hidemyass.com,vpn_server,1739104350202,"Pemba, Mozambique",r-32-63-62-5.consumer-pool.prcdn.net
+198.44.129.133,198.44.129.133,4,MullvadVPN,https://mullvad.net,exit_node,1738601974137,Los Angeles,static-198-44-129-133.cust.tzulo.com
+82.197.79.14,82.197.79.14,4,NordVPN,https://nordvpn.com,exit_node,1738344889518,Lagos,
+178.239.165.190,178.239.165.190,4,NordVPN,,exit_node,1739244952262,,190.165.239.178.baremetal.zare.com
