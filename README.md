@@ -14,6 +14,8 @@ Furthermore, many prominent VPN providers are constantly enumerated to collect h
 
 Lookup any IP address: [https://api.ipapi.is/?q=3.5.140.2](https://api.ipapi.is/?q=3.5.140.2)
 
+Or ASN: [https://api.ipapi.is/?q=as396356](https://api.ipapi.is/?q=as396356)
+
 Lookup your own IP address: [https://api.ipapi.is/](https://api.ipapi.is/)
 
 Usage with JavaScript:
@@ -40,9 +42,11 @@ In order to increase you daily request volume, consider subscribing to a paid pl
 
 ## IP Address Databases Download
 
-This repository contains three free databases:
+This repository contains various free databases:
 
 + Geolocation Database - free - Contains millions of rows that associate geolocation intelligence with IPv4 and IPv6 networks
+  + [Download the free IPv4 Geolocation Database](databases/geolocationDatabaseIPv4.csv.zip)
+  + [Download the free IPv6 Geolocation Database](databases/geolocationDatabaseIPv6.csv.zip)
 + ASN Database - sample only - This database includes rich meta data for all active ASN's of the Internet (Around 85.000 active ASN's). You can get the [full database here](https://ipapi.is/).
 + Hosting IP Ranges Database - sample only - Contains IP addresses that belong to hosting providers or cloud services such as Amazon AWS or Microsoft Azure. Contains very small and niche hosting providers. You can get the [full database here](https://ipapi.is/).
 
