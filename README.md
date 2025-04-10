@@ -4,7 +4,11 @@ This IP address API returns useful meta-information for IP addresses. For exampl
 
 Furthermore, the API response allows to derive **security information** for each IP address, for example whether an IP address belongs to a hosting provider (`is_datacenter`), is a TOR exit node (`is_tor`), if an IP address is a proxy (`is_proxy`) or VPN (`is_vpn`) or belongs to an abuser (`is_abuser`).
 
-This API strongly emphasizes **hosting detection**. A complicated hosting detection algorithm was developed to achieve a high detection rate. Whois records, public hosting IP ranges from hosting providers and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a hosting provider or not.
+This API strongly emphasizes **hosting detection** and **VPN Enumeration**. 
+
+A complicated hosting detection algorithm was developed to achieve a high detection rate. Whois records, public hosting IP ranges from hosting providers and a proprietary hosting discovery algorithm are used to decide whether an IP address belongs to a hosting provider or not.
+
+Furthermore, many prominent VPN providers are constantly enumerated to collect high quality VPN Enumeration data. To learn more, read the [IP to VPN Database Page](https://ipapi.is/vpn-detection.html).
 
 ## Quickstart
 
