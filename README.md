@@ -94,29 +94,44 @@ For offline ASN data access, the **ASN Database** is provided.
 The ASN database includes all assigned and allocated AS numbers by IANA and respective meta information. The database is updated several times per week. For active ASN's (at least one route/prefix assigned to the AS), the database includes rich meta information. For example, the provided information for the ASN `50673` would be:
 
 ```JavaScript
-"50673": {
-  "asn": "50673",
+{
+  "asn": 50673,
+  "abuser_score": "0.0013 (Low)",
+  "descr": "SERVERIUS-AS, NL",
+  "country": "nl",
+  "active": true,
   "org": "Serverius Holding B.V.",
   "domain": "serverius.net",
   "abuse": "abuse@serverius.net",
   "type": "hosting",
   "created": "2010-09-07",
-  "updated": "2022-11-15",
-  "rir": "ripe",
-  "descr": "SERVERIUS-AS, NL",
-  "country": "NL",
-  "active": true,
+  "updated": "2024-07-11",
+  "rir": "RIPE",
+  "whois": "https://api.ipapi.is/?whois=AS50673",
   "prefixes": [
-    "2.59.183.0/24",
-    "5.56.133.0/24",
-    // many more IPv4 prefixes ...
+    "5.178.64.0/21",
+    "5.178.64.0/24",
+    "5.188.12.0/22",
+    "5.188.12.0/24",
+    "5.188.13.0/24",
+    "5.188.14.0/24",
+    // many more
   ],
   "prefixesIPv6": [
     "2001:67c:b0::/48",
     "2a00:1ca8::/32",
-    // many more IPv6 prefixes ...
-  ]
-},
+    "2a00:1ca8:77::/48",
+    "2a00:1caa::/32",
+    "2a02:1680::/32",
+    "2a03:3f40::/32",
+    "2a09:e40::/32",
+    "2a09:4d41::/32",
+    "2a09:aa80::/32",
+    "2a0a:3f40::/32",
+    "2a0e:c9c0::/29"
+  ],
+  "elapsed_ms": 0.51
+}
 ```
 
 The database is in JSON format. The key is the ASN as `int` and the value is an object with AS meta information such as the one above.
@@ -135,7 +150,7 @@ The database considers all of the following services as hosting providers:
 + IP leasing organizations such as [ipxo.com](https://ipxo.com/) or [interlir.com](https://interlir.com/)
 + Other SaaS, IaaS, or PaaS organizations such as [fly.io](https://fly.io/) or [Heroku](https://www.heroku.com/)
 
-A [proprietary algorithm](https://ipapi.is/blog/detecting-hosting-providers.html) was developed to determine if a network belongs to a hosting provider or not. The database contains more than 470k IPv4 networks and more than 360k IPv6 networks and is constantly growing.
+A [proprietary algorithm](https://ipapi.is/blog/detecting-hosting-providers.html) was developed to determine if a network belongs to a hosting provider or not. The database contains more than 556k IPv4 networks and more than 554k IPv6 networks and is constantly growing.
 
 The file format of the database is CSV, where each line of the file contains the following fields:
 
@@ -148,28 +163,31 @@ The file format of the database is CSV, where each line of the file contains the
 Example excerpt of the database (CSV):
 
 ```csv
-ipVersion,startIp,endIp,datacenter,domain
-4,176.9.14.8,176.9.14.15,Hetzner Online GmbH,www.hetzner.com
-4,87.252.45.216,87.252.45.223,James Parker,fastnet.co.uk
-4,5.35.9.0,5.35.9.255,OOO Network of data-centers Selectel,selectel.ru
-4,46.97.71.216,46.97.71.223,Atom Hosting SRL,vodafone.com
-4,86.66.36.176,86.66.36.183,Internet Services,isi.ch
-4,51.68.216.0,51.68.216.127,FAST SERV INC d.b.a. QHoster.com,ovh.net
-4,211.14.25.128,211.14.25.159,"BroadBand Tower, Inc.",www.bbtower.co.jp
-4,195.128.178.0,195.128.178.255,MOD Mission Critical LLC,modmc.net
-4,185.54.7.0,185.54.7.255,HIDORA SA,hidora.io
-4,46.4.41.224,46.4.41.255,Hetzner Online GmbH,www.hetzner.com
-4,87.118.220.244,87.118.220.247,Limited liabilities company Atlantic.,www.atlantic.net
-4,87.252.39.152,87.252.39.159,James Parker,fastnet.co.uk
-4,5.154.33.0,5.154.33.255,SETEGENIL SL,servihosting.es
-4,185.139.128.0,185.139.131.255,Miss Hosting AB,misshosting.com
-4,103.125.164.0,103.125.167.255,"Beijing Jingliang Cloud Technology Co.,Ltd.",ssvnet.cn
-4,128.204.205.112,128.204.205.112,Snel.com B.V.,www.snel.com
-4,85.199.246.176,85.199.246.183,M247 UK Ltd,m247.com
-4,67.216.96.0,67.216.111.255,"ETEX COMMUNICATIONS, LLC",www.godaddy.com
-4,148.252.239.152,148.252.239.155,M247 UK Ltd,m247.com
-4,176.9.33.88,176.9.33.95,Hetzner Online GmbH,www.hetzner.com
-4,5.133.198.180,5.133.198.181,Internet Vikings International AB,internetvikings.com
+startIp,endIp,ipVersion,datacenter,domain
+92.222.187.0,92.222.187.255,4,OVH VPS ES,ovh.net
+153.120.81.0,153.120.81.255,4,SAKURA Internet Inc.,sakura.ad.jp
+185.39.138.85,185.39.138.85,4,MissDomain Group AB,missdomain.com
+86.66.23.232,86.66.23.239,4,Internet Services,isi.ch
+51.77.100.128,51.77.100.143,4,OVH Ltd,ovh.co.uk
+38.142.65.248,38.142.65.255,4,"Imperva, Inc",www.imperva.com
+185.103.97.252,185.103.97.255,4,UK Dedicated Servers Ltd,uksrv.co.uk
+103.64.80.0,103.64.83.255,4,"Guangdong Aofei Data Technology Co., Ltd.",ofidc.com
+194.218.29.104,194.218.29.111,4,Iver Sverige AB,iver.com
+135.125.25.152,135.125.25.159,4,OVH SAS,ovhcloud.com
+46.165.192.0,46.165.255.255,4,Leaseweb Deutschland GmbH,leaseweb.com
+5.198.151.0,5.198.151.127,4,Xidras GmbH,xidras.com
+78.41.202.254,78.41.202.254,4,Snel.com B.V.,snel.com
+217.57.169.16,217.57.169.23,4,ASAS.R.L.,lir.ae
+94.46.126.31,94.46.126.31,4,MissDomain Group AB,missdomain.com
+133.32.45.0,133.32.45.255,4,"GMO Internet,Inc.",gmo.jp
+5.9.232.240,5.9.232.255,4,Hetzner Online GmbH,hetzner.com
+176.9.127.64,176.9.127.95,4,Hetzner Online GmbH,hetzner.com
+94.130.41.176,94.130.41.183,4,Hetzner Online GmbH,hetzner.com
+159.148.115.56,159.148.115.63,4,SIA Latnet,bite.lv
+51.91.67.0,51.91.67.255,4,OVH SAS,ovhcloud.com
+89.151.66.192,89.151.66.255,4,Pulsant Limited,pulsant.com
+156.240.103.0,156.240.103.255,4,Bunny Technology LLC,bunny.net
+149.6.42.4,149.6.42.7,4,Netwise Hosting Ltd,netwise.co.uk
 ```
 
 ## IP to VPN Database
