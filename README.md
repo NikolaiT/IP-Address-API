@@ -181,6 +181,16 @@ The database includes geolocation information for a large part of the IPv4 addre
 + [Download IPv4 Geolocation Database](databases/geolocationDatabaseIPv4.csv.zip) (more than 3 million networks)
 + [Download IPv6 Geolocation Database](databases/geolocationDatabaseIPv6.csv.zip) (more than 1.1 million networks)
 
+### License of the Geolocation Database
+
+The free geolocation database is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), not under the MIT license of this repository, which covers its code and documentation. You may use the database for any purpose, including commercial ones, as long as you credit ipapi.is with a link wherever you show data from it:
+
+```html
+IP geolocation data by <a href="https://ipapi.is/">ipapi.is</a>
+```
+
+If you publish a modified version of the database, or another database built from it, license it under CC BY-SA 4.0 as well. The full notice is in [databases/LICENSE-free-geolocation-database.txt](databases/LICENSE-free-geolocation-database.txt) and inside both zip files.
+
 The geolocation database is provided as large CSV file with the following header fields:
 
 + `ip_version` - Either `4` or `6`. Determines the IP type of the network. Example: `4`
