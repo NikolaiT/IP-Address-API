@@ -12,7 +12,7 @@ The [ipapi.is](https://ipapi.is/?ref=github) API tells you who owns an IPv4 or I
 - **A free tier you can build on.** 1,000 requests a day with the complete response, for commercial products too. More than two billion requests are served a month.
 
 ```bash
-curl "https://api.ipapi.is/?q=187.13.197.43&key=your_api_key"
+curl "https://api.ipapi.is/?q=187.13.197.43&key=your_api_key&v=1"
 ```
 
 ```json
@@ -67,6 +67,7 @@ The response is shortened here; [all fields](#the-response) are listed below.
 
 1. [Create a free account](https://ipapi.is/app/signup?ref=github) and copy the API key from the dashboard.
 2. Send the address as `q` and the key as `key`. Leave out `q` to look up the address the request comes from.
+3. Send `v=1` with them. It names the response format described here, so your code keeps getting it when a newer format appears.
 
 JavaScript (Node.js 18 or newer). The key travels in a POST body, which keeps it out of URLs and logs:
 
@@ -74,7 +75,7 @@ JavaScript (Node.js 18 or newer). The key travels in a POST body, which keeps it
 const res = await fetch('https://api.ipapi.is', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ q: '187.13.197.43', key: process.env.IPAPI_KEY }),
+  body: JSON.stringify({ q: '187.13.197.43', key: process.env.IPAPI_KEY, v: 1 }),
 });
 const info = await res.json();
 console.log(info.is_vpn, info.vpn.service, info.location.country); // true NordVPN France
@@ -88,7 +89,7 @@ import requests
 
 def lookup(ip):
     res = requests.post('https://api.ipapi.is',
-                        json={'q': ip, 'key': os.environ['IPAPI_KEY']}, timeout=5)
+                        json={'q': ip, 'key': os.environ['IPAPI_KEY'], 'v': 1}, timeout=5)
     res.raise_for_status()
     return res.json()
 
@@ -136,7 +137,7 @@ app.post('/signup', async (req, res) => {
   const ip = await fetch('https://api.ipapi.is', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ q: req.ip, key: process.env.IPAPI_KEY }),
+    body: JSON.stringify({ q: req.ip, key: process.env.IPAPI_KEY, v: 1 }),
   }).then((r) => r.json()).catch(() => ({})); // if the lookup fails, let people in
 
   if (ip.is_vpn || ip.is_proxy || ip.is_tor) {
@@ -152,7 +153,7 @@ app.post('/signup', async (req, res) => {
 
 ```bash
 awk '{print $1}' access.log | sort | uniq -c | sort -rn | head -100 | awk '{print $2}' \
-  | jq -R . | jq -s '{ips: ., key: env.IPAPI_KEY}' \
+  | jq -R . | jq -s '{ips: ., key: env.IPAPI_KEY, v: 1}' \
   | curl -s https://api.ipapi.is -H 'Content-Type: application/json' -d @- \
   | jq -r 'to_entries[] | select(.value.is_datacenter?) | "\(.key)\t\(.value.datacenter.datacenter)"'
 ```
@@ -166,7 +167,7 @@ awk '{print $1}' access.log | sort | uniq -c | sort -rn | head -100 | awk '{prin
 **Find out where to report an attacker.**
 
 ```bash
-curl -s "https://api.ipapi.is/?q=107.174.138.172&key=$IPAPI_KEY" | jq .abuse
+curl -s "https://api.ipapi.is/?q=107.174.138.172&key=$IPAPI_KEY&v=1" | jq .abuse
 ```
 
 ```json
@@ -181,7 +182,7 @@ curl -s "https://api.ipapi.is/?q=107.174.138.172&key=$IPAPI_KEY" | jq .abuse
 **List every prefix of a network.** An AS number as `q` returns the autonomous system with all the routes it announces:
 
 ```bash
-curl -s "https://api.ipapi.is/?q=AS16509&key=$IPAPI_KEY" | jq '{org, type, prefixes: (.prefixes | length)}'
+curl -s "https://api.ipapi.is/?q=AS16509&key=$IPAPI_KEY&v=1" | jq '{org, type, prefixes: (.prefixes | length)}'
 ```
 
 ```json
