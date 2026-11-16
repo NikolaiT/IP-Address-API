@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/github/license/NikolaiT/IP-Address-API)](LICENSE)
 [![API: 1,000 free requests a day](https://img.shields.io/badge/API-1%2C000%20free%20requests%20a%20day-brightgreen)](https://ipapi.is/pricing.html?ref=github)
 
-The [ipapi.is](https://ipapi.is/?ref=github) API tells you who owns an IPv4 or IPv6 address, where it is, and what kind of address it is: a datacenter, a VPN (and which one), a proxy, a Tor exit node or a known abuser. One request, one JSON object. A free account includes 1,000 requests a day, commercial use included.
+The [ipapi.is](https://ipapi.is/?ref=github) API tells you who owns an IPv4 or IPv6 address, where it is, and what kind of address it is: a datacenter, a VPN (and which one), a proxy, a Tor node or a known abuser. One request, one JSON object. A free account includes 1,000 requests a day, commercial use included.
 
 - **VPN detection that names the service.** ipapi.is connects to 73 VPN services around the clock and records the addresses their traffic leaves from, so it knows exit nodes from observation and can say whose they are.
 - **Hosting detection beyond the big clouds.** More than 29,000 hosting providers are tracked, thousands of them small hosts that publish no range list.
@@ -204,7 +204,7 @@ curl -s "https://api.ipapi.is/?q=AS16509&key=$IPAPI_KEY&v=1" | jq '{org, type, p
 | `is_datacenter`, `datacenter` | It belongs to a hosting, cloud or CDN provider; the object names the provider and its range |
 | `is_vpn`, `vpn` | It is a VPN exit node or server; the object names the service and says when the node was last seen and where it is |
 | `is_proxy` | A known open proxy |
-| `is_tor` | A Tor exit node |
+| `is_tor` | A node of the Tor network: an exit node or another relay |
 | `is_abuser` | Recently seen attacking, spamming or scanning, by blocklists or our own honeypots |
 | `is_crawler` | `false`, or the name of the bot that uses the address: `GoogleBot`, `BingBot`, `ClaudeBot` and several hundred more |
 | `is_mobile`, `is_satellite` | It belongs to a mobile carrier or to a satellite ISP such as Starlink |
